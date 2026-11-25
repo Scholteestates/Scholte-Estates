@@ -1,0 +1,90 @@
+# Scholte Estates — website
+
+First version of the website for **Scholte Estates**, an independent real
+estate agency in Ciudad Quesada on the Costa Blanca. *Integrity first. Always.*
+
+Built with Next.js 16 (App Router), TypeScript and Tailwind CSS v4.
+Available in English (`/en`) and Spanish (`/es`).
+
+## Setup
+
+Requires Node.js 20 or newer.
+
+```bash
+npm install
+npm run dev
+```
+
+Open http://localhost:3210 (redirects to `/en` or `/es` based on browser language).
+
+## Commands
+
+| Command | What it does |
+|---|---|
+| `npm run dev` | Local development server on port 3210 |
+| `npm run build` | Production build |
+| `npm run start` | Serve the production build on port 3210 |
+| `npm run lint` | ESLint |
+| `npm run typecheck` | Generate route types and run TypeScript |
+| `npm run check` | Lint + typecheck + build |
+
+## Structure
+
+```
+src/
+  app/[lang]/          Pages: home, services, costa-blanca, how-we-help, contact, 404
+  components/          Header, footer, language switch, contact buttons, photo slots
+  config/site.ts       Confirmed business details (single source of truth)
+  config/media.ts      Photography slots (add photos here)
+  i18n/                Locales, dictionaries (en.ts, es.ts), metadata helpers
+  lib/properties/      Types prepared for future listings (unused)
+  proxy.ts             Redirects / to the visitor's language
+public/brand/          Place the supplied logo here
+public/images/         Place photography here
+```
+
+### Editing content
+
+All page text is in `src/i18n/dictionaries/en.ts` and `es.ts`. The Spanish
+file is type-checked against the English one, so a missing translation fails
+the build.
+
+### Adding the logo
+
+1. Put the file in `public/brand/` (SVG preferred, e.g. `logo.svg`).
+2. In `src/config/site.ts`, set `brand.logoSrc` to `"/brand/logo.svg"` and
+   adjust `logoWidth` / `logoHeight` to its proportions.
+3. Fine-tune the colour tokens in `src/app/globals.css` to match the logo
+   and business card.
+
+### Adding photos
+
+Put images in `public/images/` and set `src` for the matching slot in
+`src/config/media.ts` (`hero`, `intro`, `area`).
+
+## Progress
+
+- [x] Standalone Next.js + TypeScript project, separate from AIVENA
+- [x] English and Spanish with a language switch (remembers the choice)
+- [x] Home, Services (new-build, resale, buyer assistance), Costa Blanca,
+      How we help, Contact, branded 404
+- [x] WhatsApp, email and phone links on every page; floating WhatsApp button
+- [x] Responsive layout with mobile menu
+- [x] SEO basics: per-page titles, descriptions, canonical and hreflang links
+- [ ] Supplied logo and business-card colours
+- [ ] Real photography
+- [ ] Legal notice (aviso legal), privacy and cookie pages
+- [ ] German
+- [ ] Property listings and individual property pages
+- [ ] Enquiry handling, CRM / property feeds, database, admin, AIVENA integration
+- [ ] Hosting and deployment (not started — no DNS changes made)
+
+## Missing assets and details
+
+- **Logo and business card** were not in the project folder. The header uses
+  the company name in plain type until they are added.
+- **Photography**: none supplied; decorative illustrations are used meanwhile.
+- **Legal details** for the legal notice / privacy policy (business name
+  holder, NIF/CIF, registered address, any professional registration such as
+  the Valencian real estate agents register) — required by Spanish law before
+  going live; not invented here.

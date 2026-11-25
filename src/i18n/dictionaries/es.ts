@@ -1,0 +1,236 @@
+import type { Dictionary } from "./en";
+
+export const es: Dictionary = {
+  meta: {
+    title: "Scholte Estates — Inmobiliaria independiente en la Costa Blanca",
+    description:
+      "Scholte Estates es una inmobiliaria independiente en Ciudad Quesada que ayuda a compradores internacionales a encontrar viviendas de obra nueva y de segunda mano en la Costa Blanca.",
+  },
+  nav: {
+    home: "Inicio",
+    services: "Servicios",
+    costaBlanca: "Costa Blanca",
+    howWeHelp: "Cómo ayudamos",
+    contact: "Contacto",
+    menu: "Menú",
+    close: "Cerrar",
+    language: "Idioma",
+  },
+  cta: {
+    whatsapp: "Escríbenos por WhatsApp",
+    email: "Enviar un correo",
+    call: "Llamar",
+    talk: "Empieza la conversación",
+    learnMore: "Más información",
+    allServices: "Todos los servicios",
+    exploreArea: "Descubre la zona",
+    seeProcess: "Cómo funciona",
+  },
+  home: {
+    eyebrow: "Inmobiliaria independiente · Ciudad Quesada",
+    title: "Tu hogar en la Costa Blanca, encontrado con cuidado.",
+    lead: "Scholte Estates ayuda a compradores internacionales a encontrar, valorar y comprar viviendas de obra nueva y de segunda mano en la Costa Blanca, con un asesoramiento honesto en cada paso.",
+    introTitle: "Una agencia personal e independiente",
+    introBody: [
+      "Comprar una vivienda en otro país es una decisión importante. Mereces a alguien de tu lado que primero escuche, explique con claridad y te diga la verdad sobre una propiedad, aunque no sea lo que esperabas oír.",
+      "Scholte Estates es una agencia independiente con sede en Ciudad Quesada. Trabajas directamente con su fundador, Christian Scholte, desde la primera conversación hasta el día en que recibes las llaves.",
+    ],
+    valuesTitle: "Lo que puedes esperar",
+    values: [
+      {
+        title: "Integridad",
+        body: "Respuestas claras, comunicación transparente y ninguna presión para comprar.",
+      },
+      {
+        title: "Independencia",
+        body: "No estamos vinculados a un único promotor, así que nos centramos en lo que te conviene.",
+      },
+      {
+        title: "Atención personal",
+        body: "Un único interlocutor que conoce tus deseos y te mantiene informado.",
+      },
+    ],
+    servicesTitle: "Cómo podemos ayudarte",
+    areasTitle: "Descubre la Costa Blanca",
+    areasLead:
+      "Desde el golf y la vida tranquila de Ciudad Quesada hasta las playas de Orihuela Costa y los acantilados del norte, la Costa Blanca ofrece formas muy distintas de vivir junto al Mediterráneo.",
+    processTitle: "Un camino claro para comprar",
+    processLead:
+      "La compra de una vivienda en España sigue unos pasos bien definidos. Te explicamos cada uno con palabras sencillas y te ayudamos a avanzar con confianza.",
+    contactTitle: "Hablemos de lo que estás buscando",
+    contactLead:
+      "Envíanos un mensaje por WhatsApp o por correo electrónico. Cuéntanos un poco sobre tus planes y te responderemos personalmente.",
+  },
+  services: {
+    title: "Servicios",
+    lead: "Tanto si buscas una vivienda a estrenar como una propiedad con historia, te acompañamos en la búsqueda y en la compra.",
+    items: [
+      {
+        id: "new-build",
+        title: "Obra nueva",
+        summary:
+          "Apartamentos, adosados y villas modernas en promociones de toda la Costa Blanca.",
+        points: [
+          "Ayuda para comparar promociones, ubicaciones y calidades",
+          "Explicación clara de planos, plazos y pagos por fases",
+          "Visitas acompañadas a pisos piloto y obras",
+          "Apoyo en la revisión de desperfectos en la entrega",
+        ],
+      },
+      {
+        id: "resale",
+        title: "Segunda mano",
+        summary:
+          "Viviendas en barrios consolidados, a menudo con jardín, carácter y disponibilidad inmediata.",
+        points: [
+          "Una búsqueda basada en tu presupuesto, prioridades y estilo de vida",
+          "Visitas organizadas y una opinión honesta de cada propiedad",
+          "Apoyo durante la negociación y la reserva",
+          "Coordinación con tu abogado hasta la firma ante notario",
+        ],
+      },
+      {
+        id: "buyer-assistance",
+        title: "Asistencia al comprador",
+        summary:
+          "Apoyo práctico para compradores que quieren un guía local con experiencia durante el proceso de compra en España.",
+        points: [
+          "Orientación para obtener el NIE y abrir una cuenta bancaria española",
+          "Contacto con abogados independientes y otros profesionales",
+          "Explicación de documentos, costes y próximos pasos con claridad",
+          "Ayuda con los suministros y la instalación tras la compra",
+        ],
+      },
+    ],
+  },
+  area: {
+    title: "La Costa Blanca",
+    lead: "La Costa Blanca se extiende a lo largo de la costa de la provincia de Alicante. Es conocida por su clima mediterráneo suave, sus largas playas de arena, sus campos de golf y un estilo de vida relajado.",
+    whyTitle: "Por qué los compradores eligen la Costa Blanca",
+    why: [
+      {
+        title: "Clima",
+        body: "Veranos largos y cálidos e inviernos suaves hacen que la región resulte atractiva todo el año.",
+      },
+      {
+        title: "Accesibilidad",
+        body: "Los aeropuertos de Alicante-Elche y de la Región de Murcia conectan con muchas ciudades europeas.",
+      },
+      {
+        title: "Estilo de vida",
+        body: "Playas, paseos marítimos, golf, senderismo y una amplia oferta de restaurantes y mercados.",
+      },
+      {
+        title: "Variedad",
+        body: "Desde animadas localidades costeras hasta tranquilos pueblos del interior, hay un entorno para cada comprador.",
+      },
+    ],
+    placesTitle: "Lugares que conocer",
+    places: [
+      {
+        name: "Ciudad Quesada",
+        body: "Nuestra base, en el municipio de Rojales. Una zona residencial y verde con golf, restaurantes y una comunidad internacional, a poca distancia de la costa.",
+      },
+      {
+        name: "Torrevieja",
+        body: "Una animada ciudad costera con paseos, playas, puerto deportivo y sus conocidas lagunas saladas, con todos los servicios del día a día.",
+      },
+      {
+        name: "Orihuela Costa",
+        body: "Una sucesión de calas y playas con varios campos de golf cercanos, muy apreciada para una segunda residencia o para vivir junto al mar.",
+      },
+      {
+        name: "Guardamar del Segura",
+        body: "Largas playas rodeadas de pinar y dunas, con un centro tradicional y más tranquilo.",
+      },
+      {
+        name: "Alicante",
+        body: "La capital de la provincia, con casco histórico, castillo, puerto, comercios y aeropuerto internacional.",
+      },
+      {
+        name: "Costa Blanca norte",
+        body: "Localidades como Altea, Jávea y Moraira ofrecen una costa más verde y escarpada, con montañas y acantilados.",
+      },
+    ],
+    note: "Cada zona tiene su propio carácter. Te ayudamos con gusto a comparar ubicaciones antes de empezar las visitas.",
+  },
+  process: {
+    title: "Cómo ayudamos a los compradores",
+    lead: "Una visión sencilla de la compra de una vivienda en España y de cómo te acompañamos. Tu abogado independiente te asesorará sobre las cuestiones legales y fiscales de tu caso.",
+    steps: [
+      {
+        title: "Conocerte",
+        body: "Empezamos con una conversación sobre tu presupuesto, el tipo de vivienda que buscas, las zonas preferidas y tus plazos.",
+      },
+      {
+        title: "Búsqueda y selección",
+        body: "Buscamos opciones de obra nueva y de segunda mano y te presentamos una selección concreta, con notas honestas sobre cada una.",
+      },
+      {
+        title: "Visitas",
+        body: "Organizamos y te acompañamos en las visitas, en persona o por videollamada, y te ayudamos a comparar lo que has visto.",
+      },
+      {
+        title: "Oferta y reserva",
+        body: "Cuando encuentras la vivienda adecuada, te apoyamos al hacer una oferta y te explicamos el proceso de reserva.",
+      },
+      {
+        title: "Comprobaciones legales y contratos",
+        body: "Tu abogado independiente revisa la propiedad y los contratos. Nosotros coordinamos a todas las partes para que no se pase nada por alto.",
+      },
+      {
+        title: "Firma ante notario",
+        body: "La compraventa se firma ante un notario español. Estamos contigo y nos aseguramos de que recibas tus llaves.",
+      },
+      {
+        title: "Después de la compra",
+        body: "Te ayudamos con cuestiones prácticas como los suministros y la instalación, y seguimos disponibles para tus preguntas.",
+      },
+    ],
+    essentialsTitle: "Conviene saber",
+    essentials: [
+      {
+        title: "Número NIE",
+        body: "Los compradores extranjeros necesitan un número de identificación español (NIE) para comprar una vivienda.",
+      },
+      {
+        title: "Cuenta bancaria española",
+        body: "Normalmente necesaria para los pagos de la compra y para pagar suministros e impuestos locales.",
+      },
+      {
+        title: "Abogado independiente",
+        body: "Siempre recomendamos contratar a tu propio abogado independiente para proteger tus intereses.",
+      },
+      {
+        title: "Gastos de compra",
+        body: "Los impuestos y gastos varían entre obra nueva y segunda mano. Tu abogado puede confirmarte los costes de tu compra.",
+      },
+    ],
+  },
+  contact: {
+    title: "Contacto",
+    lead: "La forma más rápida de contactarnos es por WhatsApp. También puedes enviarnos un correo o llamarnos.",
+    whatsappLabel: "WhatsApp",
+    whatsappBody: "Envía un mensaje cuando quieras. Respondemos personalmente.",
+    emailLabel: "Correo electrónico",
+    emailBody: "Para preguntas detalladas o para compartir documentos.",
+    phoneLabel: "Teléfono",
+    phoneBody: "Llama para hablar de tus planes directamente.",
+    locationLabel: "Con sede en",
+    emailSubject: "Consulta desde scholteestates.com",
+  },
+  footer: {
+    about:
+      "Una inmobiliaria independiente en Ciudad Quesada que ayuda a compradores internacionales a encontrar su hogar en la Costa Blanca.",
+    role: "Fundador y agente inmobiliario",
+    country: "España",
+    explore: "Explorar",
+    contact: "Contacto",
+    rights: "Todos los derechos reservados.",
+  },
+  notFound: {
+    title: "Página no encontrada",
+    body: "La página que buscas no existe o se ha movido.",
+    back: "Volver al inicio",
+  },
+};
