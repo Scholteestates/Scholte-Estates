@@ -2,35 +2,37 @@ import Image from "next/image";
 import { site } from "@/config/site";
 
 /**
- * Shows the supplied logo when `site.brand.logoSrc` is set; otherwise a
- * plain typographic rendering of the company name (not a replacement logo).
+ * The approved Scholte Estates logo (docs/brand.md).
+ * - "dark": gold lettering on forest green; place on `bg-brand-forest`.
+ * - "light": forest-green lettering on beige; place on `bg-brand-beige`.
+ * The files keep their own background, so always use the matching colour.
+ * Edges are feathered in CSS so the crop never shows as a box.
  */
-export function Wordmark({ tone = "dark" }: { tone?: "dark" | "light" }) {
-  if (site.brand.logoSrc) {
-    return (
-      <Image
-        src={site.brand.logoSrc}
-        alt={site.name}
-        width={site.brand.logoWidth}
-        height={site.brand.logoHeight}
-        preload
-        className="h-10 w-auto md:h-12"
-      />
-    );
-  }
-  const main = tone === "dark" ? "text-forest-900" : "text-ivory-50";
+export function Logo({
+  variant,
+  className = "h-12",
+  preload = false,
+  alt = `${site.name} — ${site.brandLine}`,
+  sizes = "180px",
+}: {
+  variant: "dark" | "light";
+  className?: string;
+  preload?: boolean;
+  alt?: string;
+  /** Rendered width, so the optimiser serves a sharp (2×) copy. */
+  sizes?: string;
+}) {
+  const f = site.brand[variant];
   return (
-    <span className="flex flex-col leading-none">
-      <span className={`font-serif text-2xl tracking-wide md:text-[1.7rem] ${main}`}>
-        Scholte <span className="text-gold-500">Estates</span>
-      </span>
-      <span
-        className={`mt-1 text-[0.6rem] font-semibold uppercase tracking-[0.28em] ${
-          tone === "dark" ? "text-muted" : "text-ivory-200/80"
-        }`}
-      >
-        {site.brandLine}
-      </span>
-    </span>
+    <Image
+      src={f.src}
+      alt={alt}
+      width={f.width}
+      height={f.height}
+      preload={preload}
+      sizes={sizes}
+      quality={90}
+      className={`logo-feather w-auto ${className}`}
+    />
   );
 }

@@ -8,7 +8,7 @@ import type { Dictionary } from "@/i18n/dictionaries/en";
 import { mailto, site, tel } from "@/config/site";
 import { navItems } from "./nav-items";
 import { LanguageSwitch } from "./language-switch";
-import { Wordmark } from "./wordmark";
+import { Logo } from "./wordmark";
 import { MailIcon, PhoneIcon, WhatsAppIcon } from "./icons";
 
 /**
@@ -73,15 +73,15 @@ export function SiteHeader({
       <header
         className={`fixed inset-x-0 top-0 z-40 transition-[background-color,box-shadow,color] duration-500 ${
           transparent
-            ? "bg-gradient-to-b from-forest-950/60 to-transparent"
-            : "bg-ivory-50 shadow-[0_1px_0_var(--color-ivory-200)]"
+            ? "bg-brand-forest"
+            : "bg-brand-beige shadow-[0_1px_0_var(--color-ivory-300)]"
         }`}
       >
         {/* Thin contact bar */}
         <div
           className={`hidden overflow-hidden transition-[height,opacity] duration-500 md:block ${
             scrolled && !open ? "h-0 opacity-0" : "h-9 opacity-100"
-          } ${transparent ? "border-b border-ivory-50/15" : "border-b border-ivory-200 bg-forest-900"}`}
+          } border-b bg-brand-forest ${transparent ? "border-ivory-50/10" : "border-ivory-300"}`}
         >
           <div className="container-page flex h-9 items-center justify-between text-[0.72rem] tracking-[0.08em] text-ivory-200">
             <div className="flex items-center gap-6">
@@ -105,8 +105,14 @@ export function SiteHeader({
 
         {/* Main navigation */}
         <div className="container-page flex h-[4.5rem] items-center justify-between gap-6 lg:h-20">
-          <Link href={`/${locale}`} aria-label={`${site.name} — ${nav.home}`} className="shrink-0">
-            <Wordmark tone={transparent ? "light" : "dark"} />
+          <Link href={`/${locale}`} aria-label={`${site.name} — ${nav.home}`} className="grid shrink-0">
+            {/* Both versions stay mounted and cross-fade with the header background. */}
+            <span className={`col-start-1 row-start-1 transition-opacity duration-500 ${transparent ? "opacity-100" : "opacity-0"}`}>
+              <Logo variant="dark" alt="" preload className="h-12 lg:h-[3.6rem]" />
+            </span>
+            <span className={`col-start-1 row-start-1 transition-opacity duration-500 ${transparent ? "opacity-0" : "opacity-100"}`}>
+              <Logo variant="light" alt="" preload className="h-12 lg:h-[3.6rem]" />
+            </span>
           </Link>
 
           <nav aria-label="Main" className="hidden lg:block">
@@ -182,7 +188,7 @@ export function SiteHeader({
       <div
         id="mobile-menu"
         hidden={!open}
-        className="fixed inset-x-0 top-[4.5rem] bottom-0 z-30 overflow-y-auto bg-ivory-50 md:top-[6.75rem] lg:hidden"
+        className="fixed inset-x-0 top-[4.5rem] bottom-0 z-30 overflow-y-auto bg-brand-beige md:top-[6.75rem] lg:hidden"
       >
         <nav aria-label="Mobile" className="container-page flex min-h-full flex-col py-8">
           <ul className="divide-y divide-ivory-200 border-y border-ivory-200">

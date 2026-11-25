@@ -338,7 +338,7 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
 
       {/* ───────── 7 · Take the next step ───────── */}
       <section data-progress="enter">
-        <div className="contact-open bg-forest-800 text-ivory-50">
+        <div className="contact-open bg-brand-forest text-ivory-50">
           <div className="container-page flex flex-col items-center py-20 text-center md:py-24">
             <p className="eyebrow !text-gold-400" data-reveal>{site.brandLine}</p>
             <h2 className="mt-5 max-w-3xl text-4xl leading-[1.08] md:text-[3.25rem]" data-reveal="lines" style={delay(0.05)}>

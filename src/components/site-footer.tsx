@@ -3,17 +3,17 @@ import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/dictionaries/en";
 import { mailto, site, tel } from "@/config/site";
 import { navItems } from "./nav-items";
-import { Wordmark } from "./wordmark";
+import { Logo } from "./wordmark";
 import { LanguageSwitch } from "./language-switch";
 import { MailIcon, PhoneIcon, PinIcon, WhatsAppIcon } from "./icons";
 
 export function SiteFooter({ locale, dict }: { locale: Locale; dict: Dictionary }) {
   const year = 2026;
   return (
-    <footer className="bg-forest-900 text-ivory-200">
+    <footer className="bg-brand-forest text-ivory-200">
       <div className="container-page grid gap-12 py-16 md:grid-cols-12 md:py-20">
         <div className="md:col-span-5">
-          <Wordmark tone="light" />
+          <Logo variant="dark" sizes="280px" className="-ml-1 h-24 md:h-28" />
           <p className="mt-6 max-w-sm text-sm leading-relaxed text-ivory-200/80">{dict.footer.about}</p>
         </div>
 

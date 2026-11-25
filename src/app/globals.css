@@ -23,6 +23,10 @@
   --color-gold-500: #b39461;
   --color-gold-600: #957747;
 
+  /* Exact background colours of the approved logo files (docs/brand.md). */
+  --color-brand-forest: #20311e;
+  --color-brand-beige: #efe9e0;
+
   --color-ink: #1d2621;
   --color-muted: #59645d;
 
@@ -65,6 +69,15 @@
 }
 
 @layer components {
+  /* Feathers the outer padding of a cropped logo into its matching background. */
+  .logo-feather {
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 3%, #000 97%, transparent),
+      linear-gradient(to bottom, transparent, #000 6%, #000 94%, transparent);
+    -webkit-mask-composite: source-in;
+    mask-image: linear-gradient(to right, transparent, #000 3%, #000 97%, transparent),
+      linear-gradient(to bottom, transparent, #000 6%, #000 94%, transparent);
+    mask-composite: intersect;
+  }
   .container-page {
     width: 100%;
     max-width: 76rem;

@@ -48,7 +48,7 @@ src/
   lib/properties/      Property types, data access, filter/format helpers
   proxy.ts             Redirects / to the visitor's language
 docs/                  Website direction and property-story standard
-public/brand/          Place the supplied logo here
+public/brand/          Approved logos (originals + web crops), see docs/brand.md
 public/images/         Place photography here (demo/ holds the demo images)
 ```
 
@@ -58,13 +58,11 @@ All page text is in `src/i18n/dictionaries/en.ts` and `es.ts`. The Spanish
 file is type-checked against the English one, so a missing translation fails
 the build.
 
-### Adding the logo
+### Logo
 
-1. Put the file in `public/brand/` (SVG preferred, e.g. `logo.svg`).
-2. In `src/config/site.ts`, set `brand.logoSrc` to `"/brand/logo.svg"` and
-   adjust `logoWidth` / `logoHeight` to its proportions.
-3. Fine-tune the colour tokens in `src/app/globals.css` to match the logo
-   and business card.
+The approved logos are in `public/brand/` and documented in
+[`docs/brand.md`](docs/brand.md) (versions, background colours, sizes and
+where each is used). Render them with the `Logo` component.
 
 ### Demo listings (local preview only)
 
@@ -105,7 +103,8 @@ Put images in `public/images/` and set `src` for the matching slot in
       crossfade, property-story preview, tabbed homes, area explorer with
       schematic map, process timeline, contact finale
 - [ ] Property detail pages as full stories; area profiles; verified nearby places
-- [ ] Supplied logo and business-card colours
+- [x] Approved logos in header and footer (`docs/brand.md`)
+- [ ] Business-card colours
 - [ ] Real photography
 - [ ] Legal notice (aviso legal), privacy and cookie pages
 - [ ] German
@@ -117,8 +116,7 @@ Put images in `public/images/` and set `src` for the matching slot in
 
 ## Missing assets and details
 
-- **Logo and business card** were not in the project folder. The header uses
-  the company name in plain type until they are added.
+- **Business card** not yet supplied (the approved logos are in place).
 - **Photography**: no real photos yet. The demo listings use AI-generated
   images; with demos off, decorative illustrations are shown.
 - **Legal details** for the legal notice / privacy policy (business name

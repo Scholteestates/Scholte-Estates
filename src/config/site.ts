@@ -21,14 +21,13 @@ export const site = {
     country: "Spain",
   },
   /**
-   * Brand assets. Set `logoSrc` to a file in /public/brand once the
-   * supplied logo is added (e.g. "/brand/logo.svg"). Until then the
-   * header and footer show the company name as a typographic wordmark.
+   * Approved logos (see docs/brand.md). Originals stay untouched in
+   * /public/brand; the site uses the tightly cropped "-web" copies, always on
+   * their own matching background colour (brand-forest / brand-beige).
    */
   brand: {
-    logoSrc: null as string | null,
-    logoWidth: 180,
-    logoHeight: 48,
+    dark: { src: "/brand/scholte-estates-dark-web.png", width: 755, height: 321 },
+    light: { src: "/brand/scholte-estates-light-web.png", width: 796, height: 338 },
   },
 } as const;
 

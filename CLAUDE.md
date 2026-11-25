@@ -83,9 +83,11 @@ no database/admin work is authorised by it.
 
 ## Design
 
-- Follow the supplied logo and business card (**not yet in the project** —
-  see README "Missing assets"). Do not create a replacement logo or brand.
-  Until supplied, the header shows the company name as plain typography.
+- **Approved logos are in the project** (2026-11-25): read **`docs/brand.md`**
+  before any branding work. Dark (gold on forest) and light (forest on beige)
+  originals plus cropped web copies live in `public/brand/`; use the `Logo`
+  component on its matching background (`bg-brand-forest` / `bg-brand-beige`).
+  Never alter, recolour or replace the logo. Business card still pending.
 - Premium, understated, welcoming European style: forest green, ivory,
   subtle gold (tokens in `src/app/globals.css`), Cormorant Garamond headings
   + Manrope body, generous spacing, clear navigation, mobile-first care.
