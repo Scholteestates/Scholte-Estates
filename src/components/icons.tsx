@@ -41,3 +41,45 @@ export function ArrowIcon({ className = "size-4" }: IconProps) {
     </svg>
   );
 }
+
+export function BedIcon({ className = "size-5" }: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true" className={className}>
+      <path d="M3 18.5V6M3 14h18v4.5M21 14v-2.5A2.5 2.5 0 0 0 18.5 9H11v5" />
+      <circle cx="7" cy="11" r="1.75" />
+    </svg>
+  );
+}
+
+export function BathIcon({ className = "size-5" }: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true" className={className}>
+      <path d="M3 12h18v2a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5v-2ZM6 12V5.5A2 2 0 0 1 8 3.5a2 2 0 0 1 2 2M7 19l-1 2M17 19l1 2" />
+    </svg>
+  );
+}
+
+export function AreaIcon({ className = "size-5" }: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true" className={className}>
+      <path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" />
+    </svg>
+  );
+}
+
+export function SearchIcon({ className = "size-5" }: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true" className={className}>
+      <circle cx="11" cy="11" r="6.5" />
+      <path d="m16 16 4.5 4.5" />
+    </svg>
+  );
+}
+
+export function ChevronDownIcon({ className = "size-4" }: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true" className={className}>
+      <path d="m6 9 6 6 6-6" />
+    </svg>
+  );
+}

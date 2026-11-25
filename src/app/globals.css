@@ -103,3 +103,156 @@
     animation-duration: 0.01ms !important;
   }
 }
+
+/* ---------- Motion ----------
+ * See docs/website-direction.md §3 "Motion plan". One ease-out curve,
+ * a small reveal vocabulary and one signature sequence (the property story).
+ * Reveal styles only apply once the motion script has marked <html> with
+ * .motion-ready, so content stays visible if scripts fail.
+ */
+:root {
+  --ease-out: cubic-bezier(0.215, 0.61, 0.355, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+}
+@keyframes hero-settle {
+  from { transform: scale(1.08); }
+  to { transform: scale(1); }
+}
+@keyframes fade-up {
+  from { opacity: 0; transform: translate3d(0, 18px, 0); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes line-up {
+  from { transform: translate3d(0, 105%, 0); }
+  to { transform: none; }
+}
+@keyframes slow-zoom {
+  from { transform: scale(1.1); }
+  to { transform: scale(1.0); }
+}
+@keyframes tick {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+/* Hero entrance (runs once on load). */
+.hero-image {
+  animation: hero-settle 2.4s var(--ease-out) both;
+}
+.hero-in .hero-eyebrow { animation: fade-up 1s var(--ease-out) 0.1s both; }
+.hero-in .hero-line > span { display: inline-block; animation: line-up 1.2s var(--ease-out) both; }
+.hero-in .hero-line:nth-of-type(1) > span { animation-delay: 0.25s; }
+.hero-in .hero-line:nth-of-type(2) > span { animation-delay: 0.4s; }
+.hero-in .hero-lead { animation: fade-up 1s var(--ease-out) 0.75s both; }
+.hero-in .hero-search { animation: fade-up 1s var(--ease-out) 0.95s both; }
+.hero-line {
+  display: block;
+  overflow: hidden;
+  padding-bottom: 0.08em;
+  margin-bottom: -0.08em;
+}
+
+/* Hero slideshow: crossfade, slow zoom while visible, progress tick. */
+.hero-slide {
+  opacity: 0;
+  transition: opacity 1.6s var(--ease-in-out);
+}
+.hero-slide[data-active="true"] { opacity: 1; }
+.hero-slide img { transform: scale(1.04); }
+.hero-slide[data-active="true"] img { animation: slow-zoom 9.5s linear both; }
+[data-paused="true"] .hero-slide img,
+[data-paused="true"] .hero-tick { animation-play-state: paused; }
+.hero-tick { transform-origin: left; animation: tick var(--tick, 8s) linear both; }
+
+/* Hero background drifts slower than the page as the hero leaves. */
+.hero-drift {
+  transform: translate3d(0, calc(var(--progress, 0) * 4%), 0);
+}
+
+/* Cards entering after a tab change; area copy swap. */
+.card-in { animation: fade-up 0.5s var(--ease-out) both; animation-delay: var(--card-delay, 0s); }
+.swap-in { animation: fade-up 0.45s var(--ease-out) both; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .motion-ready [data-reveal] {
+    opacity: 0;
+    transform: translate3d(0, 20px, 0);
+    transition: opacity 1s var(--ease-out), transform 1s var(--ease-out);
+    transition-delay: var(--reveal-delay, 0s);
+  }
+  .motion-ready [data-reveal="left"] { transform: translate3d(-28px, 0, 0); }
+  .motion-ready [data-reveal="right"] { transform: translate3d(28px, 0, 0); }
+  .motion-ready [data-reveal="fade"] { transform: none; }
+  /* Heading lines rise out of a mask. */
+  .motion-ready [data-reveal="lines"] { opacity: 1; transform: none; }
+  .motion-ready [data-reveal="lines"] .line { display: block; overflow: hidden; padding-bottom: 0.1em; margin-bottom: -0.1em; }
+  .motion-ready [data-reveal="lines"] .line > span {
+    display: inline-block;
+    transform: translate3d(0, 105%, 0);
+    transition: transform 1.2s var(--ease-out);
+  }
+  .motion-ready [data-reveal="lines"] .line:nth-child(2) > span { transition-delay: calc(var(--reveal-delay, 0s) + 0.12s); }
+  .motion-ready [data-reveal="lines"] .line:nth-child(1) > span { transition-delay: var(--reveal-delay, 0s); }
+  .motion-ready [data-reveal="lines"].is-revealed .line > span { transform: none; }
+  /* Image wipe: the clip sits on the children (a clipped target never intersects). */
+  .motion-ready [data-reveal="mask"] { opacity: 1; transform: none; }
+  .motion-ready [data-reveal="mask"] > * {
+    clip-path: inset(100% 0 0 0);
+    transition: clip-path 1.2s var(--ease-out);
+    transition-delay: var(--reveal-delay, 0s);
+  }
+  .motion-ready [data-reveal="mask"] img {
+    transform: scale(1.12);
+    transition: clip-path 1.2s var(--ease-out), transform 1.6s var(--ease-out);
+    transition-delay: var(--reveal-delay, 0s);
+  }
+  .motion-ready [data-reveal="mask"].is-revealed > * { clip-path: inset(0 0 0 0); }
+  .motion-ready [data-reveal="mask"].is-revealed img { transform: scale(1); }
+  .motion-ready [data-reveal="line"] { opacity: 1; transform: scaleX(0); transform-origin: left; transition: transform 1s var(--ease-out); transition-delay: var(--reveal-delay, 0s); }
+  .motion-ready [data-reveal].is-revealed { opacity: 1; transform: none; }
+}
+
+/* Property story: photos cross-fade and settle; text follows. */
+.story-photo {
+  opacity: 0;
+  transform: scale(1.04);
+  transition: opacity 0.8s var(--ease-out), transform 1.4s var(--ease-out);
+}
+.story-photo[data-active="true"] { opacity: 1; transform: scale(1); }
+.story-text[data-active="false"] { display: none; }
+.story-text[data-active="true"] > * { animation: fade-up 0.5s var(--ease-out) both; }
+.story-text[data-active="true"] > *:nth-child(2) { animation-delay: 0.06s; }
+.story-progress { transform: scaleY(var(--story, 0)); transform-origin: top; }
+
+/* Process timeline fill (driven by --progress). */
+.timeline-fill { transform: scaleX(var(--progress, 1)); transform-origin: left; }
+@media (max-width: 1023px) {
+  .timeline-fill { transform: scaleY(var(--progress, 1)); transform-origin: top; }
+}
+.timeline-dot { transition: background 0.5s var(--ease-out), border-color 0.5s var(--ease-out), box-shadow 0.5s var(--ease-out); }
+.timeline-step[data-reached="true"] .timeline-dot {
+  background: var(--color-gold-500);
+  border-color: var(--color-gold-500);
+  box-shadow: 0 0 0 6px rgb(201 174 124 / 0.18);
+}
+
+/* Final contact panel opens from an inset card to full width. */
+.contact-open {
+  clip-path: inset(0 calc((1 - var(--progress, 1)) * 5vw) round calc((1 - var(--progress, 1)) * 24px));
+}
+
+/* Area scene crossfade. */
+.area-scene { opacity: 0; transition: opacity 0.7s var(--ease-out); }
+.area-scene[data-active="true"] { opacity: 1; }
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes scroll-cue {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(200%); }
+}

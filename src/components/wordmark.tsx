@@ -13,7 +13,7 @@ export function Wordmark({ tone = "dark" }: { tone?: "dark" | "light" }) {
         alt={site.name}
         width={site.brand.logoWidth}
         height={site.brand.logoHeight}
-        priority
+        preload
         className="h-10 w-auto md:h-12"
       />
     );

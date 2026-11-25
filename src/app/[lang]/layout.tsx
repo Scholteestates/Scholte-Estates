@@ -6,6 +6,7 @@ import { resolveLocale } from "@/i18n/page-params";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { WhatsAppFab } from "@/components/contact-buttons";
+import { RevealObserver } from "@/components/reveal-observer";
 import "../globals.css";
 
 const cormorant = Cormorant_Garamond({
@@ -45,12 +46,19 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
         >
           {locale === "es" ? "Saltar al contenido" : "Skip to content"}
         </a>
-        <SiteHeader locale={locale} nav={dict.nav} whatsappLabel={dict.cta.whatsapp} />
+        <SiteHeader
+          locale={locale}
+          nav={dict.nav}
+          whatsappLabel={dict.cta.whatsapp}
+          emailSubject={dict.contact.emailSubject}
+          overlayPaths={[""]}
+        />
         <main id="main" className="flex-1">
           {children}
         </main>
         <SiteFooter locale={locale} dict={dict} />
         <WhatsAppFab label={dict.cta.whatsapp} />
+        <RevealObserver />
       </body>
     </html>
   );

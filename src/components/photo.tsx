@@ -25,7 +25,7 @@ export function Photo({
     const pos = className.includes("absolute") ? "" : "relative";
     return (
       <div className={`${pos} overflow-hidden ${className}`}>
-        <Image src={slot.src} alt={slot.alt[locale]} fill priority={priority} sizes={sizes} className="object-cover" />
+        <Image src={slot.src} alt={slot.alt[locale]} fill preload={priority} sizes={sizes} className="object-cover" />
       </div>
     );
   }

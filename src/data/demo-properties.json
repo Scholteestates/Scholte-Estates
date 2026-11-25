@@ -1,0 +1,2690 @@
+{
+  "schemaVersion": 2,
+  "collection": "Scholte Estates expanded visual property stories",
+  "fictional": true,
+  "usage": "local-preview-only",
+  "created": "2026-11-25",
+  "demoNotice": {
+    "en": "Demo properties - illustrative examples, not for sale.",
+    "es": "Viviendas de demostración - ejemplos ficticios, no están en venta."
+  },
+  "note": "All names, specifications, prices, interiors and scenes are fictional. Town names are design context only. New views interpret the original image; they are not exact reconstructions or verified floor plans. No image documents a real address, restaurant or school.",
+  "sourceReference": {
+    "repository": "https://github.com/AIVENA-spain/Scholte-Estates",
+    "reviewedCommit": "324b5d19d1489636678041121484575db9c17607"
+  },
+  "updated": "2026-11-25",
+  "source": "Scholte_Estates_Demo_Properties (2).pdf — extracted 2026-11-25 with pdfdetach/pdfimages; every image SHA-256 verified against the embedded manifest",
+  "manifest": [
+    {
+      "id": "SE-DEMO-001-original",
+      "src": "/images/demo/demo-001-villa-oliva.jpg",
+      "pdfPage": 3,
+      "sha256": "788204b12f30f842a86ac49360cf4e90c54f0f6c6869d7174cb3d5102ce60277"
+    },
+    {
+      "id": "SE-DEMO-001-kitchen",
+      "src": "/images/demo/demo-001-kitchen.jpg",
+      "pdfPage": 4,
+      "sha256": "9bb6c077096940349f9d9502a84f128c3845609699581d3af4031dbc3dd4d950"
+    },
+    {
+      "id": "SE-DEMO-001-bedroom",
+      "src": "/images/demo/demo-001-bedroom.jpg",
+      "pdfPage": 4,
+      "sha256": "e13897b8a974e327045e1321a6d6b46b19eb2581aac9cda614e8725f6a319327"
+    },
+    {
+      "id": "SE-DEMO-001-bathroom",
+      "src": "/images/demo/demo-001-bathroom.jpg",
+      "pdfPage": 5,
+      "sha256": "c33f4455d11adc76cfefc88b7118b65c534eafd822654fda33e152ea99fbea9d"
+    },
+    {
+      "id": "SE-DEMO-001-outdoor",
+      "src": "/images/demo/demo-001-outdoor.jpg",
+      "pdfPage": 5,
+      "sha256": "5f4c96461d6eccff4449336f449da6373f80ecfbe3d8805f2f83e2063ffee1cf"
+    },
+    {
+      "id": "SE-DEMO-001-neighbourhood",
+      "src": "/images/demo/demo-001-neighbourhood.jpg",
+      "pdfPage": 6,
+      "sha256": "a5127f9cbe05ce8c0ea861c719b485379f43b507dc3ea0143dc7935ba476b758"
+    },
+    {
+      "id": "SE-DEMO-002-original",
+      "src": "/images/demo/demo-002-mirador-del-mar.jpg",
+      "pdfPage": 7,
+      "sha256": "6c9cd7c7cf37fff691c951a95cf6dbd903fdd7bd4e20a223e78a42f68bbca876"
+    },
+    {
+      "id": "SE-DEMO-002-kitchen",
+      "src": "/images/demo/demo-002-kitchen.jpg",
+      "pdfPage": 8,
+      "sha256": "b8a34e5b1fa2dfbcc78dcf4f23d0fb9b2e1aec01f085e328687b4274319af4bf"
+    },
+    {
+      "id": "SE-DEMO-002-bedroom",
+      "src": "/images/demo/demo-002-bedroom.jpg",
+      "pdfPage": 8,
+      "sha256": "5309c94695f2a7e68310859518a7a33d2efae718471739b3c12a90fd98b41183"
+    },
+    {
+      "id": "SE-DEMO-002-bathroom",
+      "src": "/images/demo/demo-002-bathroom.jpg",
+      "pdfPage": 9,
+      "sha256": "07f75e6e1cfeb5a49f6c43c72724e886fb591223fe6d468a646f69d6e923a605"
+    },
+    {
+      "id": "SE-DEMO-002-outdoor",
+      "src": "/images/demo/demo-002-outdoor.jpg",
+      "pdfPage": 9,
+      "sha256": "68b62f183dfe2199ac229dd1ca7df2bc9935597b1dc6532fe3673de859e298d8"
+    },
+    {
+      "id": "SE-DEMO-002-neighbourhood",
+      "src": "/images/demo/demo-002-neighbourhood.jpg",
+      "pdfPage": 10,
+      "sha256": "c7e7074c4e6f6440e02a62c109f27976d06deb771f109e4b63b1a512424b12d1"
+    },
+    {
+      "id": "SE-DEMO-003-original",
+      "src": "/images/demo/demo-003-casa-jazmin.jpg",
+      "pdfPage": 11,
+      "sha256": "a8a74ad925c81b0c009a52fbd48bd9069ef1cb51b737fca9e589ffaa1acc710a"
+    },
+    {
+      "id": "SE-DEMO-003-kitchen",
+      "src": "/images/demo/demo-003-kitchen.jpg",
+      "pdfPage": 12,
+      "sha256": "45baa1c2a8785c4202adf6b1ddd69494ed0bb3d5fd83cd57dbc1a2ebe6f79809"
+    },
+    {
+      "id": "SE-DEMO-003-bedroom",
+      "src": "/images/demo/demo-003-bedroom.jpg",
+      "pdfPage": 12,
+      "sha256": "b986f0b7fae1678824aba40a3fb76968943b656ef6f854a03b03e42b2c4e8394"
+    },
+    {
+      "id": "SE-DEMO-003-bathroom",
+      "src": "/images/demo/demo-003-bathroom.jpg",
+      "pdfPage": 13,
+      "sha256": "9b42fa3d53e82098d196cfd4dea4e95cbebd067153d455e74c003458afc69e00"
+    },
+    {
+      "id": "SE-DEMO-003-outdoor",
+      "src": "/images/demo/demo-003-outdoor.jpg",
+      "pdfPage": 13,
+      "sha256": "40b493f5f898f421d9f6f09bc70b31d1d9c77970d917698978ee9c2876dfb20a"
+    },
+    {
+      "id": "SE-DEMO-003-neighbourhood",
+      "src": "/images/demo/demo-003-neighbourhood.jpg",
+      "pdfPage": 14,
+      "sha256": "37a5108f6eea95dbf80a31a230ffb998d6c0e001a4f3a85e230729c2846eb57d"
+    },
+    {
+      "id": "SE-DEMO-004-original",
+      "src": "/images/demo/demo-004-residencial-brisa.jpg",
+      "pdfPage": 15,
+      "sha256": "cda9e6bae2b1cca59561ae0f366cc2edb837b8beb6ab5d14e676312c0390fcc2"
+    },
+    {
+      "id": "SE-DEMO-004-kitchen",
+      "src": "/images/demo/demo-004-kitchen.jpg",
+      "pdfPage": 16,
+      "sha256": "15c08efbc49869200b1740cd696eaedf00d31695ccf46cc28fed097eed40f629"
+    },
+    {
+      "id": "SE-DEMO-004-bedroom",
+      "src": "/images/demo/demo-004-bedroom.jpg",
+      "pdfPage": 16,
+      "sha256": "c8787a1eb88f54cf8eeac6b823a9bdef3ee946858342bb1fadd3c21ed6613c35"
+    },
+    {
+      "id": "SE-DEMO-004-bathroom",
+      "src": "/images/demo/demo-004-bathroom.jpg",
+      "pdfPage": 17,
+      "sha256": "28c3ca8a11637e3e37b10e2d46b0e49f753800ce6294325712f659f7e093897a"
+    },
+    {
+      "id": "SE-DEMO-004-outdoor",
+      "src": "/images/demo/demo-004-outdoor.jpg",
+      "pdfPage": 17,
+      "sha256": "5286b45dbcca9121c42cb184857f57add36482cc53a35a4da7c439a7be770395"
+    },
+    {
+      "id": "SE-DEMO-004-neighbourhood",
+      "src": "/images/demo/demo-004-neighbourhood.jpg",
+      "pdfPage": 18,
+      "sha256": "aa95ae947335505afddca701c27a81c1273e71c5cd93b58341288e48a1247be0"
+    },
+    {
+      "id": "SE-DEMO-005-original",
+      "src": "/images/demo/demo-005-patio-del-sol.jpg",
+      "pdfPage": 19,
+      "sha256": "10d1be083ccd533c70ac6f04b824ead1af1c4c87ebc339f6f01cd08840eaf884"
+    },
+    {
+      "id": "SE-DEMO-005-kitchen",
+      "src": "/images/demo/demo-005-kitchen.jpg",
+      "pdfPage": 20,
+      "sha256": "9a1de3773b22eb6498408eab327cff3fc61898ceb2430f18f1238c896b769610"
+    },
+    {
+      "id": "SE-DEMO-005-bedroom",
+      "src": "/images/demo/demo-005-bedroom.jpg",
+      "pdfPage": 20,
+      "sha256": "6d41f744b0c8e7d1be1b882c5edc9878b160ad2ea092ec4cf0e41a00c8e53c0f"
+    },
+    {
+      "id": "SE-DEMO-005-bathroom",
+      "src": "/images/demo/demo-005-bathroom.jpg",
+      "pdfPage": 21,
+      "sha256": "b05a28acbbaa8ee53ac493fc1d1b1d5363471b16b5d76618b4a4b9118a07b258"
+    },
+    {
+      "id": "SE-DEMO-005-outdoor",
+      "src": "/images/demo/demo-005-outdoor.jpg",
+      "pdfPage": 21,
+      "sha256": "5715cff8ab40b0dee4252dfda1613d789fcb3c896322832819017540b6d10020"
+    },
+    {
+      "id": "SE-DEMO-005-neighbourhood",
+      "src": "/images/demo/demo-005-neighbourhood.jpg",
+      "pdfPage": 22,
+      "sha256": "93936bda23c4d2ff8753ed29dffdc34415644c19e327d370b18669ca642ee687"
+    },
+    {
+      "id": "SE-DEMO-006-original",
+      "src": "/images/demo/demo-006-horizonte-azul.jpg",
+      "pdfPage": 23,
+      "sha256": "c52ab3a19d218e72cdfe3beeb86dfba7be73c156802cf3ba66fd289a4c4be90b"
+    },
+    {
+      "id": "SE-DEMO-006-kitchen",
+      "src": "/images/demo/demo-006-kitchen.jpg",
+      "pdfPage": 24,
+      "sha256": "4e15ff27b75c5f1469211683bc05e2cd3660fcd405fb90fefc5d83c617183657"
+    },
+    {
+      "id": "SE-DEMO-006-bedroom",
+      "src": "/images/demo/demo-006-bedroom.jpg",
+      "pdfPage": 24,
+      "sha256": "127ccb6117c111a324228630b76db8f82bd8f5084ac8b6154bec51b72662797a"
+    },
+    {
+      "id": "SE-DEMO-006-bathroom",
+      "src": "/images/demo/demo-006-bathroom.jpg",
+      "pdfPage": 25,
+      "sha256": "024ca618daebc0663db1336539858a1905b14a402cf94cf2d13e7de577045d47"
+    },
+    {
+      "id": "SE-DEMO-006-outdoor",
+      "src": "/images/demo/demo-006-outdoor.jpg",
+      "pdfPage": 25,
+      "sha256": "1fd0d85b193a955919607a1e1f04e418de86bf08414251ccb2ebb66e0e0f28c9"
+    },
+    {
+      "id": "SE-DEMO-006-neighbourhood",
+      "src": "/images/demo/demo-006-neighbourhood.jpg",
+      "pdfPage": 26,
+      "sha256": "6ae1d382be3a65709713ee781d602365e63f14561f1e5e37f7068e765d5c56c9"
+    },
+    {
+      "id": "SE-DEMO-007-original",
+      "src": "/images/demo/demo-007-casa-limon.jpg",
+      "pdfPage": 27,
+      "sha256": "df89da922b83d8eab82870720169aee2fc1c6f94ae1561cb579a3776b128c5f4"
+    },
+    {
+      "id": "SE-DEMO-007-kitchen",
+      "src": "/images/demo/demo-007-kitchen.jpg",
+      "pdfPage": 28,
+      "sha256": "e1c14b3b101c8b59953d2e9dede8ed85919fa19dfa2bd8400d3ec258a230b2be"
+    },
+    {
+      "id": "SE-DEMO-007-bedroom",
+      "src": "/images/demo/demo-007-bedroom.jpg",
+      "pdfPage": 28,
+      "sha256": "bb83d897143785bf102d8f649e93f4e7ee8f8486a887b9c164c952cf6d34f179"
+    },
+    {
+      "id": "SE-DEMO-007-bathroom",
+      "src": "/images/demo/demo-007-bathroom.jpg",
+      "pdfPage": 29,
+      "sha256": "122c7b92d4b202dc7f57a25f7f4547f6116fbb324b26d3cc1177bbd0cdcf1ab8"
+    },
+    {
+      "id": "SE-DEMO-007-outdoor",
+      "src": "/images/demo/demo-007-outdoor.jpg",
+      "pdfPage": 29,
+      "sha256": "532d12f8e709f9c38b02751826806dd206656f09d3791e8454997269e2e2c75a"
+    },
+    {
+      "id": "SE-DEMO-007-neighbourhood",
+      "src": "/images/demo/demo-007-neighbourhood.jpg",
+      "pdfPage": 30,
+      "sha256": "f9f3d48edcc41319351c8ebb4aa6f9ae8814feafba1083c9d944a25ca5b99565"
+    },
+    {
+      "id": "SE-DEMO-008-original",
+      "src": "/images/demo/demo-008-arena-y-sal.jpg",
+      "pdfPage": 31,
+      "sha256": "ad3b79fb5b6f3d3157019e19dad6b83c760796a2fb6b6ae6e52a1fbdeaefa690"
+    },
+    {
+      "id": "SE-DEMO-008-kitchen",
+      "src": "/images/demo/demo-008-kitchen.jpg",
+      "pdfPage": 32,
+      "sha256": "7120a4cd4e5143845497f8be3c1fde14786f2060ad289f53bb44106c0c10a01c"
+    },
+    {
+      "id": "SE-DEMO-008-bedroom",
+      "src": "/images/demo/demo-008-bedroom.jpg",
+      "pdfPage": 32,
+      "sha256": "5dbf0a232a2a13be25cf9c4b169001bbd0751de107c6e030144ce9bb217ef39e"
+    },
+    {
+      "id": "SE-DEMO-008-bathroom",
+      "src": "/images/demo/demo-008-bathroom.jpg",
+      "pdfPage": 33,
+      "sha256": "88dabd66c73fd6e85f45803c862256954738a96cdee4b0d31cddd29f91be3c12"
+    },
+    {
+      "id": "SE-DEMO-008-outdoor",
+      "src": "/images/demo/demo-008-outdoor.jpg",
+      "pdfPage": 33,
+      "sha256": "b3bb6be9024759e0c872b4c2ad128e4eb015ccecc2078e49e16c80165890e43e"
+    },
+    {
+      "id": "SE-DEMO-008-neighbourhood",
+      "src": "/images/demo/demo-008-neighbourhood.jpg",
+      "pdfPage": 34,
+      "sha256": "e4d65de865f2e80fa8415f8ec1e32299caa4e2bd9021d1c1141143fc53d330af"
+    },
+    {
+      "id": "SE-DEMO-009-original",
+      "src": "/images/demo/demo-009-pinos-del-mediterraneo.jpg",
+      "pdfPage": 35,
+      "sha256": "ac9b428830d0fe93e910a4556905c6ef6936e7876c9bd96812ada3d899fb61fc"
+    },
+    {
+      "id": "SE-DEMO-009-kitchen",
+      "src": "/images/demo/demo-009-kitchen.jpg",
+      "pdfPage": 36,
+      "sha256": "e5e6037860ea22ba4e300cef98aaf5144950cb3a265aeff984cc6a6e454dca9c"
+    },
+    {
+      "id": "SE-DEMO-009-bedroom",
+      "src": "/images/demo/demo-009-bedroom.jpg",
+      "pdfPage": 36,
+      "sha256": "385cb6063c43ee711f711bf980595afba74ef60b27affc8a29e1bbd0e41a32ca"
+    },
+    {
+      "id": "SE-DEMO-009-bathroom",
+      "src": "/images/demo/demo-009-bathroom.jpg",
+      "pdfPage": 37,
+      "sha256": "62b9cb7a5d766efa5b8ac828f005d531b2b3704ca7f97a18d9554e4679585c46"
+    },
+    {
+      "id": "SE-DEMO-009-outdoor",
+      "src": "/images/demo/demo-009-outdoor.jpg",
+      "pdfPage": 37,
+      "sha256": "4ed916c347fad2baca5c0cbba598f54fa9a7b8e1af695394159416c59b6b3b85"
+    },
+    {
+      "id": "SE-DEMO-009-neighbourhood",
+      "src": "/images/demo/demo-009-neighbourhood.jpg",
+      "pdfPage": 38,
+      "sha256": "9718047f004055d8b8390f119be21f72d431e8fd3dcc6b198159b8b65897f8e1"
+    },
+    {
+      "id": "SE-DEMO-010-original",
+      "src": "/images/demo/demo-010-luz-de-altea.jpg",
+      "pdfPage": 39,
+      "sha256": "ed435793bdf354f371ccbdff4c6cd0dd57144bab588e3a6d7b96cc0b30ef41e9"
+    },
+    {
+      "id": "SE-DEMO-010-kitchen",
+      "src": "/images/demo/demo-010-kitchen.jpg",
+      "pdfPage": 40,
+      "sha256": "0ea60a17c84623025a74b416ad7d0568e7f81542d1317afc9f0dce2e9b75f3e7"
+    },
+    {
+      "id": "SE-DEMO-010-bedroom",
+      "src": "/images/demo/demo-010-bedroom.jpg",
+      "pdfPage": 40,
+      "sha256": "b627d3c15537fdc14cb6d21a57ecfa16c36de4c02298f0c92255222679a06b8b"
+    },
+    {
+      "id": "SE-DEMO-010-bathroom",
+      "src": "/images/demo/demo-010-bathroom.jpg",
+      "pdfPage": 41,
+      "sha256": "5254b8699ef321b6928a3079084dfefc578a4eda608a79cb98c3b9efb2dae392"
+    },
+    {
+      "id": "SE-DEMO-010-outdoor",
+      "src": "/images/demo/demo-010-outdoor.jpg",
+      "pdfPage": 41,
+      "sha256": "443b5de43ae6039990d7f4905e89187d261ec1c4735a262a90a1216f815f197b"
+    },
+    {
+      "id": "SE-DEMO-010-neighbourhood",
+      "src": "/images/demo/demo-010-neighbourhood.jpg",
+      "pdfPage": 42,
+      "sha256": "a2ac8faf883a2697fd0964aaf176f72d03cccd071481e1d960219a8f1fbc216f"
+    }
+  ],
+  "properties": [
+    {
+      "name": "Villa Oliva",
+      "town": "Ciudad Quesada",
+      "area": "Ciudad Quesada",
+      "type": "villa",
+      "condition": "new-build",
+      "priceEur": 495000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "builtAreaM2": 142,
+      "plotAreaM2": 420,
+      "terraceAreaM2": 38,
+      "pool": "private",
+      "seaView": false,
+      "title": {
+        "en": "Contemporary villa with a private pool",
+        "es": "Villa contemporánea con piscina privada"
+      },
+      "description": {
+        "en": "A bright contemporary home arranged around a private pool and an olive-tree garden. Large sliding doors connect the open-plan living and dining space with a shaded pergola terrace. Three bedrooms and three bathrooms provide room for family or guests, while natural stone tones and simple white architecture keep the setting calm. The outdoor layout offers separate spaces for dining, relaxing and enjoying the sun.",
+        "es": "Una luminosa vivienda contemporánea organizada alrededor de una piscina privada y un jardín con olivo. Los grandes ventanales conectan el salón-comedor de concepto abierto con una terraza sombreada por una pérgola. Tres dormitorios y tres baños ofrecen espacio para la familia o los invitados. Los tonos de piedra natural y la arquitectura blanca crean un ambiente sereno, con zonas exteriores para comer y descansar."
+      },
+      "features": {
+        "en": [
+          "Private pool",
+          "Pergola terrace",
+          "Garden",
+          "Open-plan living",
+          "Off-street parking"
+        ],
+        "es": [
+          "Piscina privada",
+          "Terraza con pérgola",
+          "Jardín",
+          "Salón de concepto abierto",
+          "Aparcamiento en parcela"
+        ]
+      },
+      "reference": "SE-DEMO-001",
+      "slug": "villa-oliva-ciudad-quesada",
+      "isDemo": true,
+      "available": false,
+      "status": "demo",
+      "currency": "EUR",
+      "images": [
+        {
+          "src": "/images/demo/demo-001-villa-oliva.jpg",
+          "alt": {
+            "en": "AI-generated demo image of a white contemporary villa, private pool and olive tree.",
+            "es": "Imagen de demostración generada por IA de una villa blanca contemporánea con piscina privada y olivo."
+          },
+          "isAiGenerated": true,
+          "kind": "original",
+          "title": {
+            "en": "Contemporary villa with a private pool",
+            "es": "Villa contemporánea con piscina privada"
+          },
+          "caption": {
+            "en": "A bright contemporary home arranged around a private pool and an olive-tree garden. Large sliding doors connect the open-plan living and dining space with a shaded pergola terrace. Three bedrooms and three bathrooms provide room for family or guests, while natural stone tones and simple white architecture keep the setting calm. The outdoor layout offers separate spaces for dining, relaxing and enjoying the sun.",
+            "es": "Una luminosa vivienda contemporánea organizada alrededor de una piscina privada y un jardín con olivo. Los grandes ventanales conectan el salón-comedor de concepto abierto con una terraza sombreada por una pérgola. Tres dormitorios y tres baños ofrecen espacio para la familia o los invitados. Los tonos de piedra natural y la arquitectura blanca crean un ambiente sereno, con zonas exteriores para comer y descansar."
+          }
+        },
+        {
+          "src": "/images/demo/demo-001-kitchen.jpg",
+          "alt": {
+            "en": "AI-generated fictional kitchen view: Open to the garden",
+            "es": "Vista ficticia generada por IA: Abierta al jardín"
+          },
+          "isAiGenerated": true,
+          "kind": "kitchen",
+          "title": {
+            "en": "Open to the garden",
+            "es": "Abierta al jardín"
+          },
+          "caption": {
+            "en": "Pale oak cabinetry and a simple island lead towards the dining space. Through the glazing, the pool and shaded terrace keep outdoor life in view.",
+            "es": "Los muebles de roble claro y una isla sencilla conectan con el comedor. A través del ventanal, la piscina y la terraza sombreada mantienen el exterior presente."
+          }
+        },
+        {
+          "src": "/images/demo/demo-001-bedroom.jpg",
+          "alt": {
+            "en": "AI-generated fictional bedroom view: A quiet room by the garden",
+            "es": "Vista ficticia generada por IA: Un dormitorio junto al jardín"
+          },
+          "isAiGenerated": true,
+          "kind": "bedroom",
+          "title": {
+            "en": "A quiet room by the garden",
+            "es": "Un dormitorio junto al jardín"
+          },
+          "caption": {
+            "en": "Ivory bedding, timber and a clear route to the glazed opening give this bedroom a calm layout. The outlook continues towards the villa's own pool garden.",
+            "es": "La ropa de cama marfil, la madera y el paso despejado hacia el ventanal crean una distribución serena. Las vistas continúan hacia el jardín con piscina de la villa."
+          }
+        },
+        {
+          "src": "/images/demo/demo-001-bathroom.jpg",
+          "alt": {
+            "en": "AI-generated fictional bathroom view: Natural tones, practical details",
+            "es": "Vista ficticia generada por IA: Tonos naturales y detalles prácticos"
+          },
+          "isAiGenerated": true,
+          "kind": "bathroom",
+          "title": {
+            "en": "Natural tones, practical details",
+            "es": "Tonos naturales y detalles prácticos"
+          },
+          "caption": {
+            "en": "A timber vanity and pale stone tones carry the home's palette into the bathroom. A walk-in shower keeps the arrangement straightforward and easy to read.",
+            "es": "El mueble de madera y los tonos de piedra clara prolongan la paleta de la vivienda. La ducha a ras de suelo mantiene una distribución sencilla y despejada."
+          }
+        },
+        {
+          "src": "/images/demo/demo-001-outdoor.jpg",
+          "alt": {
+            "en": "AI-generated fictional outdoor view: Shade beside the water",
+            "es": "Vista ficticia generada por IA: Sombra junto al agua"
+          },
+          "isAiGenerated": true,
+          "kind": "outdoor",
+          "title": {
+            "en": "Shade beside the water",
+            "es": "Sombra junto al agua"
+          },
+          "caption": {
+            "en": "The pergola creates a shaded dining spot beside the rectangular pool. The olive tree and planting soften the paving, leaving distinct places to sit, swim and unwind.",
+            "es": "La pérgola crea un comedor sombreado junto a la piscina rectangular. El olivo y las plantas suavizan el pavimento, con espacios diferenciados para sentarse, bañarse y descansar."
+          }
+        }
+      ],
+      "featured": true,
+      "neighbourhood": {
+        "src": "/images/demo/demo-001-neighbourhood.jpg",
+        "alt": {
+          "en": "AI-generated illustrative neighbourhood concept; not a verified real location.",
+          "es": "Concepto de barrio generado por IA; no es una ubicación real verificada."
+        },
+        "isAiGenerated": true,
+        "kind": "neighbourhood",
+        "title": {
+          "en": "A pause in the neighbourhood",
+          "es": "Una pausa en el barrio"
+        },
+        "caption": {
+          "en": "A café terrace and planted residential street set the scene for a local-life chapter. This is an illustrative setting, with actual venues and proximity still to verify.",
+          "es": "Una terraza de cafetería y una calle residencial con plantas introducen la vida del barrio. Es un entorno ilustrativo; los locales y su proximidad quedan por verificar."
+        },
+        "isIllustrative": true
+      },
+      "story": [
+        {
+          "id": "kitchen",
+          "kind": "kitchen",
+          "heading": {
+            "en": "Open to the garden",
+            "es": "Abierta al jardín"
+          },
+          "body": {
+            "en": "Pale oak cabinetry and a simple island lead towards the dining space. Through the glazing, the pool and shaded terrace keep outdoor life in view.",
+            "es": "Los muebles de roble claro y una isla sencilla conectan con el comedor. A través del ventanal, la piscina y la terraza sombreada mantienen el exterior presente."
+          },
+          "image": "kitchen"
+        },
+        {
+          "id": "bedroom",
+          "kind": "bedroom",
+          "heading": {
+            "en": "A quiet room by the garden",
+            "es": "Un dormitorio junto al jardín"
+          },
+          "body": {
+            "en": "Ivory bedding, timber and a clear route to the glazed opening give this bedroom a calm layout. The outlook continues towards the villa's own pool garden.",
+            "es": "La ropa de cama marfil, la madera y el paso despejado hacia el ventanal crean una distribución serena. Las vistas continúan hacia el jardín con piscina de la villa."
+          },
+          "image": "bedroom"
+        },
+        {
+          "id": "bathroom",
+          "kind": "bathroom",
+          "heading": {
+            "en": "Natural tones, practical details",
+            "es": "Tonos naturales y detalles prácticos"
+          },
+          "body": {
+            "en": "A timber vanity and pale stone tones carry the home's palette into the bathroom. A walk-in shower keeps the arrangement straightforward and easy to read.",
+            "es": "El mueble de madera y los tonos de piedra clara prolongan la paleta de la vivienda. La ducha a ras de suelo mantiene una distribución sencilla y despejada."
+          },
+          "image": "bathroom"
+        },
+        {
+          "id": "outdoor",
+          "kind": "outdoor",
+          "heading": {
+            "en": "Shade beside the water",
+            "es": "Sombra junto al agua"
+          },
+          "body": {
+            "en": "The pergola creates a shaded dining spot beside the rectangular pool. The olive tree and planting soften the paving, leaving distinct places to sit, swim and unwind.",
+            "es": "La pérgola crea un comedor sombreado junto a la piscina rectangular. El olivo y las plantas suavizan el pavimento, con espacios diferenciados para sentarse, bañarse y descansar."
+          },
+          "image": "outdoor"
+        },
+        {
+          "id": "setting",
+          "kind": "neighbourhood",
+          "heading": {
+            "en": "A pause in the neighbourhood",
+            "es": "Una pausa en el barrio"
+          },
+          "body": {
+            "en": "A café terrace and planted residential street set the scene for a local-life chapter. This is an illustrative setting, with actual venues and proximity still to verify.",
+            "es": "Una terraza de cafetería y una calle residencial con plantas introducen la vida del barrio. Es un entorno ilustrativo; los locales y su proximidad quedan por verificar."
+          },
+          "image": "neighbourhood"
+        }
+      ],
+      "areaVerification": {
+        "status": "unverified-illustrative-context",
+        "namedVenues": [],
+        "verifiedNearbyAmenities": [],
+        "toVerify": [
+          "Exact property location",
+          "Real restaurants and cafés",
+          "Schools and admissions",
+          "Shops and daily services",
+          "Beach and outdoor access",
+          "Transport and measured travel times"
+        ]
+      }
+    },
+    {
+      "name": "Mirador del Mar",
+      "town": "Guardamar del Segura",
+      "area": "Guardamar",
+      "type": "apartment",
+      "subtype": "penthouse",
+      "condition": "resale",
+      "priceEur": 365000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "builtAreaM2": 92,
+      "terraceAreaM2": 58,
+      "pool": "none",
+      "seaView": true,
+      "title": {
+        "en": "Penthouse with a generous sea-view terrace",
+        "es": "Ático con amplia terraza y vistas al mar"
+      },
+      "description": {
+        "en": "An inviting penthouse centred on a generous private terrace with a view towards the Mediterranean. A white pergola creates a comfortable outdoor dining area, with space alongside for relaxed seating and planted pots. Sliding doors open to a light living room, making the terrace feel like a natural extension of the home. Two bedrooms and two bathrooms complete a practical coastal layout.",
+        "es": "Un acogedor ático cuya protagonista es una amplia terraza privada con vistas hacia el Mediterráneo. Una pérgola blanca crea una agradable zona de comedor exterior, junto a un espacio de descanso con plantas en maceta. Las puertas correderas comunican con un salón luminoso y convierten la terraza en una prolongación de la vivienda. La distribución se completa con dos dormitorios y dos baños."
+      },
+      "features": {
+        "en": [
+          "Sea view",
+          "58 m² terrace",
+          "Pergola",
+          "Lift access",
+          "Indoor-outdoor living"
+        ],
+        "es": [
+          "Vistas al mar",
+          "Terraza de 58 m²",
+          "Pérgola",
+          "Ascensor",
+          "Salón conectado con el exterior"
+        ]
+      },
+      "reference": "SE-DEMO-002",
+      "slug": "mirador-del-mar-guardamar",
+      "isDemo": true,
+      "available": false,
+      "status": "demo",
+      "currency": "EUR",
+      "images": [
+        {
+          "src": "/images/demo/demo-002-mirador-del-mar.jpg",
+          "alt": {
+            "en": "AI-generated demo image of a penthouse terrace with a pergola and a distant sea view.",
+            "es": "Imagen de demostración generada por IA de una terraza de ático con pérgola y vistas lejanas al mar."
+          },
+          "isAiGenerated": true,
+          "kind": "original",
+          "title": {
+            "en": "Penthouse with a generous sea-view terrace",
+            "es": "Ático con amplia terraza y vistas al mar"
+          },
+          "caption": {
+            "en": "An inviting penthouse centred on a generous private terrace with a view towards the Mediterranean. A white pergola creates a comfortable outdoor dining area, with space alongside for relaxed seating and planted pots. Sliding doors open to a light living room, making the terrace feel like a natural extension of the home. Two bedrooms and two bathrooms complete a practical coastal layout.",
+            "es": "Un acogedor ático cuya protagonista es una amplia terraza privada con vistas hacia el Mediterráneo. Una pérgola blanca crea una agradable zona de comedor exterior, junto a un espacio de descanso con plantas en maceta. Las puertas correderas comunican con un salón luminoso y convierten la terraza en una prolongación de la vivienda. La distribución se completa con dos dormitorios y dos baños."
+          }
+        },
+        {
+          "src": "/images/demo/demo-002-kitchen.jpg",
+          "alt": {
+            "en": "AI-generated fictional kitchen view: From breakfast to the terrace",
+            "es": "Vista ficticia generada por IA: Del desayuno a la terraza"
+          },
+          "isAiGenerated": true,
+          "kind": "kitchen",
+          "title": {
+            "en": "From breakfast to the terrace",
+            "es": "Del desayuno a la terraza"
+          },
+          "caption": {
+            "en": "An ivory worktop and warm wood fronts frame an open kitchen. The terrace stays connected through the sliding doors, giving meals an easy route outdoors.",
+            "es": "Una encimera marfil y frentes de madera cálida enmarcan la cocina abierta. La terraza se conecta mediante puertas correderas y facilita llevar las comidas al exterior."
+          }
+        },
+        {
+          "src": "/images/demo/demo-002-bedroom.jpg",
+          "alt": {
+            "en": "AI-generated fictional bedroom view: Light, with room to slow down",
+            "es": "Vista ficticia generada por IA: Luz y espacio para bajar el ritmo"
+          },
+          "isAiGenerated": true,
+          "kind": "bedroom",
+          "title": {
+            "en": "Light, with room to slow down",
+            "es": "Luz y espacio para bajar el ritmo"
+          },
+          "caption": {
+            "en": "Natural curtains filter the light around a simply furnished double bedroom. Sage and ivory tones echo the living space, with the terrace visible through the glazed opening.",
+            "es": "Las cortinas naturales filtran la luz de un dormitorio doble de mobiliario sencillo. Los tonos salvia y marfil recuerdan al salón, con la terraza visible a través del ventanal."
+          }
+        },
+        {
+          "src": "/images/demo/demo-002-bathroom.jpg",
+          "alt": {
+            "en": "AI-generated fictional bathroom view: A simple coastal palette",
+            "es": "Vista ficticia generada por IA: Una paleta costera sencilla"
+          },
+          "isAiGenerated": true,
+          "kind": "bathroom",
+          "title": {
+            "en": "A simple coastal palette",
+            "es": "Una paleta costera sencilla"
+          },
+          "caption": {
+            "en": "Light tile and a pale timber vanity make the small bathroom feel coherent with the rest of the apartment. The shower is arranged behind a simple glass screen.",
+            "es": "El revestimiento claro y el mueble de madera suave mantienen la coherencia con el apartamento. La ducha se organiza detrás de una sencilla mampara de cristal."
+          }
+        },
+        {
+          "src": "/images/demo/demo-002-outdoor.jpg",
+          "alt": {
+            "en": "AI-generated fictional outdoor view: The terrace from a new angle",
+            "es": "Vista ficticia generada por IA: La terraza desde otro ángulo"
+          },
+          "isAiGenerated": true,
+          "kind": "outdoor",
+          "title": {
+            "en": "The terrace from a new angle",
+            "es": "La terraza desde otro ángulo"
+          },
+          "caption": {
+            "en": "The dining table sits under the white pergola, with space for a separate seating corner. Clay pots and low-rise views give the broad terrace an everyday Mediterranean character.",
+            "es": "La mesa queda bajo la pérgola blanca y deja espacio para un rincón de descanso. Las macetas de barro y las vistas aportan un carácter mediterráneo cotidiano."
+          }
+        }
+      ],
+      "featured": true,
+      "neighbourhood": {
+        "src": "/images/demo/demo-002-neighbourhood.jpg",
+        "alt": {
+          "en": "AI-generated illustrative neighbourhood concept; not a verified real location.",
+          "es": "Concepto de barrio generado por IA; no es una ubicación real verificada."
+        },
+        "isAiGenerated": true,
+        "kind": "neighbourhood",
+        "title": {
+          "en": "Coffee with a coastal outlook",
+          "es": "Un café con horizonte costero"
+        },
+        "caption": {
+          "en": "This promenade and café scene introduces a coastal lifestyle chapter. It is a generated concept, not a photograph of a named café or a verified route from the home.",
+          "es": "Esta escena de paseo y cafetería introduce un capítulo de vida costera. Es un concepto generado, no una foto de un local identificado ni una ruta verificada desde la vivienda."
+        },
+        "isIllustrative": true
+      },
+      "story": [
+        {
+          "id": "kitchen",
+          "kind": "kitchen",
+          "heading": {
+            "en": "From breakfast to the terrace",
+            "es": "Del desayuno a la terraza"
+          },
+          "body": {
+            "en": "An ivory worktop and warm wood fronts frame an open kitchen. The terrace stays connected through the sliding doors, giving meals an easy route outdoors.",
+            "es": "Una encimera marfil y frentes de madera cálida enmarcan la cocina abierta. La terraza se conecta mediante puertas correderas y facilita llevar las comidas al exterior."
+          },
+          "image": "kitchen"
+        },
+        {
+          "id": "bedroom",
+          "kind": "bedroom",
+          "heading": {
+            "en": "Light, with room to slow down",
+            "es": "Luz y espacio para bajar el ritmo"
+          },
+          "body": {
+            "en": "Natural curtains filter the light around a simply furnished double bedroom. Sage and ivory tones echo the living space, with the terrace visible through the glazed opening.",
+            "es": "Las cortinas naturales filtran la luz de un dormitorio doble de mobiliario sencillo. Los tonos salvia y marfil recuerdan al salón, con la terraza visible a través del ventanal."
+          },
+          "image": "bedroom"
+        },
+        {
+          "id": "bathroom",
+          "kind": "bathroom",
+          "heading": {
+            "en": "A simple coastal palette",
+            "es": "Una paleta costera sencilla"
+          },
+          "body": {
+            "en": "Light tile and a pale timber vanity make the small bathroom feel coherent with the rest of the apartment. The shower is arranged behind a simple glass screen.",
+            "es": "El revestimiento claro y el mueble de madera suave mantienen la coherencia con el apartamento. La ducha se organiza detrás de una sencilla mampara de cristal."
+          },
+          "image": "bathroom"
+        },
+        {
+          "id": "outdoor",
+          "kind": "outdoor",
+          "heading": {
+            "en": "The terrace from a new angle",
+            "es": "La terraza desde otro ángulo"
+          },
+          "body": {
+            "en": "The dining table sits under the white pergola, with space for a separate seating corner. Clay pots and low-rise views give the broad terrace an everyday Mediterranean character.",
+            "es": "La mesa queda bajo la pérgola blanca y deja espacio para un rincón de descanso. Las macetas de barro y las vistas aportan un carácter mediterráneo cotidiano."
+          },
+          "image": "outdoor"
+        },
+        {
+          "id": "setting",
+          "kind": "neighbourhood",
+          "heading": {
+            "en": "Coffee with a coastal outlook",
+            "es": "Un café con horizonte costero"
+          },
+          "body": {
+            "en": "This promenade and café scene introduces a coastal lifestyle chapter. It is a generated concept, not a photograph of a named café or a verified route from the home.",
+            "es": "Esta escena de paseo y cafetería introduce un capítulo de vida costera. Es un concepto generado, no una foto de un local identificado ni una ruta verificada desde la vivienda."
+          },
+          "image": "neighbourhood"
+        }
+      ],
+      "areaVerification": {
+        "status": "unverified-illustrative-context",
+        "namedVenues": [],
+        "verifiedNearbyAmenities": [],
+        "toVerify": [
+          "Exact property location",
+          "Real restaurants and cafés",
+          "Schools and admissions",
+          "Shops and daily services",
+          "Beach and outdoor access",
+          "Transport and measured travel times"
+        ]
+      }
+    },
+    {
+      "name": "Casa Jazmín",
+      "town": "Torrevieja",
+      "area": "Los Balcones",
+      "type": "villa",
+      "condition": "resale",
+      "priceEur": 369000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "builtAreaM2": 125,
+      "plotAreaM2": 280,
+      "terraceAreaM2": 30,
+      "pool": "private",
+      "seaView": false,
+      "title": {
+        "en": "Mediterranean villa with an established garden",
+        "es": "Villa mediterránea con jardín consolidado"
+      },
+      "description": {
+        "en": "A traditional single-storey villa with whitewashed walls, a tiled roof and an arched covered porch. The private pool sits within an established garden with palms, flowering bougainvillea and stone paving. Three bedrooms and two bathrooms support comfortable everyday living, while the porch offers a shaded place for outdoor meals. The character is relaxed and Mediterranean, with a clear connection between the home and garden.",
+        "es": "Una villa tradicional de una sola planta, con paredes blancas, tejado de teja y porche cubierto con arcos. La piscina privada se integra en un jardín consolidado con palmeras, buganvillas y pavimento de piedra. Sus tres dormitorios y dos baños ofrecen una distribución cómoda para el día a día. El porche aporta una zona sombreada para comer al aire libre y disfrutar del jardín."
+      },
+      "features": {
+        "en": [
+          "Private pool",
+          "Single-storey layout",
+          "Covered porch",
+          "Mature garden",
+          "Terracotta roof"
+        ],
+        "es": [
+          "Piscina privada",
+          "Distribución en una planta",
+          "Porche cubierto",
+          "Jardín consolidado",
+          "Tejado de teja"
+        ]
+      },
+      "reference": "SE-DEMO-003",
+      "slug": "casa-jazmin-los-balcones",
+      "isDemo": true,
+      "available": false,
+      "status": "demo",
+      "currency": "EUR",
+      "images": [
+        {
+          "src": "/images/demo/demo-003-casa-jazmin.jpg",
+          "alt": {
+            "en": "AI-generated demo image of a traditional white villa with arched porch, bougainvillea and a rounded pool.",
+            "es": "Imagen de demostración generada por IA de una villa blanca tradicional con porche de arcos, buganvillas y piscina redondeada."
+          },
+          "isAiGenerated": true,
+          "kind": "original",
+          "title": {
+            "en": "Mediterranean villa with an established garden",
+            "es": "Villa mediterránea con jardín consolidado"
+          },
+          "caption": {
+            "en": "A traditional single-storey villa with whitewashed walls, a tiled roof and an arched covered porch. The private pool sits within an established garden with palms, flowering bougainvillea and stone paving. Three bedrooms and two bathrooms support comfortable everyday living, while the porch offers a shaded place for outdoor meals. The character is relaxed and Mediterranean, with a clear connection between the home and garden.",
+            "es": "Una villa tradicional de una sola planta, con paredes blancas, tejado de teja y porche cubierto con arcos. La piscina privada se integra en un jardín consolidado con palmeras, buganvillas y pavimento de piedra. Sus tres dormitorios y dos baños ofrecen una distribución cómoda para el día a día. El porche aporta una zona sombreada para comer al aire libre y disfrutar del jardín."
+          }
+        },
+        {
+          "src": "/images/demo/demo-003-kitchen.jpg",
+          "alt": {
+            "en": "AI-generated fictional kitchen view: Everyday life behind the arches",
+            "es": "Vista ficticia generada por IA: La vida cotidiana tras los arcos"
+          },
+          "isAiGenerated": true,
+          "kind": "kitchen",
+          "title": {
+            "en": "Everyday life behind the arches",
+            "es": "La vida cotidiana tras los arcos"
+          },
+          "caption": {
+            "en": "Cream cabinets and warm timber give this kitchen a lived-in character. A traditional window brings the garden planting into the outlook, while the dining table keeps meals close by.",
+            "es": "Los muebles crema y la madera cálida aportan un carácter cotidiano. Una ventana tradicional incorpora las plantas del jardín a las vistas, junto a una mesa para las comidas."
+          }
+        },
+        {
+          "src": "/images/demo/demo-003-bedroom.jpg",
+          "alt": {
+            "en": "AI-generated fictional bedroom view: Traditional windows, soft light",
+            "es": "Vista ficticia generada por IA: Ventanas tradicionales y luz suave"
+          },
+          "isAiGenerated": true,
+          "kind": "bedroom",
+          "title": {
+            "en": "Traditional windows, soft light",
+            "es": "Ventanas tradicionales y luz suave"
+          },
+          "caption": {
+            "en": "Soft blue stripes and natural timber sit against white walls. The traditional window and garden greenery carry the villa's character into a quiet room for resting.",
+            "es": "Las rayas azules suaves y la madera natural contrastan con las paredes blancas. La ventana tradicional y el verde del jardín prolongan el carácter de la villa."
+          }
+        },
+        {
+          "src": "/images/demo/demo-003-bathroom.jpg",
+          "alt": {
+            "en": "AI-generated fictional bathroom view: A refreshed bathroom",
+            "es": "Vista ficticia generada por IA: Un baño renovado"
+          },
+          "isAiGenerated": true,
+          "kind": "bathroom",
+          "title": {
+            "en": "A refreshed bathroom",
+            "es": "Un baño renovado"
+          },
+          "caption": {
+            "en": "A blue tile accent recalls the pool palette without dominating the room. The timber vanity and simple shower give the bathroom a practical, gently updated finish.",
+            "es": "Un detalle de azulejo azul recuerda a la piscina sin dominar el espacio. El mueble de madera y la ducha sencilla aportan un acabado práctico y actualizado."
+          }
+        },
+        {
+          "src": "/images/demo/demo-003-outdoor.jpg",
+          "alt": {
+            "en": "AI-generated fictional outdoor view: Under the bougainvillea",
+            "es": "Vista ficticia generada por IA: Bajo la buganvilla"
+          },
+          "isAiGenerated": true,
+          "kind": "outdoor",
+          "title": {
+            "en": "Under the bougainvillea",
+            "es": "Bajo la buganvilla"
+          },
+          "caption": {
+            "en": "The arched porch makes a sheltered edge to the pool garden. Bougainvillea, patterned tiles and established palms give the outdoor area its recognisable character.",
+            "es": "El porche de arcos crea una zona protegida junto a la piscina. La buganvilla, los azulejos decorativos y las palmeras consolidadas dan carácter al exterior."
+          }
+        }
+      ],
+      "featured": true,
+      "neighbourhood": {
+        "src": "/images/demo/demo-003-neighbourhood.jpg",
+        "alt": {
+          "en": "AI-generated illustrative neighbourhood concept; not a verified real location.",
+          "es": "Concepto de barrio generado por IA; no es una ubicación real verificada."
+        },
+        "isAiGenerated": true,
+        "kind": "neighbourhood",
+        "title": {
+          "en": "The quieter side of local life",
+          "es": "El lado tranquilo de la vida local"
+        },
+        "caption": {
+          "en": "A shaded park corner offers a way to introduce the wider residential setting. Nearby cafés, shops and services would be researched against a real address before publication.",
+          "es": "Un rincón de parque sombreado permite introducir el entorno residencial. Las cafeterías, tiendas y servicios se investigarían desde una dirección real antes de publicarlos."
+        },
+        "isIllustrative": true
+      },
+      "story": [
+        {
+          "id": "kitchen",
+          "kind": "kitchen",
+          "heading": {
+            "en": "Everyday life behind the arches",
+            "es": "La vida cotidiana tras los arcos"
+          },
+          "body": {
+            "en": "Cream cabinets and warm timber give this kitchen a lived-in character. A traditional window brings the garden planting into the outlook, while the dining table keeps meals close by.",
+            "es": "Los muebles crema y la madera cálida aportan un carácter cotidiano. Una ventana tradicional incorpora las plantas del jardín a las vistas, junto a una mesa para las comidas."
+          },
+          "image": "kitchen"
+        },
+        {
+          "id": "bedroom",
+          "kind": "bedroom",
+          "heading": {
+            "en": "Traditional windows, soft light",
+            "es": "Ventanas tradicionales y luz suave"
+          },
+          "body": {
+            "en": "Soft blue stripes and natural timber sit against white walls. The traditional window and garden greenery carry the villa's character into a quiet room for resting.",
+            "es": "Las rayas azules suaves y la madera natural contrastan con las paredes blancas. La ventana tradicional y el verde del jardín prolongan el carácter de la villa."
+          },
+          "image": "bedroom"
+        },
+        {
+          "id": "bathroom",
+          "kind": "bathroom",
+          "heading": {
+            "en": "A refreshed bathroom",
+            "es": "Un baño renovado"
+          },
+          "body": {
+            "en": "A blue tile accent recalls the pool palette without dominating the room. The timber vanity and simple shower give the bathroom a practical, gently updated finish.",
+            "es": "Un detalle de azulejo azul recuerda a la piscina sin dominar el espacio. El mueble de madera y la ducha sencilla aportan un acabado práctico y actualizado."
+          },
+          "image": "bathroom"
+        },
+        {
+          "id": "outdoor",
+          "kind": "outdoor",
+          "heading": {
+            "en": "Under the bougainvillea",
+            "es": "Bajo la buganvilla"
+          },
+          "body": {
+            "en": "The arched porch makes a sheltered edge to the pool garden. Bougainvillea, patterned tiles and established palms give the outdoor area its recognisable character.",
+            "es": "El porche de arcos crea una zona protegida junto a la piscina. La buganvilla, los azulejos decorativos y las palmeras consolidadas dan carácter al exterior."
+          },
+          "image": "outdoor"
+        },
+        {
+          "id": "setting",
+          "kind": "neighbourhood",
+          "heading": {
+            "en": "The quieter side of local life",
+            "es": "El lado tranquilo de la vida local"
+          },
+          "body": {
+            "en": "A shaded park corner offers a way to introduce the wider residential setting. Nearby cafés, shops and services would be researched against a real address before publication.",
+            "es": "Un rincón de parque sombreado permite introducir el entorno residencial. Las cafeterías, tiendas y servicios se investigarían desde una dirección real antes de publicarlos."
+          },
+          "image": "neighbourhood"
+        }
+      ],
+      "areaVerification": {
+        "status": "unverified-illustrative-context",
+        "namedVenues": [],
+        "verifiedNearbyAmenities": [],
+        "toVerify": [
+          "Exact property location",
+          "Real restaurants and cafés",
+          "Schools and admissions",
+          "Shops and daily services",
+          "Beach and outdoor access",
+          "Transport and measured travel times"
+        ]
+      }
+    },
+    {
+      "name": "Residencial Brisa",
+      "town": "Orihuela Costa",
+      "area": "Playa Flamenca",
+      "type": "apartment",
+      "subtype": "ground-floor",
+      "condition": "new-build",
+      "priceEur": 249000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "builtAreaM2": 78,
+      "terraceAreaM2": 24,
+      "privateGardenAreaM2": 35,
+      "pool": "communal",
+      "seaView": false,
+      "title": {
+        "en": "Ground-floor apartment with a private garden",
+        "es": "Apartamento de planta baja con jardín privado"
+      },
+      "description": {
+        "en": "A contemporary ground-floor apartment opening onto a sheltered terrace and a small private garden. The low-rise setting combines cream facades, planted communal spaces and a shared swimming pool. Inside, two bedrooms and two bathrooms accompany an open living and dining area. A fenced garden edge gives the outdoor space definition, with room for a dining table, relaxed seating and everyday Mediterranean living.",
+        "es": "Un apartamento contemporáneo de planta baja con terraza cubierta y pequeño jardín privado. El conjunto de baja altura combina fachadas en tonos crema, zonas comunes ajardinadas y piscina comunitaria. En el interior, dos dormitorios y dos baños acompañan al salón-comedor abierto. El cerramiento del jardín delimita una zona exterior con espacio para comer, descansar y disfrutar de la vida mediterránea."
+      },
+      "features": {
+        "en": [
+          "Communal pool",
+          "Private garden: 35 m²",
+          "Covered terrace",
+          "Low-rise setting",
+          "Open living area"
+        ],
+        "es": [
+          "Piscina comunitaria",
+          "Jardín privado: 35 m²",
+          "Terraza cubierta",
+          "Edificación de baja altura",
+          "Salón abierto"
+        ]
+      },
+      "reference": "SE-DEMO-004",
+      "slug": "residencial-brisa-playa-flamenca",
+      "isDemo": true,
+      "available": false,
+      "status": "demo",
+      "currency": "EUR",
+      "images": [
+        {
+          "src": "/images/demo/demo-004-residencial-brisa.jpg",
+          "alt": {
+            "en": "AI-generated demo image of a ground-floor garden apartment beside landscaped communal grounds and a shared pool.",
+            "es": "Imagen de demostración generada por IA de un apartamento de planta baja con jardín junto a zonas comunes y piscina comunitaria."
+          },
+          "isAiGenerated": true,
+          "kind": "original",
+          "title": {
+            "en": "Ground-floor apartment with a private garden",
+            "es": "Apartamento de planta baja con jardín privado"
+          },
+          "caption": {
+            "en": "A contemporary ground-floor apartment opening onto a sheltered terrace and a small private garden. The low-rise setting combines cream facades, planted communal spaces and a shared swimming pool. Inside, two bedrooms and two bathrooms accompany an open living and dining area. A fenced garden edge gives the outdoor space definition, with room for a dining table, relaxed seating and everyday Mediterranean living.",
+            "es": "Un apartamento contemporáneo de planta baja con terraza cubierta y pequeño jardín privado. El conjunto de baja altura combina fachadas en tonos crema, zonas comunes ajardinadas y piscina comunitaria. En el interior, dos dormitorios y dos baños acompañan al salón-comedor abierto. El cerramiento del jardín delimita una zona exterior con espacio para comer, descansar y disfrutar de la vida mediterránea."
+          }
+        },
+        {
+          "src": "/images/demo/demo-004-kitchen.jpg",
+          "alt": {
+            "en": "AI-generated fictional kitchen view: The garden stays in view",
+            "es": "Vista ficticia generada por IA: El jardín permanece a la vista"
+          },
+          "isAiGenerated": true,
+          "kind": "kitchen",
+          "title": {
+            "en": "The garden stays in view",
+            "es": "El jardín permanece a la vista"
+          },
+          "caption": {
+            "en": "The open kitchen shares its outlook with the covered terrace and small garden. Pale fronts and timber accents keep the cooking and living zones visually connected.",
+            "es": "La cocina abierta comparte vistas con la terraza cubierta y el pequeño jardín. Los frentes claros y los detalles de madera conectan visualmente cocina y salón."
+          }
+        },
+        {
+          "src": "/images/demo/demo-004-bedroom.jpg",
+          "alt": {
+            "en": "AI-generated fictional bedroom view: A quiet corner at ground level",
+            "es": "Vista ficticia generada por IA: Un rincón tranquilo en planta baja"
+          },
+          "isAiGenerated": true,
+          "kind": "bedroom",
+          "title": {
+            "en": "A quiet corner at ground level",
+            "es": "Un rincón tranquilo en planta baja"
+          },
+          "caption": {
+            "en": "A simple wardrobe and timber bedside furniture leave a clear route around the bed. The low garden outlook keeps the room connected to its ground-floor setting.",
+            "es": "Un armario sencillo y las mesillas de madera dejan un paso despejado alrededor de la cama. Las vistas al jardín mantienen la conexión con la planta baja."
+          }
+        },
+        {
+          "src": "/images/demo/demo-004-bathroom.jpg",
+          "alt": {
+            "en": "AI-generated fictional bathroom view: Compact and well arranged",
+            "es": "Vista ficticia generada por IA: Compacto y bien distribuido"
+          },
+          "isAiGenerated": true,
+          "kind": "bathroom",
+          "title": {
+            "en": "Compact and well arranged",
+            "es": "Compacto y bien distribuido"
+          },
+          "caption": {
+            "en": "A compact vanity, clear shower screen and consistent beige tile create an efficient bathroom. The materials follow the apartment's restrained contemporary palette.",
+            "es": "El mueble compacto, la mampara transparente y el revestimiento beige crean un baño eficiente. Los materiales siguen la paleta contemporánea y discreta del apartamento."
+          }
+        },
+        {
+          "src": "/images/demo/demo-004-outdoor.jpg",
+          "alt": {
+            "en": "AI-generated fictional outdoor view: Your space beside the shared gardens",
+            "es": "Vista ficticia generada por IA: Tu espacio junto a los jardines comunes"
+          },
+          "isAiGenerated": true,
+          "kind": "outdoor",
+          "title": {
+            "en": "Your space beside the shared gardens",
+            "es": "Tu espacio junto a los jardines comunes"
+          },
+          "caption": {
+            "en": "The private lawn and covered dining terrace form one outdoor room. Beyond the fence, the shared paths, planting and pool remain clearly separate from the apartment's garden.",
+            "es": "El césped privado y el comedor cubierto forman una estancia exterior. Tras la valla, los caminos, jardines y piscina comunes quedan claramente separados del jardín del apartamento."
+          }
+        }
+      ],
+      "featured": true,
+      "neighbourhood": {
+        "src": "/images/demo/demo-004-neighbourhood.jpg",
+        "alt": {
+          "en": "AI-generated illustrative neighbourhood concept; not a verified real location.",
+          "es": "Concepto de barrio generado por IA; no es una ubicación real verificada."
+        },
+        "isAiGenerated": true,
+        "kind": "neighbourhood",
+        "title": {
+          "en": "Everyday stops and open-air tables",
+          "es": "Paradas cotidianas y mesas al aire libre"
+        },
+        "caption": {
+          "en": "Open-air tables and a pedestrian plaza suggest the everyday side of an area story. Real businesses, opening details and routes would be verified separately.",
+          "es": "Las mesas al aire libre y la plaza peatonal sugieren la vida cotidiana de una zona. Los negocios, horarios y recorridos reales se verificarían por separado."
+        },
+        "isIllustrative": true
+      },
+      "story": [
+        {
+          "id": "kitchen",
+          "kind": "kitchen",
+          "heading": {
+            "en": "The garden stays in view",
+            "es": "El jardín permanece a la vista"
+          },
+          "body": {
+            "en": "The open kitchen shares its outlook with the covered terrace and small garden. Pale fronts and timber accents keep the cooking and living zones visually connected.",
+            "es": "La cocina abierta comparte vistas con la terraza cubierta y el pequeño jardín. Los frentes claros y los detalles de madera conectan visualmente cocina y salón."
+          },
+          "image": "kitchen"
+        },
+        {
+          "id": "bedroom",
+          "kind": "bedroom",
+          "heading": {
+            "en": "A quiet corner at ground level",
+            "es": "Un rincón tranquilo en planta baja"
+          },
+          "body": {
+            "en": "A simple wardrobe and timber bedside furniture leave a clear route around the bed. The low garden outlook keeps the room connected to its ground-floor setting.",
+            "es": "Un armario sencillo y las mesillas de madera dejan un paso despejado alrededor de la cama. Las vistas al jardín mantienen la conexión con la planta baja."
+          },
+          "image": "bedroom"
+        },
+        {
+          "id": "bathroom",
+          "kind": "bathroom",
+          "heading": {
+            "en": "Compact and well arranged",
+            "es": "Compacto y bien distribuido"
+          },
+          "body": {
+            "en": "A compact vanity, clear shower screen and consistent beige tile create an efficient bathroom. The materials follow the apartment's restrained contemporary palette.",
+            "es": "El mueble compacto, la mampara transparente y el revestimiento beige crean un baño eficiente. Los materiales siguen la paleta contemporánea y discreta del apartamento."
+          },
+          "image": "bathroom"
+        },
+        {
+          "id": "outdoor",
+          "kind": "outdoor",
+          "heading": {
+            "en": "Your space beside the shared gardens",
+            "es": "Tu espacio junto a los jardines comunes"
+          },
+          "body": {
+            "en": "The private lawn and covered dining terrace form one outdoor room. Beyond the fence, the shared paths, planting and pool remain clearly separate from the apartment's garden.",
+            "es": "El césped privado y el comedor cubierto forman una estancia exterior. Tras la valla, los caminos, jardines y piscina comunes quedan claramente separados del jardín del apartamento."
+          },
+          "image": "outdoor"
+        },
+        {
+          "id": "setting",
+          "kind": "neighbourhood",
+          "heading": {
+            "en": "Everyday stops and open-air tables",
+            "es": "Paradas cotidianas y mesas al aire libre"
+          },
+          "body": {
+            "en": "Open-air tables and a pedestrian plaza suggest the everyday side of an area story. Real businesses, opening details and routes would be verified separately.",
+            "es": "Las mesas al aire libre y la plaza peatonal sugieren la vida cotidiana de una zona. Los negocios, horarios y recorridos reales se verificarían por separado."
+          },
+          "image": "neighbourhood"
+        }
+      ],
+      "areaVerification": {
+        "status": "unverified-illustrative-context",
+        "namedVenues": [],
+        "verifiedNearbyAmenities": [],
+        "toVerify": [
+          "Exact property location",
+          "Real restaurants and cafés",
+          "Schools and admissions",
+          "Shops and daily services",
+          "Beach and outdoor access",
+          "Transport and measured travel times"
+        ]
+      }
+    },
+    {
+      "name": "Patio del Sol",
+      "town": "Rojales",
+      "area": "Rojales",
+      "type": "townhouse",
+      "condition": "resale",
+      "priceEur": 229000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "builtAreaM2": 118,
+      "terraceAreaM2": 28,
+      "pool": "none",
+      "seaView": false,
+      "title": {
+        "en": "Townhouse with a welcoming private courtyard",
+        "es": "Adosado con un acogedor patio privado"
+      },
+      "description": {
+        "en": "A two-storey townhouse with warm sand-coloured walls, a simple upper balcony and a sheltered tiled courtyard. A blue-grey entrance door, traditional ironwork and terracotta planting give the home a welcoming local character. Three bedrooms and two bathrooms provide a flexible layout, while the courtyard creates a useful outdoor room for meals and quiet evenings. A practical example for buyers who value character over large grounds.",
+        "es": "Un adosado de dos plantas con fachada en tonos arena, balcón superior y patio privado de suelo cerámico. La puerta azul grisácea, la forja tradicional y las macetas de terracota aportan un carácter acogedor. Tres dormitorios y dos baños permiten una distribución flexible. El patio funciona como una estancia exterior para comer o descansar, dentro de una vivienda con encanto y dimensiones prácticas."
+      },
+      "features": {
+        "en": [
+          "Private courtyard",
+          "Upper balcony",
+          "Two storeys",
+          "Traditional detailing",
+          "No swimming pool"
+        ],
+        "es": [
+          "Patio privado",
+          "Balcón superior",
+          "Dos plantas",
+          "Detalles tradicionales",
+          "Sin piscina"
+        ]
+      },
+      "reference": "SE-DEMO-005",
+      "slug": "patio-del-sol-rojales",
+      "isDemo": true,
+      "available": false,
+      "status": "demo",
+      "currency": "EUR",
+      "images": [
+        {
+          "src": "/images/demo/demo-005-patio-del-sol.jpg",
+          "alt": {
+            "en": "AI-generated demo image of a sand-coloured Spanish townhouse with courtyard, balcony and citrus tree.",
+            "es": "Imagen de demostración generada por IA de un adosado español en tonos arena con patio, balcón y cítrico."
+          },
+          "isAiGenerated": true,
+          "kind": "original",
+          "title": {
+            "en": "Townhouse with a welcoming private courtyard",
+            "es": "Adosado con un acogedor patio privado"
+          },
+          "caption": {
+            "en": "A two-storey townhouse with warm sand-coloured walls, a simple upper balcony and a sheltered tiled courtyard. A blue-grey entrance door, traditional ironwork and terracotta planting give the home a welcoming local character. Three bedrooms and two bathrooms provide a flexible layout, while the courtyard creates a useful outdoor room for meals and quiet evenings. A practical example for buyers who value character over large grounds.",
+            "es": "Un adosado de dos plantas con fachada en tonos arena, balcón superior y patio privado de suelo cerámico. La puerta azul grisácea, la forja tradicional y las macetas de terracota aportan un carácter acogedor. Tres dormitorios y dos baños permiten una distribución flexible. El patio funciona como una estancia exterior para comer o descansar, dentro de una vivienda con encanto y dimensiones prácticas."
+          }
+        },
+        {
+          "src": "/images/demo/demo-005-kitchen.jpg",
+          "alt": {
+            "en": "AI-generated fictional kitchen view: The courtyard at the centre",
+            "es": "Vista ficticia generada por IA: El patio como centro de la casa"
+          },
+          "isAiGenerated": true,
+          "kind": "kitchen",
+          "title": {
+            "en": "The courtyard at the centre",
+            "es": "El patio como centro de la casa"
+          },
+          "caption": {
+            "en": "The kitchen opens towards the courtyard, keeping outdoor meals close at hand. Cream fronts, wood and a tiled floor continue the warmth of the house.",
+            "es": "La cocina se abre hacia el patio y facilita las comidas al aire libre. Los frentes crema, la madera y el suelo cerámico prolongan la calidez de la casa."
+          }
+        },
+        {
+          "src": "/images/demo/demo-005-bedroom.jpg",
+          "alt": {
+            "en": "AI-generated fictional bedroom view: A balcony above the patio",
+            "es": "Vista ficticia generada por IA: Un balcón sobre el patio"
+          },
+          "isAiGenerated": true,
+          "kind": "bedroom",
+          "title": {
+            "en": "A balcony above the patio",
+            "es": "Un balcón sobre el patio"
+          },
+          "caption": {
+            "en": "French doors bring light to the double bedroom and connect it with the small iron balcony. Timber furniture and pale textiles keep the room simple and welcoming.",
+            "es": "Las puertas balconeras iluminan el dormitorio doble y lo conectan con el pequeño balcón de forja. La madera y los tejidos claros mantienen un ambiente sencillo y acogedor."
+          }
+        },
+        {
+          "src": "/images/demo/demo-005-bathroom.jpg",
+          "alt": {
+            "en": "AI-generated fictional bathroom view: Small details, warm materials",
+            "es": "Vista ficticia generada por IA: Pequeños detalles y materiales cálidos"
+          },
+          "isAiGenerated": true,
+          "kind": "bathroom",
+          "title": {
+            "en": "Small details, warm materials",
+            "es": "Pequeños detalles y materiales cálidos"
+          },
+          "caption": {
+            "en": "A blue-grey niche picks up the colour of the entrance door. Warm tile, a timber vanity and a straightforward shower give this small room a coherent finish.",
+            "es": "Un nicho azul grisáceo recupera el color de la puerta de entrada. Los azulejos cálidos, la madera y la ducha sencilla dan coherencia a este pequeño baño."
+          }
+        },
+        {
+          "src": "/images/demo/demo-005-outdoor.jpg",
+          "alt": {
+            "en": "AI-generated fictional outdoor view: An outdoor dining room",
+            "es": "Vista ficticia generada por IA: Un comedor al aire libre"
+          },
+          "isAiGenerated": true,
+          "kind": "outdoor",
+          "title": {
+            "en": "An outdoor dining room",
+            "es": "Un comedor al aire libre"
+          },
+          "caption": {
+            "en": "The courtyard gives the townhouse a defined place for outdoor meals. Citrus planting, traditional ironwork and the sheltered facade make the space feel part of everyday home life.",
+            "es": "El patio ofrece una zona definida para comer al aire libre. Los cítricos, la forja tradicional y la fachada protegida integran el espacio en la vida cotidiana."
+          }
+        }
+      ],
+      "featured": false,
+      "neighbourhood": {
+        "src": "/images/demo/demo-005-neighbourhood.jpg",
+        "alt": {
+          "en": "AI-generated illustrative neighbourhood concept; not a verified real location.",
+          "es": "Concepto de barrio generado por IA; no es una ubicación real verificada."
+        },
+        "isAiGenerated": true,
+        "kind": "neighbourhood",
+        "title": {
+          "en": "An unhurried village pause",
+          "es": "Una pausa tranquila en el pueblo"
+        },
+        "caption": {
+          "en": "A small square and café terrace provide a setting for a village-life chapter. The scene is illustrative; named restaurants and daily services would need local verification.",
+          "es": "Una pequeña plaza y una terraza de cafetería introducen la vida de pueblo. La escena es ilustrativa; los restaurantes y servicios identificados requieren verificación local."
+        },
+        "isIllustrative": true
+      },
+      "story": [
+        {
+          "id": "kitchen",
+          "kind": "kitchen",
+          "heading": {
+            "en": "The courtyard at the centre",
+            "es": "El patio como centro de la casa"
+          },
+          "body": {
+            "en": "The kitchen opens towards the courtyard, keeping outdoor meals close at hand. Cream fronts, wood and a tiled floor continue the warmth of the house.",
+            "es": "La cocina se abre hacia el patio y facilita las comidas al aire libre. Los frentes crema, la madera y el suelo cerámico prolongan la calidez de la casa."
+          },
+          "image": "kitchen"
+        },
+        {
+          "id": "bedroom",
+          "kind": "bedroom",
+          "heading": {
+            "en": "A balcony above the patio",
+            "es": "Un balcón sobre el patio"
+          },
+          "body": {
+            "en": "French doors bring light to the double bedroom and connect it with the small iron balcony. Timber furniture and pale textiles keep the room simple and welcoming.",
+            "es": "Las puertas balconeras iluminan el dormitorio doble y lo conectan con el pequeño balcón de forja. La madera y los tejidos claros mantienen un ambiente sencillo y acogedor."
+          },
+          "image": "bedroom"
+        },
+        {
+          "id": "bathroom",
+          "kind": "bathroom",
+          "heading": {
+            "en": "Small details, warm materials",
+            "es": "Pequeños detalles y materiales cálidos"
+          },
+          "body": {
+            "en": "A blue-grey niche picks up the colour of the entrance door. Warm tile, a timber vanity and a straightforward shower give this small room a coherent finish.",
+            "es": "Un nicho azul grisáceo recupera el color de la puerta de entrada. Los azulejos cálidos, la madera y la ducha sencilla dan coherencia a este pequeño baño."
+          },
+          "image": "bathroom"
+        },
+        {
+          "id": "outdoor",
+          "kind": "outdoor",
+          "heading": {
+            "en": "An outdoor dining room",
+            "es": "Un comedor al aire libre"
+          },
+          "body": {
+            "en": "The courtyard gives the townhouse a defined place for outdoor meals. Citrus planting, traditional ironwork and the sheltered facade make the space feel part of everyday home life.",
+            "es": "El patio ofrece una zona definida para comer al aire libre. Los cítricos, la forja tradicional y la fachada protegida integran el espacio en la vida cotidiana."
+          },
+          "image": "outdoor"
+        },
+        {
+          "id": "setting",
+          "kind": "neighbourhood",
+          "heading": {
+            "en": "An unhurried village pause",
+            "es": "Una pausa tranquila en el pueblo"
+          },
+          "body": {
+            "en": "A small square and café terrace provide a setting for a village-life chapter. The scene is illustrative; named restaurants and daily services would need local verification.",
+            "es": "Una pequeña plaza y una terraza de cafetería introducen la vida de pueblo. La escena es ilustrativa; los restaurantes y servicios identificados requieren verificación local."
+          },
+          "image": "neighbourhood"
+        }
+      ],
+      "areaVerification": {
+        "status": "unverified-illustrative-context",
+        "namedVenues": [],
+        "verifiedNearbyAmenities": [],
+        "toVerify": [
+          "Exact property location",
+          "Real restaurants and cafés",
+          "Schools and admissions",
+          "Shops and daily services",
+          "Beach and outdoor access",
+          "Transport and measured travel times"
+        ]
+      }
+    },
+    {
+      "name": "Horizonte Azul",
+      "town": "Finestrat",
+      "area": "Finestrat",
+      "type": "villa",
+      "condition": "new-build",
+      "priceEur": 895000,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "builtAreaM2": 225,
+      "plotAreaM2": 650,
+      "terraceAreaM2": 82,
+      "pool": "private",
+      "seaView": true,
+      "title": {
+        "en": "Hillside villa with an infinity-edge pool",
+        "es": "Villa en ladera con piscina desbordante"
+      },
+      "description": {
+        "en": "A spacious hillside villa with pale stone, broad glazing and an infinity-edge pool facing a distant coastal horizon. The living area flows onto a generous dining terrace, while the upper level adds a long balcony overlooking the garden. Four bedrooms and four bathrooms allow room for family and visiting guests. Warm lighting and Mediterranean planting give the setting a calm atmosphere as day turns into evening.",
+        "es": "Una amplia villa en ladera con piedra clara, grandes ventanales y piscina desbordante orientada hacia un horizonte costero lejano. El salón comunica con una generosa terraza de comedor y la planta superior incorpora un largo balcón sobre el jardín. Cuatro dormitorios y cuatro baños ofrecen espacio para la familia y los invitados. La iluminación cálida y la vegetación mediterránea crean un ambiente sereno al atardecer."
+      },
+      "features": {
+        "en": [
+          "Infinity-edge private pool",
+          "Distant sea view",
+          "82 m² terraces",
+          "Four bathrooms",
+          "Landscaped garden"
+        ],
+        "es": [
+          "Piscina privada desbordante",
+          "Vistas lejanas al mar",
+          "Terrazas de 82 m²",
+          "Cuatro baños",
+          "Jardín paisajístico"
+        ]
+      },
+      "reference": "SE-DEMO-006",
+      "slug": "horizonte-azul-finestrat",
+      "isDemo": true,
+      "available": false,
+      "status": "demo",
+      "currency": "EUR",
+      "images": [
+        {
+          "src": "/images/demo/demo-006-horizonte-azul.jpg",
+          "alt": {
+            "en": "AI-generated demo image of a modern hillside villa and infinity-edge pool at dusk.",
+            "es": "Imagen de demostración generada por IA de una villa moderna en ladera con piscina desbordante al atardecer."
+          },
+          "isAiGenerated": true,
+          "kind": "original",
+          "title": {
+            "en": "Hillside villa with an infinity-edge pool",
+            "es": "Villa en ladera con piscina desbordante"
+          },
+          "caption": {
+            "en": "A spacious hillside villa with pale stone, broad glazing and an infinity-edge pool facing a distant coastal horizon. The living area flows onto a generous dining terrace, while the upper level adds a long balcony overlooking the garden. Four bedrooms and four bathrooms allow room for family and visiting guests. Warm lighting and Mediterranean planting give the setting a calm atmosphere as day turns into evening.",
+            "es": "Una amplia villa en ladera con piedra clara, grandes ventanales y piscina desbordante orientada hacia un horizonte costero lejano. El salón comunica con una generosa terraza de comedor y la planta superior incorpora un largo balcón sobre el jardín. Cuatro dormitorios y cuatro baños ofrecen espacio para la familia y los invitados. La iluminación cálida y la vegetación mediterránea crean un ambiente sereno al atardecer."
+          }
+        },
+        {
+          "src": "/images/demo/demo-006-kitchen.jpg",
+          "alt": {
+            "en": "AI-generated fictional kitchen view: An open kitchen at sunset",
+            "es": "Vista ficticia generada por IA: Una cocina abierta al atardecer"
+          },
+          "isAiGenerated": true,
+          "kind": "kitchen",
+          "title": {
+            "en": "An open kitchen at sunset",
+            "es": "Una cocina abierta al atardecer"
+          },
+          "caption": {
+            "en": "A limestone island anchors the kitchen while warm oak cabinetry softens the room. The broad glazing carries the dining space towards the pool and the evening light.",
+            "es": "Una isla de piedra caliza organiza la cocina y los armarios de roble suavizan el espacio. El gran ventanal prolonga el comedor hacia la piscina y la luz del atardecer."
+          }
+        },
+        {
+          "src": "/images/demo/demo-006-bedroom.jpg",
+          "alt": {
+            "en": "AI-generated fictional bedroom view: The coast beyond the glazing",
+            "es": "Vista ficticia generada por IA: La costa más allá del ventanal"
+          },
+          "isAiGenerated": true,
+          "kind": "bedroom",
+          "title": {
+            "en": "The coast beyond the glazing",
+            "es": "La costa más allá del ventanal"
+          },
+          "caption": {
+            "en": "A low bed and warm timber allow the coastal outlook to remain the focus. The upper balcony continues the villa's long horizontal lines beyond the glazing.",
+            "es": "La cama baja y la madera cálida dejan protagonismo al horizonte costero. El balcón superior prolonga las líneas horizontales de la villa al otro lado del ventanal."
+          }
+        },
+        {
+          "src": "/images/demo/demo-006-bathroom.jpg",
+          "alt": {
+            "en": "AI-generated fictional bathroom view: Stone, light and a quiet routine",
+            "es": "Vista ficticia generada por IA: Piedra, luz y una rutina tranquila"
+          },
+          "isAiGenerated": true,
+          "kind": "bathroom",
+          "title": {
+            "en": "Stone, light and a quiet routine",
+            "es": "Piedra, luz y una rutina tranquila"
+          },
+          "caption": {
+            "en": "Pale stone and a timber double vanity continue the house's material palette. Separate washing and shower areas give the room a clear, calm arrangement.",
+            "es": "La piedra clara y el mueble doble de madera continúan la paleta de la casa. Las zonas de lavabo y ducha separadas crean una distribución clara y serena."
+          }
+        },
+        {
+          "src": "/images/demo/demo-006-outdoor.jpg",
+          "alt": {
+            "en": "AI-generated fictional outdoor view: The pool as evening settles",
+            "es": "Vista ficticia generada por IA: La piscina al caer la tarde"
+          },
+          "isAiGenerated": true,
+          "kind": "outdoor",
+          "title": {
+            "en": "The pool as evening settles",
+            "es": "La piscina al caer la tarde"
+          },
+          "caption": {
+            "en": "The long pool follows the terrace edge as warm interior light reaches the garden. Low planting and open views keep the outdoor composition uncluttered.",
+            "es": "La piscina alargada acompaña el borde de la terraza mientras la luz interior llega al jardín. La vegetación baja y las vistas abiertas mantienen una composición despejada."
+          }
+        }
+      ],
+      "featured": true,
+      "neighbourhood": {
+        "src": "/images/demo/demo-006-neighbourhood.jpg",
+        "alt": {
+          "en": "AI-generated illustrative neighbourhood concept; not a verified real location.",
+          "es": "Concepto de barrio generado por IA; no es una ubicación real verificada."
+        },
+        "isAiGenerated": true,
+        "kind": "neighbourhood",
+        "title": {
+          "en": "An evening in the wider setting",
+          "es": "Una tarde en el entorno"
+        },
+        "caption": {
+          "en": "A hillside lane and a small dining terrace extend the story beyond the home. This generated setting suggests atmosphere, without claiming a particular restaurant or proximity.",
+          "es": "Una calle en ladera y una pequeña terraza de comedor amplían la historia de la vivienda. Este entorno generado sugiere ambiente, sin identificar un restaurante ni afirmar proximidad."
+        },
+        "isIllustrative": true
+      },
+      "story": [
+        {
+          "id": "kitchen",
+          "kind": "kitchen",
+          "heading": {
+            "en": "An open kitchen at sunset",
+            "es": "Una cocina abierta al atardecer"
+          },
+          "body": {
+            "en": "A limestone island anchors the kitchen while warm oak cabinetry softens the room. The broad glazing carries the dining space towards the pool and the evening light.",
+            "es": "Una isla de piedra caliza organiza la cocina y los armarios de roble suavizan el espacio. El gran ventanal prolonga el comedor hacia la piscina y la luz del atardecer."
+          },
+          "image": "kitchen"
+        },
+        {
+          "id": "bedroom",
+          "kind": "bedroom",
+          "heading": {
+            "en": "The coast beyond the glazing",
+            "es": "La costa más allá del ventanal"
+          },
+          "body": {
+            "en": "A low bed and warm timber allow the coastal outlook to remain the focus. The upper balcony continues the villa's long horizontal lines beyond the glazing.",
+            "es": "La cama baja y la madera cálida dejan protagonismo al horizonte costero. El balcón superior prolonga las líneas horizontales de la villa al otro lado del ventanal."
+          },
+          "image": "bedroom"
+        },
+        {
+          "id": "bathroom",
+          "kind": "bathroom",
+          "heading": {
+            "en": "Stone, light and a quiet routine",
+            "es": "Piedra, luz y una rutina tranquila"
+          },
+          "body": {
+            "en": "Pale stone and a timber double vanity continue the house's material palette. Separate washing and shower areas give the room a clear, calm arrangement.",
+            "es": "La piedra clara y el mueble doble de madera continúan la paleta de la casa. Las zonas de lavabo y ducha separadas crean una distribución clara y serena."
+          },
+          "image": "bathroom"
+        },
+        {
+          "id": "outdoor",
+          "kind": "outdoor",
+          "heading": {
+            "en": "The pool as evening settles",
+            "es": "La piscina al caer la tarde"
+          },
+          "body": {
+            "en": "The long pool follows the terrace edge as warm interior light reaches the garden. Low planting and open views keep the outdoor composition uncluttered.",
+            "es": "La piscina alargada acompaña el borde de la terraza mientras la luz interior llega al jardín. La vegetación baja y las vistas abiertas mantienen una composición despejada."
+          },
+          "image": "outdoor"
+        },
+        {
+          "id": "setting",
+          "kind": "neighbourhood",
+          "heading": {
+            "en": "An evening in the wider setting",
+            "es": "Una tarde en el entorno"
+          },
+          "body": {
+            "en": "A hillside lane and a small dining terrace extend the story beyond the home. This generated setting suggests atmosphere, without claiming a particular restaurant or proximity.",
+            "es": "Una calle en ladera y una pequeña terraza de comedor amplían la historia de la vivienda. Este entorno generado sugiere ambiente, sin identificar un restaurante ni afirmar proximidad."
+          },
+          "image": "neighbourhood"
+        }
+      ],
+      "areaVerification": {
+        "status": "unverified-illustrative-context",
+        "namedVenues": [],
+        "verifiedNearbyAmenities": [],
+        "toVerify": [
+          "Exact property location",
+          "Real restaurants and cafés",
+          "Schools and admissions",
+          "Shops and daily services",
+          "Beach and outdoor access",
+          "Transport and measured travel times"
+        ]
+      }
+    },
+    {
+      "name": "Casa Limón",
+      "town": "Benijófar",
+      "area": "Benijófar",
+      "type": "bungalow",
+      "condition": "resale",
+      "priceEur": 259000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "builtAreaM2": 86,
+      "plotAreaM2": 160,
+      "terraceAreaM2": 20,
+      "pool": "none",
+      "seaView": false,
+      "title": {
+        "en": "Single-storey bungalow with a lemon-tree garden",
+        "es": "Bungalow de una planta con jardín de limonero"
+      },
+      "description": {
+        "en": "A compact single-storey bungalow with a shaded front terrace and an intimate Mediterranean garden. White walls, a terracotta roof and patterned tiles bring warmth to the entrance, with a lemon tree adding a natural focal point. Two bedrooms and two bathrooms keep the layout practical. The outdoor space is sized for relaxed seating and a little gardening, offering a quieter alternative to a home with a pool.",
+        "es": "Un bungalow compacto de una planta con terraza delantera sombreada y un pequeño jardín mediterráneo. Las paredes blancas, el tejado de teja y los azulejos decorativos aportan calidez a la entrada, con un limonero como protagonista. Dos dormitorios y dos baños completan una distribución práctica. El exterior ofrece espacio para descansar y cuidar algunas plantas, sin necesidad de mantener una piscina."
+      },
+      "features": {
+        "en": [
+          "Single-storey layout",
+          "Lemon-tree garden",
+          "Shaded terrace",
+          "Patterned tiles",
+          "No swimming pool"
+        ],
+        "es": [
+          "Distribución en una planta",
+          "Jardín con limonero",
+          "Terraza sombreada",
+          "Azulejos decorativos",
+          "Sin piscina"
+        ]
+      },
+      "reference": "SE-DEMO-007",
+      "slug": "casa-limon-benijofar",
+      "isDemo": true,
+      "available": false,
+      "status": "demo",
+      "currency": "EUR",
+      "images": [
+        {
+          "src": "/images/demo/demo-007-casa-limon.jpg",
+          "alt": {
+            "en": "AI-generated demo image of a compact white bungalow with tiled porch and a lemon tree.",
+            "es": "Imagen de demostración generada por IA de un bungalow blanco compacto con porche de azulejos y limonero."
+          },
+          "isAiGenerated": true,
+          "kind": "original",
+          "title": {
+            "en": "Single-storey bungalow with a lemon-tree garden",
+            "es": "Bungalow de una planta con jardín de limonero"
+          },
+          "caption": {
+            "en": "A compact single-storey bungalow with a shaded front terrace and an intimate Mediterranean garden. White walls, a terracotta roof and patterned tiles bring warmth to the entrance, with a lemon tree adding a natural focal point. Two bedrooms and two bathrooms keep the layout practical. The outdoor space is sized for relaxed seating and a little gardening, offering a quieter alternative to a home with a pool.",
+            "es": "Un bungalow compacto de una planta con terraza delantera sombreada y un pequeño jardín mediterráneo. Las paredes blancas, el tejado de teja y los azulejos decorativos aportan calidez a la entrada, con un limonero como protagonista. Dos dormitorios y dos baños completan una distribución práctica. El exterior ofrece espacio para descansar y cuidar algunas plantas, sin necesidad de mantener una piscina."
+          }
+        },
+        {
+          "src": "/images/demo/demo-007-kitchen.jpg",
+          "alt": {
+            "en": "AI-generated fictional kitchen view: A kitchen with a cottage scale",
+            "es": "Vista ficticia generada por IA: Una cocina a escala de la casa"
+          },
+          "isAiGenerated": true,
+          "kind": "kitchen",
+          "title": {
+            "en": "A kitchen with a cottage scale",
+            "es": "Una cocina a escala de la casa"
+          },
+          "caption": {
+            "en": "The compact kitchen pairs warm white fronts with timber and a restrained tiled detail. A small dining corner keeps everyday meals within a comfortable, manageable space.",
+            "es": "La cocina compacta combina frentes blancos cálidos, madera y un detalle cerámico discreto. El pequeño comedor sitúa las comidas diarias en un espacio cómodo y manejable."
+          }
+        },
+        {
+          "src": "/images/demo/demo-007-bedroom.jpg",
+          "alt": {
+            "en": "AI-generated fictional bedroom view: A restful room on one level",
+            "es": "Vista ficticia generada por IA: Un dormitorio tranquilo en una planta"
+          },
+          "isAiGenerated": true,
+          "kind": "bedroom",
+          "title": {
+            "en": "A restful room on one level",
+            "es": "Un dormitorio tranquilo en una planta"
+          },
+          "caption": {
+            "en": "A ground-level garden outlook and pale bedding give the bedroom a quiet character. Simple timber storage leaves space to move comfortably around the bed.",
+            "es": "Las vistas al jardín a nivel del suelo y la ropa de cama clara aportan tranquilidad. El almacenaje sencillo de madera deja un paso cómodo alrededor de la cama."
+          }
+        },
+        {
+          "src": "/images/demo/demo-007-bathroom.jpg",
+          "alt": {
+            "en": "AI-generated fictional bathroom view: A walk-in shower, simply finished",
+            "es": "Vista ficticia generada por IA: Una ducha a ras de suelo y acabados sencillos"
+          },
+          "isAiGenerated": true,
+          "kind": "bathroom",
+          "title": {
+            "en": "A walk-in shower, simply finished",
+            "es": "Una ducha a ras de suelo y acabados sencillos"
+          },
+          "caption": {
+            "en": "A walk-in shower and small timber vanity use the room efficiently. A restrained patterned tile detail connects the bathroom with the bungalow's traditional entrance.",
+            "es": "La ducha a ras de suelo y el pequeño mueble de madera aprovechan el espacio. Un detalle cerámico discreto conecta el baño con la entrada tradicional del bungalow."
+          }
+        },
+        {
+          "src": "/images/demo/demo-007-outdoor.jpg",
+          "alt": {
+            "en": "AI-generated fictional outdoor view: Lemon shade at the entrance",
+            "es": "Vista ficticia generada por IA: Sombra de limonero junto a la entrada"
+          },
+          "isAiGenerated": true,
+          "kind": "outdoor",
+          "title": {
+            "en": "Lemon shade at the entrance",
+            "es": "Sombra de limonero junto a la entrada"
+          },
+          "caption": {
+            "en": "The shaded porch and lemon tree create a small outdoor retreat at the entrance. Patterned steps and a low garden wall give the compact plot a clear identity.",
+            "es": "El porche sombreado y el limonero crean un pequeño refugio exterior junto a la entrada. Los escalones decorativos y el muro bajo dan identidad a la parcela."
+          }
+        }
+      ],
+      "featured": false,
+      "neighbourhood": {
+        "src": "/images/demo/demo-007-neighbourhood.jpg",
+        "alt": {
+          "en": "AI-generated illustrative neighbourhood concept; not a verified real location.",
+          "es": "Concepto de barrio generado por IA; no es una ubicación real verificada."
+        },
+        "isAiGenerated": true,
+        "kind": "neighbourhood",
+        "title": {
+          "en": "A familiar place for a morning coffee",
+          "es": "Un lugar cotidiano para el café de la mañana"
+        },
+        "caption": {
+          "en": "A modest café terrace and citrus planting bring a town-life chapter into view. It remains an illustrative scene; real businesses and routes would be checked separately.",
+          "es": "Una terraza sencilla y las plantas cítricas introducen la vida del pueblo. Sigue siendo una escena ilustrativa; los negocios y recorridos reales se comprobarían por separado."
+        },
+        "isIllustrative": true
+      },
+      "story": [
+        {
+          "id": "kitchen",
+          "kind": "kitchen",
+          "heading": {
+            "en": "A kitchen with a cottage scale",
+            "es": "Una cocina a escala de la casa"
+          },
+          "body": {
+            "en": "The compact kitchen pairs warm white fronts with timber and a restrained tiled detail. A small dining corner keeps everyday meals within a comfortable, manageable space.",
+            "es": "La cocina compacta combina frentes blancos cálidos, madera y un detalle cerámico discreto. El pequeño comedor sitúa las comidas diarias en un espacio cómodo y manejable."
+          },
+          "image": "kitchen"
+        },
+        {
+          "id": "bedroom",
+          "kind": "bedroom",
+          "heading": {
+            "en": "A restful room on one level",
+            "es": "Un dormitorio tranquilo en una planta"
+          },
+          "body": {
+            "en": "A ground-level garden outlook and pale bedding give the bedroom a quiet character. Simple timber storage leaves space to move comfortably around the bed.",
+            "es": "Las vistas al jardín a nivel del suelo y la ropa de cama clara aportan tranquilidad. El almacenaje sencillo de madera deja un paso cómodo alrededor de la cama."
+          },
+          "image": "bedroom"
+        },
+        {
+          "id": "bathroom",
+          "kind": "bathroom",
+          "heading": {
+            "en": "A walk-in shower, simply finished",
+            "es": "Una ducha a ras de suelo y acabados sencillos"
+          },
+          "body": {
+            "en": "A walk-in shower and small timber vanity use the room efficiently. A restrained patterned tile detail connects the bathroom with the bungalow's traditional entrance.",
+            "es": "La ducha a ras de suelo y el pequeño mueble de madera aprovechan el espacio. Un detalle cerámico discreto conecta el baño con la entrada tradicional del bungalow."
+          },
+          "image": "bathroom"
+        },
+        {
+          "id": "outdoor",
+          "kind": "outdoor",
+          "heading": {
+            "en": "Lemon shade at the entrance",
+            "es": "Sombra de limonero junto a la entrada"
+          },
+          "body": {
+            "en": "The shaded porch and lemon tree create a small outdoor retreat at the entrance. Patterned steps and a low garden wall give the compact plot a clear identity.",
+            "es": "El porche sombreado y el limonero crean un pequeño refugio exterior junto a la entrada. Los escalones decorativos y el muro bajo dan identidad a la parcela."
+          },
+          "image": "outdoor"
+        },
+        {
+          "id": "setting",
+          "kind": "neighbourhood",
+          "heading": {
+            "en": "A familiar place for a morning coffee",
+            "es": "Un lugar cotidiano para el café de la mañana"
+          },
+          "body": {
+            "en": "A modest café terrace and citrus planting bring a town-life chapter into view. It remains an illustrative scene; real businesses and routes would be checked separately.",
+            "es": "Una terraza sencilla y las plantas cítricas introducen la vida del pueblo. Sigue siendo una escena ilustrativa; los negocios y recorridos reales se comprobarían por separado."
+          },
+          "image": "neighbourhood"
+        }
+      ],
+      "areaVerification": {
+        "status": "unverified-illustrative-context",
+        "namedVenues": [],
+        "verifiedNearbyAmenities": [],
+        "toVerify": [
+          "Exact property location",
+          "Real restaurants and cafés",
+          "Schools and admissions",
+          "Shops and daily services",
+          "Beach and outdoor access",
+          "Transport and measured travel times"
+        ]
+      }
+    },
+    {
+      "name": "Arena y Sal",
+      "town": "Torrevieja",
+      "area": "La Mata",
+      "type": "apartment",
+      "condition": "resale",
+      "priceEur": 159000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "builtAreaM2": 54,
+      "terraceAreaM2": 7,
+      "pool": "none",
+      "seaView": true,
+      "title": {
+        "en": "Coastal apartment with a sea-view balcony",
+        "es": "Apartamento costero con balcón y vistas al mar"
+      },
+      "description": {
+        "en": "A compact coastal apartment with a bright living room opening onto a small balcony. The sea is visible between neighbouring buildings, giving the main room an appealing sense of light and openness. Simple cream furnishings, natural curtains and light wood tones make the interior feel calm. One bedroom, one bathroom and a practical 54 m² layout create an accessible example within the demo collection.",
+        "es": "Un apartamento costero compacto con salón luminoso y salida a un pequeño balcón. El mar se ve entre los edificios cercanos y aporta una agradable sensación de luz y amplitud a la estancia principal. El mobiliario en tonos crema, las cortinas naturales y la madera clara crean un ambiente tranquilo. Un dormitorio, un baño y 54 m² construidos completan esta propuesta de la colección de demostración."
+      },
+      "features": {
+        "en": [
+          "Sea-view balcony",
+          "One bedroom",
+          "Bright living room",
+          "Compact layout",
+          "No swimming pool"
+        ],
+        "es": [
+          "Balcón con vistas al mar",
+          "Un dormitorio",
+          "Salón luminoso",
+          "Distribución compacta",
+          "Sin piscina"
+        ]
+      },
+      "reference": "SE-DEMO-008",
+      "slug": "arena-y-sal-la-mata",
+      "isDemo": true,
+      "available": false,
+      "status": "demo",
+      "currency": "EUR",
+      "images": [
+        {
+          "src": "/images/demo/demo-008-arena-y-sal.jpg",
+          "alt": {
+            "en": "AI-generated demo image of a small coastal living room opening onto a balcony with a sea view between buildings.",
+            "es": "Imagen de demostración generada por IA de un pequeño salón costero con balcón y vistas al mar entre edificios."
+          },
+          "isAiGenerated": true,
+          "kind": "original",
+          "title": {
+            "en": "Coastal apartment with a sea-view balcony",
+            "es": "Apartamento costero con balcón y vistas al mar"
+          },
+          "caption": {
+            "en": "A compact coastal apartment with a bright living room opening onto a small balcony. The sea is visible between neighbouring buildings, giving the main room an appealing sense of light and openness. Simple cream furnishings, natural curtains and light wood tones make the interior feel calm. One bedroom, one bathroom and a practical 54 m² layout create an accessible example within the demo collection.",
+            "es": "Un apartamento costero compacto con salón luminoso y salida a un pequeño balcón. El mar se ve entre los edificios cercanos y aporta una agradable sensación de luz y amplitud a la estancia principal. El mobiliario en tonos crema, las cortinas naturales y la madera clara crean un ambiente tranquilo. Un dormitorio, un baño y 54 m² construidos completan esta propuesta de la colección de demostración."
+          }
+        },
+        {
+          "src": "/images/demo/demo-008-kitchen.jpg",
+          "alt": {
+            "en": "AI-generated fictional kitchen view: Everything within a compact plan",
+            "es": "Vista ficticia generada por IA: Todo dentro de una distribución compacta"
+          },
+          "isAiGenerated": true,
+          "kind": "kitchen",
+          "title": {
+            "en": "Everything within a compact plan",
+            "es": "Todo dentro de una distribución compacta"
+          },
+          "caption": {
+            "en": "A compact run of cabinets and a light timber worktop keep the kitchen proportionate to the apartment. The adjoining living area stays visually connected to the balcony light.",
+            "es": "Una línea compacta de muebles y una encimera de madera clara mantienen la escala del apartamento. El salón contiguo conserva la conexión con la luz del balcón."
+          }
+        },
+        {
+          "src": "/images/demo/demo-008-bedroom.jpg",
+          "alt": {
+            "en": "AI-generated fictional bedroom view: A simple place to rest",
+            "es": "Vista ficticia generada por IA: Un lugar sencillo para descansar"
+          },
+          "isAiGenerated": true,
+          "kind": "bedroom",
+          "title": {
+            "en": "A simple place to rest",
+            "es": "Un lugar sencillo para descansar"
+          },
+          "caption": {
+            "en": "Pale wood and soft blue-striped textiles give the bedroom continuity with the living room. The simple arrangement suits the scale of a compact one-bedroom home.",
+            "es": "La madera clara y los tejidos de rayas azules conectan el dormitorio con el salón. La distribución sencilla se adapta a la escala de una vivienda compacta de un dormitorio."
+          }
+        },
+        {
+          "src": "/images/demo/demo-008-bathroom.jpg",
+          "alt": {
+            "en": "AI-generated fictional bathroom view: A bathroom that uses its space",
+            "es": "Vista ficticia generada por IA: Un baño que aprovecha su espacio"
+          },
+          "isAiGenerated": true,
+          "kind": "bathroom",
+          "title": {
+            "en": "A bathroom that uses its space",
+            "es": "Un baño que aprovecha su espacio"
+          },
+          "caption": {
+            "en": "A small vanity and compact shower fit within a practical bathroom layout. Light tile keeps the finish consistent with the apartment's straightforward coastal interior.",
+            "es": "El lavabo pequeño y la ducha compacta encajan en una distribución práctica. El revestimiento claro mantiene la coherencia con el interior costero y sencillo del apartamento."
+          }
+        },
+        {
+          "src": "/images/demo/demo-008-outdoor.jpg",
+          "alt": {
+            "en": "AI-generated fictional outdoor view: A small balcony, an open outlook",
+            "es": "Vista ficticia generada por IA: Un balcón pequeño y un horizonte abierto"
+          },
+          "isAiGenerated": true,
+          "kind": "outdoor",
+          "title": {
+            "en": "A small balcony, an open outlook",
+            "es": "Un balcón pequeño y un horizonte abierto"
+          },
+          "caption": {
+            "en": "The small bistro table and two chairs make use of a narrow balcony. Between neighbouring buildings, the sea adds an open point to the apartment's outlook.",
+            "es": "La pequeña mesa y las dos sillas aprovechan el balcón estrecho. Entre los edificios cercanos, el mar aporta un punto abierto a las vistas del apartamento."
+          }
+        }
+      ],
+      "featured": false,
+      "neighbourhood": {
+        "src": "/images/demo/demo-008-neighbourhood.jpg",
+        "alt": {
+          "en": "AI-generated illustrative neighbourhood concept; not a verified real location.",
+          "es": "Concepto de barrio generado por IA; no es una ubicación real verificada."
+        },
+        "isAiGenerated": true,
+        "kind": "neighbourhood",
+        "title": {
+          "en": "A coastal morning beyond the home",
+          "es": "Una mañana costera más allá de casa"
+        },
+        "caption": {
+          "en": "A beachside promenade and simple breakfast tables provide a coastal setting for the story. The image is illustrative and makes no claim about a real nearby venue.",
+          "es": "Un paseo junto a la playa y mesas de desayuno sencillas aportan un entorno costero a la historia. La imagen es ilustrativa y no identifica un local real cercano."
+        },
+        "isIllustrative": true
+      },
+      "story": [
+        {
+          "id": "kitchen",
+          "kind": "kitchen",
+          "heading": {
+            "en": "Everything within a compact plan",
+            "es": "Todo dentro de una distribución compacta"
+          },
+          "body": {
+            "en": "A compact run of cabinets and a light timber worktop keep the kitchen proportionate to the apartment. The adjoining living area stays visually connected to the balcony light.",
+            "es": "Una línea compacta de muebles y una encimera de madera clara mantienen la escala del apartamento. El salón contiguo conserva la conexión con la luz del balcón."
+          },
+          "image": "kitchen"
+        },
+        {
+          "id": "bedroom",
+          "kind": "bedroom",
+          "heading": {
+            "en": "A simple place to rest",
+            "es": "Un lugar sencillo para descansar"
+          },
+          "body": {
+            "en": "Pale wood and soft blue-striped textiles give the bedroom continuity with the living room. The simple arrangement suits the scale of a compact one-bedroom home.",
+            "es": "La madera clara y los tejidos de rayas azules conectan el dormitorio con el salón. La distribución sencilla se adapta a la escala de una vivienda compacta de un dormitorio."
+          },
+          "image": "bedroom"
+        },
+        {
+          "id": "bathroom",
+          "kind": "bathroom",
+          "heading": {
+            "en": "A bathroom that uses its space",
+            "es": "Un baño que aprovecha su espacio"
+          },
+          "body": {
+            "en": "A small vanity and compact shower fit within a practical bathroom layout. Light tile keeps the finish consistent with the apartment's straightforward coastal interior.",
+            "es": "El lavabo pequeño y la ducha compacta encajan en una distribución práctica. El revestimiento claro mantiene la coherencia con el interior costero y sencillo del apartamento."
+          },
+          "image": "bathroom"
+        },
+        {
+          "id": "outdoor",
+          "kind": "outdoor",
+          "heading": {
+            "en": "A small balcony, an open outlook",
+            "es": "Un balcón pequeño y un horizonte abierto"
+          },
+          "body": {
+            "en": "The small bistro table and two chairs make use of a narrow balcony. Between neighbouring buildings, the sea adds an open point to the apartment's outlook.",
+            "es": "La pequeña mesa y las dos sillas aprovechan el balcón estrecho. Entre los edificios cercanos, el mar aporta un punto abierto a las vistas del apartamento."
+          },
+          "image": "outdoor"
+        },
+        {
+          "id": "setting",
+          "kind": "neighbourhood",
+          "heading": {
+            "en": "A coastal morning beyond the home",
+            "es": "Una mañana costera más allá de casa"
+          },
+          "body": {
+            "en": "A beachside promenade and simple breakfast tables provide a coastal setting for the story. The image is illustrative and makes no claim about a real nearby venue.",
+            "es": "Un paseo junto a la playa y mesas de desayuno sencillas aportan un entorno costero a la historia. La imagen es ilustrativa y no identifica un local real cercano."
+          },
+          "image": "neighbourhood"
+        }
+      ],
+      "areaVerification": {
+        "status": "unverified-illustrative-context",
+        "namedVenues": [],
+        "verifiedNearbyAmenities": [],
+        "toVerify": [
+          "Exact property location",
+          "Real restaurants and cafés",
+          "Schools and admissions",
+          "Shops and daily services",
+          "Beach and outdoor access",
+          "Transport and measured travel times"
+        ]
+      }
+    },
+    {
+      "name": "Pinos del Mediterráneo",
+      "town": "Orihuela Costa",
+      "area": "Campoamor",
+      "type": "villa",
+      "condition": "resale",
+      "priceEur": 649000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "builtAreaM2": 186,
+      "plotAreaM2": 750,
+      "terraceAreaM2": 46,
+      "pool": "private",
+      "seaView": false,
+      "title": {
+        "en": "Established villa surrounded by mature pines",
+        "es": "Villa consolidada rodeada de pinos maduros"
+      },
+      "description": {
+        "en": "An established Mediterranean villa set within a generous garden of mature umbrella pines and planting. Cream walls, natural stone and terracotta roofs frame a covered terrace overlooking the private pool. Four bedrooms and three bathrooms provide space for family stays, while the broad garden offers several places to sit in sun or shade. The overall feeling is settled, green and comfortably residential.",
+        "es": "Una villa mediterránea consolidada dentro de un amplio jardín con pinos maduros y vegetación. Las paredes en tonos crema, la piedra natural y los tejados de teja enmarcan un porche cubierto frente a la piscina privada. Cuatro dormitorios y tres baños ofrecen espacio para estancias familiares. El jardín dispone de diferentes rincones de sol y sombra y transmite una sensación residencial tranquila y acogedora."
+      },
+      "features": {
+        "en": [
+          "Private pool",
+          "750 m² plot",
+          "Mature pine garden",
+          "Covered terrace",
+          "Four bedrooms"
+        ],
+        "es": [
+          "Piscina privada",
+          "Parcela de 750 m²",
+          "Jardín con pinos maduros",
+          "Porche cubierto",
+          "Cuatro dormitorios"
+        ]
+      },
+      "reference": "SE-DEMO-009",
+      "slug": "pinos-del-mediterraneo-campoamor",
+      "isDemo": true,
+      "available": false,
+      "status": "demo",
+      "currency": "EUR",
+      "images": [
+        {
+          "src": "/images/demo/demo-009-pinos-del-mediterraneo.jpg",
+          "alt": {
+            "en": "AI-generated demo image of a Mediterranean villa, rectangular swimming pool and mature pine garden.",
+            "es": "Imagen de demostración generada por IA de una villa mediterránea con piscina rectangular y jardín de pinos maduros."
+          },
+          "isAiGenerated": true,
+          "kind": "original",
+          "title": {
+            "en": "Established villa surrounded by mature pines",
+            "es": "Villa consolidada rodeada de pinos maduros"
+          },
+          "caption": {
+            "en": "An established Mediterranean villa set within a generous garden of mature umbrella pines and planting. Cream walls, natural stone and terracotta roofs frame a covered terrace overlooking the private pool. Four bedrooms and three bathrooms provide space for family stays, while the broad garden offers several places to sit in sun or shade. The overall feeling is settled, green and comfortably residential.",
+            "es": "Una villa mediterránea consolidada dentro de un amplio jardín con pinos maduros y vegetación. Las paredes en tonos crema, la piedra natural y los tejados de teja enmarcan un porche cubierto frente a la piscina privada. Cuatro dormitorios y tres baños ofrecen espacio para estancias familiares. El jardín dispone de diferentes rincones de sol y sombra y transmite una sensación residencial tranquila y acogedora."
+          }
+        },
+        {
+          "src": "/images/demo/demo-009-kitchen.jpg",
+          "alt": {
+            "en": "AI-generated fictional kitchen view: A family kitchen with character",
+            "es": "Vista ficticia generada por IA: Una cocina familiar con carácter"
+          },
+          "isAiGenerated": true,
+          "kind": "kitchen",
+          "title": {
+            "en": "A family kitchen with character",
+            "es": "Una cocina familiar con carácter"
+          },
+          "caption": {
+            "en": "Cream cabinetry and natural timber give the family kitchen a settled character. The traditional window keeps mature garden greenery in view while leaving room for shared meals.",
+            "es": "Los muebles crema y la madera natural aportan un carácter acogedor a la cocina familiar. La ventana tradicional incorpora el verde del jardín y deja espacio para compartir comidas."
+          }
+        },
+        {
+          "src": "/images/demo/demo-009-bedroom.jpg",
+          "alt": {
+            "en": "AI-generated fictional bedroom view: Pine shade beyond the windows",
+            "es": "Vista ficticia generada por IA: Sombra de pinos tras las ventanas"
+          },
+          "isAiGenerated": true,
+          "kind": "bedroom",
+          "title": {
+            "en": "Pine shade beyond the windows",
+            "es": "Sombra de pinos tras las ventanas"
+          },
+          "caption": {
+            "en": "Timber furniture and pale linen create a comfortable bedroom, with pine branches beyond the traditional opening. The small balcony continues the house's established Mediterranean character.",
+            "es": "La madera y el lino claro crean un dormitorio cómodo, con ramas de pino tras la ventana tradicional. El pequeño balcón prolonga el carácter mediterráneo de la casa."
+          }
+        },
+        {
+          "src": "/images/demo/demo-009-bathroom.jpg",
+          "alt": {
+            "en": "AI-generated fictional bathroom view: Warm stone and everyday comfort",
+            "es": "Vista ficticia generada por IA: Piedra cálida y comodidad cotidiana"
+          },
+          "isAiGenerated": true,
+          "kind": "bathroom",
+          "title": {
+            "en": "Warm stone and everyday comfort",
+            "es": "Piedra cálida y comodidad cotidiana"
+          },
+          "caption": {
+            "en": "Warm stone tones and a timber vanity give the bathroom a gentle update. A glazed shower keeps the arrangement open while a small blue detail recalls the garden pool.",
+            "es": "La piedra cálida y el mueble de madera actualizan el baño con suavidad. La ducha acristalada despeja la distribución y un pequeño detalle azul recuerda a la piscina."
+          }
+        },
+        {
+          "src": "/images/demo/demo-009-outdoor.jpg",
+          "alt": {
+            "en": "AI-generated fictional outdoor view: Between the pines and the pool",
+            "es": "Vista ficticia generada por IA: Entre los pinos y la piscina"
+          },
+          "isAiGenerated": true,
+          "kind": "outdoor",
+          "title": {
+            "en": "Between the pines and the pool",
+            "es": "Entre los pinos y la piscina"
+          },
+          "caption": {
+            "en": "The covered veranda looks onto the rectangular pool and mature pine garden. Lawn, shade and open paving offer different places for a family to spend time outside.",
+            "es": "El porche cubierto mira hacia la piscina rectangular y el jardín de pinos maduros. El césped, la sombra y el pavimento ofrecen diferentes espacios para estar al aire libre."
+          }
+        }
+      ],
+      "featured": true,
+      "neighbourhood": {
+        "src": "/images/demo/demo-009-neighbourhood.jpg",
+        "alt": {
+          "en": "AI-generated illustrative neighbourhood concept; not a verified real location.",
+          "es": "Concepto de barrio generado por IA; no es una ubicación real verificada."
+        },
+        "isAiGenerated": true,
+        "kind": "neighbourhood",
+        "title": {
+          "en": "Time under the pines",
+          "es": "Tiempo bajo los pinos"
+        },
+        "caption": {
+          "en": "Pine shade and outdoor café seating introduce a green neighbourhood atmosphere. Actual restaurants, schools and services would be linked to a verified property location later.",
+          "es": "La sombra de los pinos y una terraza de cafetería introducen un ambiente verde. Los restaurantes, colegios y servicios reales se vincularían después a una ubicación verificada."
+        },
+        "isIllustrative": true
+      },
+      "story": [
+        {
+          "id": "kitchen",
+          "kind": "kitchen",
+          "heading": {
+            "en": "A family kitchen with character",
+            "es": "Una cocina familiar con carácter"
+          },
+          "body": {
+            "en": "Cream cabinetry and natural timber give the family kitchen a settled character. The traditional window keeps mature garden greenery in view while leaving room for shared meals.",
+            "es": "Los muebles crema y la madera natural aportan un carácter acogedor a la cocina familiar. La ventana tradicional incorpora el verde del jardín y deja espacio para compartir comidas."
+          },
+          "image": "kitchen"
+        },
+        {
+          "id": "bedroom",
+          "kind": "bedroom",
+          "heading": {
+            "en": "Pine shade beyond the windows",
+            "es": "Sombra de pinos tras las ventanas"
+          },
+          "body": {
+            "en": "Timber furniture and pale linen create a comfortable bedroom, with pine branches beyond the traditional opening. The small balcony continues the house's established Mediterranean character.",
+            "es": "La madera y el lino claro crean un dormitorio cómodo, con ramas de pino tras la ventana tradicional. El pequeño balcón prolonga el carácter mediterráneo de la casa."
+          },
+          "image": "bedroom"
+        },
+        {
+          "id": "bathroom",
+          "kind": "bathroom",
+          "heading": {
+            "en": "Warm stone and everyday comfort",
+            "es": "Piedra cálida y comodidad cotidiana"
+          },
+          "body": {
+            "en": "Warm stone tones and a timber vanity give the bathroom a gentle update. A glazed shower keeps the arrangement open while a small blue detail recalls the garden pool.",
+            "es": "La piedra cálida y el mueble de madera actualizan el baño con suavidad. La ducha acristalada despeja la distribución y un pequeño detalle azul recuerda a la piscina."
+          },
+          "image": "bathroom"
+        },
+        {
+          "id": "outdoor",
+          "kind": "outdoor",
+          "heading": {
+            "en": "Between the pines and the pool",
+            "es": "Entre los pinos y la piscina"
+          },
+          "body": {
+            "en": "The covered veranda looks onto the rectangular pool and mature pine garden. Lawn, shade and open paving offer different places for a family to spend time outside.",
+            "es": "El porche cubierto mira hacia la piscina rectangular y el jardín de pinos maduros. El césped, la sombra y el pavimento ofrecen diferentes espacios para estar al aire libre."
+          },
+          "image": "outdoor"
+        },
+        {
+          "id": "setting",
+          "kind": "neighbourhood",
+          "heading": {
+            "en": "Time under the pines",
+            "es": "Tiempo bajo los pinos"
+          },
+          "body": {
+            "en": "Pine shade and outdoor café seating introduce a green neighbourhood atmosphere. Actual restaurants, schools and services would be linked to a verified property location later.",
+            "es": "La sombra de los pinos y una terraza de cafetería introducen un ambiente verde. Los restaurantes, colegios y servicios reales se vincularían después a una ubicación verificada."
+          },
+          "image": "neighbourhood"
+        }
+      ],
+      "areaVerification": {
+        "status": "unverified-illustrative-context",
+        "namedVenues": [],
+        "verifiedNearbyAmenities": [],
+        "toVerify": [
+          "Exact property location",
+          "Real restaurants and cafés",
+          "Schools and admissions",
+          "Shops and daily services",
+          "Beach and outdoor access",
+          "Transport and measured travel times"
+        ]
+      }
+    },
+    {
+      "name": "Luz de Altea",
+      "town": "Altea",
+      "area": "Village setting inspired by Altea",
+      "type": "townhouse",
+      "condition": "resale",
+      "priceEur": 345000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "builtAreaM2": 132,
+      "terraceAreaM2": 22,
+      "pool": "none",
+      "seaView": true,
+      "title": {
+        "en": "Whitewashed townhouse with a recessed terrace",
+        "es": "Casa de pueblo blanca con terraza retranqueada"
+      },
+      "description": {
+        "en": "A characterful village townhouse with whitewashed walls, stone detailing and a muted blue entrance door. Small balconies face a quiet sloping lane, while a recessed upper terrace offers a sheltered place to unwind. Three bedrooms and two bathrooms are arranged across three compact levels. Traditional textures, potted flowers and a distant coastal outlook create a distinct alternative to the modern homes in this collection.",
+        "es": "Una casa de pueblo con carácter, paredes blancas, detalles de piedra y puerta de entrada en azul suave. Los pequeños balcones dan a una calle peatonal en pendiente y la terraza superior retranqueada ofrece un rincón protegido para descansar. Tres dormitorios y dos baños se distribuyen en tres niveles compactos. Las texturas tradicionales, las flores y el horizonte costero aportan una personalidad propia a esta colección."
+      },
+      "features": {
+        "en": [
+          "Recessed upper terrace",
+          "Three compact levels",
+          "Traditional balconies",
+          "Distant coastal outlook",
+          "No swimming pool"
+        ],
+        "es": [
+          "Terraza superior retranqueada",
+          "Tres niveles compactos",
+          "Balcones tradicionales",
+          "Horizonte costero lejano",
+          "Sin piscina"
+        ]
+      },
+      "reference": "SE-DEMO-010",
+      "slug": "luz-de-altea-townhouse",
+      "isDemo": true,
+      "available": false,
+      "status": "demo",
+      "currency": "EUR",
+      "images": [
+        {
+          "src": "/images/demo/demo-010-luz-de-altea.jpg",
+          "alt": {
+            "en": "AI-generated demo image of a whitewashed village townhouse, blue door, balconies and a distant coastal horizon.",
+            "es": "Imagen de demostración generada por IA de una casa de pueblo blanca con puerta azul, balcones y horizonte costero lejano."
+          },
+          "isAiGenerated": true,
+          "kind": "original",
+          "title": {
+            "en": "Whitewashed townhouse with a recessed terrace",
+            "es": "Casa de pueblo blanca con terraza retranqueada"
+          },
+          "caption": {
+            "en": "A characterful village townhouse with whitewashed walls, stone detailing and a muted blue entrance door. Small balconies face a quiet sloping lane, while a recessed upper terrace offers a sheltered place to unwind. Three bedrooms and two bathrooms are arranged across three compact levels. Traditional textures, potted flowers and a distant coastal outlook create a distinct alternative to the modern homes in this collection.",
+            "es": "Una casa de pueblo con carácter, paredes blancas, detalles de piedra y puerta de entrada en azul suave. Los pequeños balcones dan a una calle peatonal en pendiente y la terraza superior retranqueada ofrece un rincón protegido para descansar. Tres dormitorios y dos baños se distribuyen en tres niveles compactos. Las texturas tradicionales, las flores y el horizonte costero aportan una personalidad propia a esta colección."
+          }
+        },
+        {
+          "src": "/images/demo/demo-010-kitchen.jpg",
+          "alt": {
+            "en": "AI-generated fictional kitchen view: A kitchen within the village walls",
+            "es": "Vista ficticia generada por IA: Una cocina entre los muros del pueblo"
+          },
+          "isAiGenerated": true,
+          "kind": "kitchen",
+          "title": {
+            "en": "A kitchen within the village walls",
+            "es": "Una cocina entre los muros del pueblo"
+          },
+          "caption": {
+            "en": "Timber cabinetry, pale stone and a small dining table work within the traditional walls. The kitchen keeps its village character while offering a clear space for everyday meals.",
+            "es": "Los muebles de madera, la piedra clara y la mesa pequeña se adaptan a los muros tradicionales. La cocina conserva el carácter del pueblo y ofrece espacio para las comidas diarias."
+          }
+        },
+        {
+          "src": "/images/demo/demo-010-bedroom.jpg",
+          "alt": {
+            "en": "AI-generated fictional bedroom view: Light above the lane",
+            "es": "Vista ficticia generada por IA: Luz sobre la calle"
+          },
+          "isAiGenerated": true,
+          "kind": "bedroom",
+          "title": {
+            "en": "Light above the lane",
+            "es": "Luz sobre la calle"
+          },
+          "caption": {
+            "en": "Traditional balcony doors bring light into a bedroom of white walls and warm timber. The village lane remains part of the outlook, with a distant coastal glimpse.",
+            "es": "Las puertas balconeras tradicionales iluminan un dormitorio de paredes blancas y madera cálida. La calle del pueblo forma parte de las vistas, con un pequeño horizonte costero lejano."
+          }
+        },
+        {
+          "src": "/images/demo/demo-010-bathroom.jpg",
+          "alt": {
+            "en": "AI-generated fictional bathroom view: Old textures, updated comfort",
+            "es": "Vista ficticia generada por IA: Texturas tradicionales y comodidad actual"
+          },
+          "isAiGenerated": true,
+          "kind": "bathroom",
+          "title": {
+            "en": "Old textures, updated comfort",
+            "es": "Texturas tradicionales y comodidad actual"
+          },
+          "caption": {
+            "en": "Lime-toned walls and a small timber vanity retain a gentle traditional feel. A clear shower screen and restrained fittings give the room a practical contemporary update.",
+            "es": "Las paredes claras y el pequeño mueble de madera conservan un aire tradicional. La mampara transparente y la grifería discreta aportan una actualización práctica al baño."
+          }
+        },
+        {
+          "src": "/images/demo/demo-010-outdoor.jpg",
+          "alt": {
+            "en": "AI-generated fictional outdoor view: The sheltered upper terrace",
+            "es": "Vista ficticia generada por IA: La terraza superior protegida"
+          },
+          "isAiGenerated": true,
+          "kind": "outdoor",
+          "title": {
+            "en": "The sheltered upper terrace",
+            "es": "La terraza superior protegida"
+          },
+          "caption": {
+            "en": "The recessed upper terrace creates a sheltered outdoor corner within the roofline. Timber beams, terracotta pots and village rooftops give it a distinct sense of place.",
+            "es": "La terraza superior retranqueada crea un rincón exterior protegido dentro de la cubierta. Las vigas, macetas de terracota y tejados del pueblo le dan una identidad propia."
+          }
+        }
+      ],
+      "featured": false,
+      "neighbourhood": {
+        "src": "/images/demo/demo-010-neighbourhood.jpg",
+        "alt": {
+          "en": "AI-generated illustrative neighbourhood concept; not a verified real location.",
+          "es": "Concepto de barrio generado por IA; no es una ubicación real verificada."
+        },
+        "isAiGenerated": true,
+        "kind": "neighbourhood",
+        "title": {
+          "en": "An evening among the white streets",
+          "es": "Una tarde entre calles blancas"
+        },
+        "caption": {
+          "en": "White walls, flower pots and a small café terrace create an illustrative village chapter. Named places and their relationship to a real home would be verified separately.",
+          "es": "Las paredes blancas, las macetas y una pequeña terraza de cafetería crean un capítulo de pueblo ilustrativo. Los lugares identificados y su relación con una vivienda real se verificarían por separado."
+        },
+        "isIllustrative": true
+      },
+      "story": [
+        {
+          "id": "kitchen",
+          "kind": "kitchen",
+          "heading": {
+            "en": "A kitchen within the village walls",
+            "es": "Una cocina entre los muros del pueblo"
+          },
+          "body": {
+            "en": "Timber cabinetry, pale stone and a small dining table work within the traditional walls. The kitchen keeps its village character while offering a clear space for everyday meals.",
+            "es": "Los muebles de madera, la piedra clara y la mesa pequeña se adaptan a los muros tradicionales. La cocina conserva el carácter del pueblo y ofrece espacio para las comidas diarias."
+          },
+          "image": "kitchen"
+        },
+        {
+          "id": "bedroom",
+          "kind": "bedroom",
+          "heading": {
+            "en": "Light above the lane",
+            "es": "Luz sobre la calle"
+          },
+          "body": {
+            "en": "Traditional balcony doors bring light into a bedroom of white walls and warm timber. The village lane remains part of the outlook, with a distant coastal glimpse.",
+            "es": "Las puertas balconeras tradicionales iluminan un dormitorio de paredes blancas y madera cálida. La calle del pueblo forma parte de las vistas, con un pequeño horizonte costero lejano."
+          },
+          "image": "bedroom"
+        },
+        {
+          "id": "bathroom",
+          "kind": "bathroom",
+          "heading": {
+            "en": "Old textures, updated comfort",
+            "es": "Texturas tradicionales y comodidad actual"
+          },
+          "body": {
+            "en": "Lime-toned walls and a small timber vanity retain a gentle traditional feel. A clear shower screen and restrained fittings give the room a practical contemporary update.",
+            "es": "Las paredes claras y el pequeño mueble de madera conservan un aire tradicional. La mampara transparente y la grifería discreta aportan una actualización práctica al baño."
+          },
+          "image": "bathroom"
+        },
+        {
+          "id": "outdoor",
+          "kind": "outdoor",
+          "heading": {
+            "en": "The sheltered upper terrace",
+            "es": "La terraza superior protegida"
+          },
+          "body": {
+            "en": "The recessed upper terrace creates a sheltered outdoor corner within the roofline. Timber beams, terracotta pots and village rooftops give it a distinct sense of place.",
+            "es": "La terraza superior retranqueada crea un rincón exterior protegido dentro de la cubierta. Las vigas, macetas de terracota y tejados del pueblo le dan una identidad propia."
+          },
+          "image": "outdoor"
+        },
+        {
+          "id": "setting",
+          "kind": "neighbourhood",
+          "heading": {
+            "en": "An evening among the white streets",
+            "es": "Una tarde entre calles blancas"
+          },
+          "body": {
+            "en": "White walls, flower pots and a small café terrace create an illustrative village chapter. Named places and their relationship to a real home would be verified separately.",
+            "es": "Las paredes blancas, las macetas y una pequeña terraza de cafetería crean un capítulo de pueblo ilustrativo. Los lugares identificados y su relación con una vivienda real se verificarían por separado."
+          },
+          "image": "neighbourhood"
+        }
+      ],
+      "areaVerification": {
+        "status": "unverified-illustrative-context",
+        "namedVenues": [],
+        "verifiedNearbyAmenities": [],
+        "toVerify": [
+          "Exact property location",
+          "Real restaurants and cafés",
+          "Schools and admissions",
+          "Shops and daily services",
+          "Beach and outdoor access",
+          "Transport and measured travel times"
+        ]
+      }
+    }
+  ]
+}

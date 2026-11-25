@@ -1,7 +1,17 @@
-export function PageIntro({ eyebrow, title, lead }: { eyebrow?: string; title: string; lead: string }) {
+export function PageIntro({
+  eyebrow,
+  title,
+  lead,
+  compact = false,
+}: {
+  eyebrow?: string;
+  title: string;
+  lead: string;
+  compact?: boolean;
+}) {
   return (
     <section className="border-b border-ivory-200 bg-ivory-100">
-      <div className="container-page py-16 md:py-24">
+      <div className={`container-page ${compact ? "py-12 md:py-16" : "py-16 md:py-24"}`}>
         {eyebrow && <p className="eyebrow">{eyebrow}</p>}
         <h1 className="mt-4 max-w-3xl text-4xl leading-[1.08] text-forest-900 md:text-6xl">{title}</h1>
         <span className="gold-rule mt-8" />
