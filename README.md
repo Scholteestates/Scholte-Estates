@@ -108,7 +108,8 @@ Put images in `public/images/` and set `src` for the matching slot in
 - [x] Approved logos in header and footer (`docs/brand.md`)
 - [ ] Business-card colours
 - [ ] Real photography
-- [ ] Legal notice (aviso legal), privacy and cookie pages
+- [x] Legal notice (aviso legal) and privacy & cookie policy (EN/ES), robots.txt,
+      sitemap.xml and favicon (see CLAUDE.md)
 - [ ] German
 - [ ] Real property listings (replace demo data)
 - [ ] Enquiry handling, CRM / property feeds, database, admin, AIVENA integration

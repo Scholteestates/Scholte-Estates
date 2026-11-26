@@ -65,6 +65,18 @@ export function SiteFooter({ locale, dict }: { locale: Locale; dict: Dictionary 
             © {year} {site.name}. {dict.footer.rights}
             <span className="ml-2 text-gold-400">{site.brandLine}</span>
           </p>
+          <ul className="flex flex-wrap gap-x-6 gap-y-2">
+            <li>
+              <Link href={`/${locale}/legal-notice`} className="underline decoration-ivory-50/25 underline-offset-4 hover:text-ivory-50">
+                {dict.footer.legal}
+              </Link>
+            </li>
+            <li>
+              <Link href={`/${locale}/privacy`} className="underline decoration-ivory-50/25 underline-offset-4 hover:text-ivory-50">
+                {dict.footer.privacy}
+              </Link>
+            </li>
+          </ul>
           <LanguageSwitch current={locale} label={dict.nav.language} tone="light" />
         </div>
       </div>

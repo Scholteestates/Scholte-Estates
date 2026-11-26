@@ -75,6 +75,32 @@ Ciudad Quesada serving the Costa Blanca and international buyers.
   deferred to the buyer's independent lawyer.
 - Do not purchase services or paid upgrades without explicit approval.
 
+## Legal pages, privacy and SEO files (2026-11-26)
+
+- Operator details (user-confirmed) live only in `site.legal`
+  (`src/config/site.ts`): Christian Scholte, trading as Scholte Estates,
+  autónomo, NIF Y1377545C, Calle Galicia 114, Ciudad Quesada, 03170 Rojales
+  (Alicante), described as "Legal and correspondence address. No client
+  reception." Never use the Nexus address (AIVENA) for Scholte Estates.
+- The estate-agent registration is being handled by the user's asesor: do not
+  ask again, do not invent a number or membership, do not say it is complete.
+  Add the number to the legal notice when the user supplies it.
+- Texts: `src/content/legal.ts` (EN/ES), pages `/[lang]/legal-notice` and
+  `/[lang]/privacy`, linked in the footer. The privacy/cookie claims rest on an
+  audit of the live site (only first-party requests; cookie `NEXT_LOCALE`;
+  Netlify badge local storage `nl-hud:public:v1` only on "hide"). **Re-audit
+  and update the policy before adding any form, analytics, embed, map, chat
+  widget or new provider.** Transfers: Netlify, Google LLC and Meta are active
+  EU-U.S. DPF participants (checked 2026-11-26).
+- Enquiry retention: proposed 24 months after last contact
+  (`site.legal.enquiryRetentionMonths`), awaiting the user's confirmation.
+- `src/app/robots.ts` allows everything (demo pages must stay crawlable so
+  their `noindex` is read); `src/app/sitemap.ts` lists genuine pages only,
+  never demo property pages.
+- Favicon (`src/app/favicon.ico`, `icon.png`, `apple-icon.png`): a crop of the
+  capital S from the approved dark logo on its own background tone (approved
+  by the user 2026-11-26). Regenerate from the logo, never redraw.
+
 ## Hosting and domain (approved 2026-11-26)
 
 - **Netlify Free**, in a separate Scholte Estates Netlify account, connected
