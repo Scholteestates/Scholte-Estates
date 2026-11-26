@@ -7,6 +7,8 @@ import { getPreviewListing, getPreviewListings, previewMediaUrl, type PreviewLis
 import type { PhotoClassification } from "@/lib/listings/types";
 import { PropertyStory, type DescBlock, type RoomLayout, type StoryPicture, type StoryView } from "@/components/property/property-story";
 import type { GalleryItem } from "@/components/property/story-gallery";
+import { areaForPlace } from "@/lib/areas";
+import { buildAreaSection } from "@/lib/areas/view";
 
 /**
  * PRIVATE PREVIEW of a real-listing story built from a provider feed.
@@ -187,6 +189,7 @@ export default async function ListingPreviewPage({ params }: Props) {
   const lines = d.description[locale] ?? en;
   const description = toBlocks(lines, lines.length === en.length ? lineKinds(en) : lineKinds(lines));
 
+  const townArea = areaForPlace(d.town);
   const name = o.name[locale];
   const waText = fill(L.whatsappText, { name, ref: d.source.providerRef });
 
@@ -205,8 +208,9 @@ export default async function ListingPreviewPage({ params }: Props) {
     notice: unreviewed ? `${L.previewNotice} ${L.labelsProvisional}` : L.previewNotice,
     cover,
     rooms,
-    // The area chapter appears only once its places are verified (none yet).
+    // No illustrative setting for real listings; the area map shows checked places only.
     setting: undefined,
+    area: townArea ? buildAreaSection(townArea.area, townArea.approved, dict, locale, d.coordinates) : undefined,
     facts: {
       overview: s.overview,
       description,

@@ -15,6 +15,8 @@ import {
 import { PropertyCard } from "@/components/property/property-card";
 import { PropertyStory, type RoomLayout, type StoryPicture, type StoryView } from "@/components/property/property-story";
 import type { GalleryItem } from "@/components/property/story-gallery";
+import { areaForPlace } from "@/lib/areas";
+import { buildAreaSection } from "@/lib/areas/view";
 
 // Every property page is prerendered; render blocking so unknown slugs return a real 404.
 export const instant = false;
@@ -58,6 +60,7 @@ export default async function PropertyPage({ params }: PageProps<"/[lang]/proper
   const kinds = dict.landing.kinds;
   const cover = p.images.find((i) => i.kind === "original") ?? p.images[0];
   const chapters = (p.story ?? []).filter((c) => storyImage(p, c.image));
+  const townArea = areaForPlace(p.area, p.town);
   const rooms = chapters.filter((c) => c.kind !== "neighbourhood");
   const setting = chapters.find((c) => c.kind === "neighbourhood");
   const settingImage = setting ? storyImage(p, setting.image) : null;
@@ -157,6 +160,8 @@ export default async function PropertyPage({ params }: PageProps<"/[lang]/proper
             standard: s.standard,
           }
         : undefined,
+    // Demo homes are fictional: the town's checked places, no home pin, no distances.
+    area: townArea ? buildAreaSection(townArea.area, townArea.approved, dict, locale) : undefined,
     facts: {
       overview: s.overview,
       description: [{ kind: "p", text: p.description[locale] }],

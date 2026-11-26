@@ -1,0 +1,180 @@
+{
+  "id": "finestrat",
+  "name": "Finestrat",
+  "centre": {
+    "lat": 38.5679236,
+    "lng": -0.2122319,
+    "source": "Nominatim: Finestrat, la Marina Baixa, Alacant / Alicante, Comunitat Valenciana, 03509, España"
+  },
+  "radiusM": 4000,
+  "places": [
+    {
+      "name": "Bar El Cantonet - Loterías",
+      "category": "bar",
+      "lat": 38.569268,
+      "lng": -0.210526,
+      "osm": "node/6446101635",
+      "sourceUrl": "https://turismofinestrat.org/descubre/el-cantonet",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Village bar on Av. de Benidorm: daily set menus, tapas, sandwiches, burgers and paellas; also a lottery outlet.",
+        "es": "Bar del pueblo en la Av. de Benidorm: menú del día, tapas, bocadillos, hamburguesas y paellas; también lotería."
+      }
+    },
+    {
+      "name": "El Puerto",
+      "category": "bar",
+      "lat": 38.567404,
+      "lng": -0.213777,
+      "osm": "node/6459965149",
+      "sourceUrl": "https://turismofinestrat.org/descubre/el-puerto",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Bar in the village serving homemade tapas and drinks, listed by Finestrat's tourism office.",
+        "es": "Bar en el pueblo con tapas caseras y bebidas, incluido en la guía de Turismo de Finestrat."
+      }
+    },
+    {
+      "name": "La Barra",
+      "category": "restaurant",
+      "lat": 38.569231,
+      "lng": -0.210913,
+      "osm": "node/6446101658",
+      "sourceUrl": "https://turismofinestrat.org/descubre/la-barra",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Restaurant known for paellas: daily menu, weekend menus with starters and paella, fried fish and tapas.",
+        "es": "Restaurante de paellas: menú diario, menús de fin de semana con entrantes y paella, pescaíto frito y tapas."
+      }
+    },
+    {
+      "name": "Església de Sant Bertomeu",
+      "category": "culture",
+      "lat": 38.56719,
+      "lng": -0.211952,
+      "osm": "way/306353700",
+      "sourceUrl": "https://www.comunitatvalenciana.com/en/alacant-alicante/finestrat",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Parish church on Plaça del Poble in the old town, listed among Finestrat's sights by the regional tourism site.",
+        "es": "Iglesia parroquial en la Plaça del Poble del casco antiguo, entre los lugares de interés según Turisme Comunitat Valenciana."
+      }
+    },
+    {
+      "name": "Ermita del Santísimo Cristo del Remedio",
+      "category": "culture",
+      "lat": 38.567246,
+      "lng": -0.210367,
+      "osm": "way/449774247",
+      "sourceUrl": "https://www.comunitatvalenciana.com/en/alacant-alicante/finestrat",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Chapel in the old town, which sits on the foundations of a former Arab castle.",
+        "es": "Ermita en el casco antiguo, asentado sobre los cimientos de un antiguo castillo árabe."
+      }
+    },
+    {
+      "name": "Font del Molí",
+      "category": "nature",
+      "lat": 38.57725,
+      "lng": -0.208526,
+      "osm": "node/3412743421",
+      "sourceUrl": "https://ayto-finestrat.es/work-begins-on-the-adaptation-of-a-pedestrian-route-that-will-connect-the-font-del-moli-with-the-beginning-of-the-paths-to-puig-campana/?lang=en",
+      "sourceType": "municipal website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Recreational area with car park; starting point for the PR-CV 289 trails up Puig Campana.",
+        "es": "Área recreativa con aparcamiento; punto de partida de los senderos PR-CV 289 hacia el Puig Campana."
+      }
+    },
+    {
+      "name": "Puig Campana",
+      "category": "nature",
+      "lat": 38.597222,
+      "lng": -0.193072,
+      "osm": "node/1249813860",
+      "sourceUrl": "https://www.comunitatvalenciana.com/en/alacant-alicante/finestrat",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Mountain of about 1,400 m above Finestrat, popular with hikers; described as protected by the regional tourism site.",
+        "es": "Montaña de unos 1.400 m sobre Finestrat, muy visitada por senderistas; espacio protegido según Turisme Comunitat Valenciana."
+      }
+    },
+    {
+      "name": "Puig Campana Golf",
+      "category": "golf",
+      "lat": 38.545299,
+      "lng": -0.207959,
+      "osm": "node/8992811375",
+      "sourceUrl": "https://comunitatvalenciana.com/en/alacant-alicante/finestrat/golf/puig-campana-golf",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "9-hole golf course in Urbanización Alfarella, with pro shop, café and restaurant.",
+        "es": "Campo de golf de 9 hoyos en la Urbanización Alfarella, con tienda, cafetería y restaurante."
+      }
+    },
+    {
+      "name": "CEIP Balcó de Finestrat",
+      "category": "school",
+      "lat": 38.548423,
+      "lng": -0.201297,
+      "osm": "way/568497564",
+      "sourceUrl": "https://ayto-finestrat.es/school-enrolment-information-meeting-for-the-2026-2027-academic-year/?lang=en",
+      "sourceType": "municipal website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Public infant and primary school (CEIP) in the Balcó de Finestrat area; one of the town's two CEIPs.",
+        "es": "Colegio público de infantil y primaria (CEIP) en la zona del Balcó de Finestrat; uno de los dos CEIP del municipio."
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "name": "CEIP Puig Campana",
+      "reason": "confirmed by the town council (historic centre) but not mapped in OSM, so no coordinate"
+    },
+    {
+      "name": "Consultorio Auxiliar de Finestrat (village)",
+      "reason": "not mapped in OSM; official department page returned the Cala de Finestrat consultorio instead"
+    },
+    {
+      "name": "Restaurante Font del Molí",
+      "reason": "listed by Turismo Finestrat, but no OSM feature"
+    },
+    {
+      "name": "Restaurante La Plantación",
+      "reason": "listed by Turismo Finestrat, but OSM maps it only as a hotel"
+    },
+    {
+      "name": "Superec / Supermercat L'Hort",
+      "reason": "no current source found"
+    },
+    {
+      "name": "Parc de Miguel Llorca",
+      "reason": "no source found"
+    },
+    {
+      "name": "Mirador Puig Campana",
+      "reason": "tourism site mentions a viewpoint but not under this name"
+    },
+    {
+      "name": "Cala de Finestrat (beach and services)",
+      "reason": "about 6 km from the village centre, outside the 4,000 m radius"
+    }
+  ],
+  "research": {
+    "by": "Claude (AI research assistant) for Scholte Estates",
+    "method": "Candidates from OpenStreetMap; each place checked against a current official website or official listing on the date shown. Notes written from those sources only."
+  },
+  "approval": {
+    "approvedBy": null,
+    "approvedAt": null
+  }
+}

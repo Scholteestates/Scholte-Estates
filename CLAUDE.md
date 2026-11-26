@@ -209,11 +209,31 @@ on the local dev server, so they never exist in a production build
 listings render through `src/components/property/property-story.tsx`; types in
 `src/lib/listings/types.ts`.
 
+## Area maps and verified places (2026-11-26)
+
+- Every property story can show an area chapter: a square, self-hosted map
+  (`src/components/area/area-explorer.tsx`, MapLibre + Protomaps style) with
+  tappable points; the text beside the map shows the selected place.
+- **No third-party map service.** Tiles (OpenStreetMap data from a Protomaps
+  build) live in `public/map/tiles`, label fonts in `public/map/fonts`, the
+  MapLibre worker is copied to `public/map` before dev/build. Rebuild tiles
+  with `node scripts/map/extract-tiles.mts` (coverage: `scripts/map/regions.json`).
+- Places: `src/data/areas/<id>.json` (one profile per town, reused by every
+  property there). Each place: OSM coordinates, a current source link,
+  verification date, bilingual factual note. Import researched files with
+  `node scripts/map/import-places.mts <dir>` (validates, resets approval when
+  places change).
+- **User approval gate:** an area renders on the public site only when
+  `approval.approvedBy` is set; until then it shows on the local dev server
+  only, with an "awaiting approval" notice.
+- Real listings: exact home pin (user decision 2026-11-26) and straight-line
+  distances, labelled as such. Demo homes: town map only, no home pin, no
+  distances ("About {town}").
+
 ## Later stages (do not implement yet)
 
 Real listings via CRM / property feeds, enquiry handling, database, admin
-dashboard, AIVENA integration, German, verified nearby places and area
-profiles.
+dashboard, AIVENA integration, German.
 
 ## Confirmed decisions
 

@@ -1,0 +1,170 @@
+{
+  "id": "la-mata",
+  "name": "La Mata",
+  "centre": {
+    "lat": 38.026551,
+    "lng": -0.654524,
+    "source": "Nominatim: La Mata, Torrevieja, el Baix Segura / La Vega Baja, Alacant / Alicante, Comunitat Valenciana, 03188, España"
+  },
+  "radiusM": 2000,
+  "places": [
+    {
+      "name": "Playa de La Mata",
+      "category": "beach",
+      "lat": 38.0166774,
+      "lng": -0.6522541,
+      "osm": "relation/14404210",
+      "sourceUrl": "https://turismo.torrevieja.es/en/poi/la-mata-beach",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Fine-sand beach of about 2.4 km, the longest in Torrevieja; Blue Flag, ISO 14001 and Q for Quality per the tourism site.",
+        "es": "Playa de arena fina de unos 2,4 km, la más larga de Torrevieja; Bandera Azul, ISO 14001 y Q de Calidad según turismo."
+      }
+    },
+    {
+      "name": "Paraje Natural Municipal Parque del Molino del Agua",
+      "category": "nature",
+      "lat": 38.0147041,
+      "lng": -0.6559548,
+      "osm": "relation/14404208",
+      "sourceUrl": "https://mediambient.gva.es/es/web/parajes-naturales-municipales/pnm-parque-molino-del-agua-torrevieja",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Protected municipal natural area of 17.23 ha with a coastal dune system, declared in 2006 (Generalitat Valenciana).",
+        "es": "Paraje natural municipal de 17,23 ha con sistema dunar costero, declarado en 2006 (Generalitat Valenciana)."
+      }
+    },
+    {
+      "name": "Casa Forestal de La Mata (visitor centre, Lagunas de La Mata y Torrevieja Natural Park)",
+      "category": "nature",
+      "lat": 38.0251134,
+      "lng": -0.6584294,
+      "osm": "way/385587444",
+      "sourceUrl": "https://turismo.torrevieja.es/en/poi/lagunas-de-la-mata-y-torrevieja-natural-park",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Visitor centre of the natural park; the La Mata lagoon has waymarked trails and viewpoints, per the tourism site.",
+        "es": "Centro de visitantes del parque natural; la laguna de La Mata tiene sendas señalizadas y miradores, según turismo."
+      }
+    },
+    {
+      "name": "Torre La Mata",
+      "category": "culture",
+      "lat": 38.026343,
+      "lng": -0.6525321,
+      "osm": "way/410285374",
+      "sourceUrl": "https://www.comunitatvalenciana.com/es/alacant-alicante/torrevieja/monuments/torre-la-mata",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Circular defensive tower on La Mata beach, once part of the coastal watch system protecting the old salt works.",
+        "es": "Torre defensiva circular en la playa de La Mata, parte del antiguo sistema de vigilancia costera de las salinas."
+      }
+    },
+    {
+      "name": "C.S. Torrevieja La Mata",
+      "category": "health",
+      "lat": 38.0179572,
+      "lng": -0.6588171,
+      "osm": "relation/14458531",
+      "sourceUrl": "https://torrevieja.san.gva.es/ca/c.s.i.-torrevieja-la-mata",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Public primary-care health centre at Av. de Holanda 51, part of the Torrevieja health department (Conselleria de Sanitat).",
+        "es": "Centro de salud público de atención primaria en Av. de Holanda 51, del departamento de salud de Torrevieja."
+      }
+    },
+    {
+      "name": "Restaurant La Mata \"Felisa\"",
+      "category": "restaurant",
+      "lat": 38.0195512,
+      "lng": -0.6534668,
+      "osm": "node/13304764201",
+      "sourceUrl": "https://turismo.torrevieja.es/en/poi/restaurant-la-mata-felisa",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Family-run Mediterranean restaurant a few metres from the beach, known for rice dishes, per the tourism site.",
+        "es": "Restaurante familiar de cocina mediterránea a pocos metros de la playa, con especialidad en arroces, según turismo."
+      }
+    },
+    {
+      "name": "La Fusión Restaurante",
+      "category": "restaurant",
+      "lat": 38.0101014,
+      "lng": -0.6529934,
+      "osm": "node/10721745154",
+      "sourceUrl": "https://turismo.torrevieja.es/en/poi/la-fusion-restaurante",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Seafront restaurant on La Mata beach mixing Mediterranean and Japanese cooking, with a sushi bar, per the tourism site.",
+        "es": "Restaurante frente al mar en la playa de La Mata que fusiona cocina mediterránea y japonesa, con barra de sushi."
+      }
+    },
+    {
+      "name": "Kiosko Pura Vida",
+      "category": "bar",
+      "lat": 38.0086267,
+      "lng": -0.6529039,
+      "osm": "node/8583460365",
+      "sourceUrl": "https://turismo.torrevieja.es/en/poi/kiosko-pura-vida",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Beach bar on La Mata beach (Avda. Buganvillas), at the southern edge of this area, about 2 km from the village centre.",
+        "es": "Chiringuito en la playa de La Mata (Avda. Buganvillas), en el extremo sur de la zona, a unos 2 km del centro."
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "name": "CEIP Ntra. Sra. del Rosario",
+      "reason": "serves La Mata but is in Aguas Nuevas (C/ Maite Pagazaurtundua), about 4 km away, outside the radius"
+    },
+    {
+      "name": "CEIP Ciudad del Mar",
+      "reason": "about 2.9 km away, outside the radius; no school found within 2 km"
+    },
+    {
+      "name": "Farmacia La Mata (two OSM nodes)",
+      "reason": "directories give conflicting names/addresses (C/ Mayor 23 vs Farmacia Playa La Mata, Av. de Francia 32); could not match to an OSM node"
+    },
+    {
+      "name": "Mercadillo de La Mata (Wednesday market, Av. de Francia)",
+      "reason": "only a directory source and not mapped in OSM"
+    },
+    {
+      "name": "Covirán / Dialprix / Unide - Maxcoop",
+      "reason": "no current independent source found"
+    },
+    {
+      "name": "Jandel's Beach Cafe",
+      "reason": "no source found"
+    },
+    {
+      "name": "Balkan Restaurant Zagreb",
+      "reason": "no source found"
+    },
+    {
+      "name": "Parque Doña Perfecta",
+      "reason": "no source found"
+    },
+    {
+      "name": "Foodline La Mata",
+      "reason": "on the tourism site but not found in OSM"
+    }
+  ],
+  "research": {
+    "by": "Claude (AI research assistant) for Scholte Estates",
+    "method": "Candidates from OpenStreetMap; each place checked against a current official website or official listing on the date shown. Notes written from those sources only."
+  },
+  "approval": {
+    "approvedBy": null,
+    "approvedAt": null
+  }
+}

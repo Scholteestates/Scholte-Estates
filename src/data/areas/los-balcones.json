@@ -1,0 +1,166 @@
+{
+  "id": "los-balcones",
+  "name": "Los Balcones",
+  "centre": {
+    "lat": 37.9602721,
+    "lng": -0.727554,
+    "source": "Nominatim: Urbanización Los Balcones, Torrevieja, el Baix Segura / La Vega Baja, Alacant / Alicante, Comunitat Valenciana, 03186, España"
+  },
+  "radiusM": 2000,
+  "places": [
+    {
+      "name": "CEIP Romualdo Ballester",
+      "category": "school",
+      "lat": 37.9550475,
+      "lng": -0.7176242,
+      "osm": "way/404349986",
+      "sourceUrl": "https://portal.edu.gva.es/romualdoballester/",
+      "sourceType": "Conselleria school directory",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Public infant and primary school (CEIP) in Urb. Los Altos, with its site on the Generalitat Valenciana education portal.",
+        "es": "Colegio público de infantil y primaria (CEIP) en la Urb. Los Altos, con web en el portal educativo de la Generalitat Valenciana."
+      }
+    },
+    {
+      "name": "CEIP Amanecer",
+      "category": "school",
+      "lat": 37.9568967,
+      "lng": -0.7065214,
+      "osm": "relation/14630118",
+      "sourceUrl": "https://portal.edu.gva.es/colegioamanecer/",
+      "sourceType": "Conselleria school directory",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Public infant and primary school (CEIP), with its site on the Generalitat Valenciana education portal.",
+        "es": "Colegio público de infantil y primaria (CEIP), con web en el portal educativo de la Generalitat Valenciana."
+      }
+    },
+    {
+      "name": "Hospital Universitario de Torrevieja",
+      "category": "health",
+      "lat": 37.963523,
+      "lng": -0.715496,
+      "osm": "relation/14938451",
+      "sourceUrl": "https://torrevieja.san.gva.es/ca/hospital",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Public hospital of the Torrevieja health department (Conselleria de Sanitat), on the CV-95 road.",
+        "es": "Hospital público del departamento de salud de Torrevieja (Conselleria de Sanitat), en la carretera CV-95."
+      }
+    },
+    {
+      "name": "Farmacia Punta Prima",
+      "category": "health",
+      "lat": 37.947586,
+      "lng": -0.714481,
+      "osm": "node/814175929",
+      "sourceUrl": "https://farmaciapuntaprima.com/",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Pharmacy in Urb. Rocío del Mar (C/ Dorada); its website lists service in Spanish, English, Russian, German, French and other languages.",
+        "es": "Farmacia en la Urb. Rocío del Mar (C/ Dorada); su web indica atención en español, inglés, ruso, alemán, francés y otros idiomas."
+      }
+    },
+    {
+      "name": "Parque Natural de las Lagunas de La Mata y Torrevieja",
+      "category": "nature",
+      "lat": 37.9720991,
+      "lng": -0.7273638,
+      "osm": "relation/14348749",
+      "sourceUrl": "https://turismo.torrevieja.es/en/poi/lagunas-de-la-mata-y-torrevieja-natural-park",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Natural park of two salt lagoons, including the pink Laguna de Torrevieja, which the tourism site says is visited by tourist train.",
+        "es": "Parque natural de dos lagunas saladas, entre ellas la laguna rosa de Torrevieja, que según turismo se visita en tren turístico."
+      }
+    },
+    {
+      "name": "Club de Tenis Torrevieja",
+      "category": "sport",
+      "lat": 37.9610782,
+      "lng": -0.7282656,
+      "osm": "relation/14745174",
+      "sourceUrl": "https://torrevieja.es/en/entidades/torrevieja-tennis-club",
+      "sourceType": "municipal website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Tennis club in Los Balcones since 1973 (per the town council), with tennis, padel, pool, gym and a bar-restaurant.",
+        "es": "Club de tenis en Los Balcones desde 1973 (según el Ayuntamiento), con tenis, pádel, piscina, gimnasio y bar-restaurante."
+      }
+    },
+    {
+      "name": "Bar Restaurante Lago Jardín",
+      "category": "bar",
+      "lat": 37.9665577,
+      "lng": -0.7337027,
+      "osm": "node/14191665503",
+      "sourceUrl": "https://barlagojardin.com",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Bar-restaurant in Urb. Lago Jardín serving tapas, rice dishes, fish and meat; its site says it has served the area since 1989.",
+        "es": "Bar-restaurante en la Urb. Lago Jardín con tapas, arroces, pescado y carne; su web indica que atiende la zona desde 1989."
+      }
+    },
+    {
+      "name": "Restaurante Alingui Los Balcones",
+      "category": "restaurant",
+      "lat": 37.9611545,
+      "lng": -0.7236194,
+      "osm": "node/14204274253",
+      "sourceUrl": "https://wanderlog.com/place/details/9601945/restaurante-alingui-los-balcones",
+      "sourceType": "directory",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Restaurant on Calle Iradier Bal in the Los Balcones commercial area, with reviews dated 2025 on its directory listing.",
+        "es": "Restaurante en la calle Iradier Bal, en la zona comercial de Los Balcones, con reseñas de 2025 en su ficha de directorio."
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "name": "El Cucharón",
+      "reason": "own website is an outdated Flash/iframe page with no current information"
+    },
+    {
+      "name": "Filton",
+      "reason": "website redirects to an unrelated agency; no current source"
+    },
+    {
+      "name": "Red Palm Café",
+      "reason": "website domain no longer resolves; no current source"
+    },
+    {
+      "name": "El Ocho Cafe Lounge & Cocktail Bar",
+      "reason": "no listing found under this name; cannot confirm"
+    },
+    {
+      "name": "Bar Tortuga Cafè / El Capitan / Kalinka",
+      "reason": "no current independent source found"
+    },
+    {
+      "name": "Mercadona / Consum / Aldi / Dialprix (Los Balcones)",
+      "reason": "store locators not fetchable; only estate-agent blog mentions, so no supermarket kept"
+    },
+    {
+      "name": "Farmacia y Ortopedia Lda. Maria Jose Sanchez",
+      "reason": "no source found for this pharmacy"
+    },
+    {
+      "name": "Parque Reina de la Sal",
+      "reason": "confirmed on the tourism site but not identifiable in OSM (no named feature), so no reliable coordinate"
+    }
+  ],
+  "research": {
+    "by": "Claude (AI research assistant) for Scholte Estates",
+    "method": "Candidates from OpenStreetMap; each place checked against a current official website or official listing on the date shown. Notes written from those sources only."
+  },
+  "approval": {
+    "approvedBy": null,
+    "approvedAt": null
+  }
+}

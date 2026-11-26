@@ -5,6 +5,8 @@ import { DemoBadge, DemoNotice } from "@/components/property/demo-badge";
 import { StoryNav } from "@/components/property/story-nav";
 import { StoryGallery, type GalleryItem } from "@/components/property/story-gallery";
 import { MailIcon, PinIcon, WhatsAppIcon } from "@/components/icons";
+import { AreaExplorer } from "@/components/area/area-explorer";
+import type { AreaSection } from "@/lib/areas/view";
 
 /**
  * The property-story template (docs/website-direction.md §4–5), shared by the
@@ -67,6 +69,8 @@ export type StoryView = {
     area?: { title: string; body: string };
     standard?: string;
   };
+  /** Verified places on an interactive map (only when an area profile exists). */
+  area?: AreaSection;
   facts: {
     overview: string;
     description: DescBlock[];
@@ -129,13 +133,14 @@ function Badge({ text }: { text: string }) {
 
 export function PropertyStory({ v }: { v: StoryView }) {
   const anchor = "scroll-mt-[8.5rem] lg:scroll-mt-[9.5rem]";
-  const chapterCount = v.rooms.length + (v.setting ? 1 : 0);
+  const chapterCount = v.rooms.length + (v.setting ? 1 : 0) + (v.area ? 1 : 0);
   const no = (i: number) => String(i + 2).padStart(2, "0");
 
   const navItems = [
     { id: "arrival", label: v.labels.arrival },
     ...v.rooms.map((r) => ({ id: r.id, label: r.label })),
     ...(v.setting ? [{ id: v.setting.id, label: v.setting.label }] : []),
+    ...(v.area ? [{ id: "area", label: v.area.label }] : []),
     { id: "facts", label: v.labels.facts },
     { id: "gallery", label: v.gallery.title },
   ];
@@ -316,6 +321,35 @@ export function PropertyStory({ v }: { v: StoryView }) {
                   <p className="mt-6 border-l-2 border-gold-400 pl-4 text-sm leading-relaxed text-ivory-200/90">{v.setting.standard}</p>
                 )}
               </div>
+            </div>
+          </section>
+        )}
+
+        {/* The area: verified places on a self-hosted interactive map. */}
+        {v.area && (
+          <section id="area" aria-labelledby="area-h" className={`border-t border-ivory-200 bg-ivory-50 ${anchor}`}>
+            <div className="container-page py-16 md:py-24">
+              <AreaExplorer
+                places={v.area.places}
+                centre={v.area.centre}
+                home={v.area.home}
+                lang={v.area.lang}
+                labels={v.area.labels}
+                intro={
+                  <div data-reveal>
+                    <p className="flex items-baseline gap-3">
+                      <span className="font-serif text-3xl text-gold-500 tabular-nums">{no(v.rooms.length + (v.setting ? 1 : 0))}</span>
+                      <span className="text-[0.7rem] font-semibold tracking-[0.2em] text-gold-600 uppercase">{v.area.label}</span>
+                    </p>
+                    <h2 id="area-h" className="mt-4 text-3xl leading-tight text-forest-900 md:text-4xl">
+                      {v.area.heading}
+                    </h2>
+                    <p className="mt-4 leading-relaxed text-muted">{v.area.lead}</p>
+                    {v.area.notice && <DemoNotice text={v.area.notice} className="mt-5" />}
+                  </div>
+                }
+                footer={<p className="text-xs leading-relaxed text-muted">{v.area.method}</p>}
+              />
             </div>
           </section>
         )}

@@ -6,7 +6,8 @@
  * - Operator details: src/config/site.ts → site.legal.
  * - Live-site audit (clean browser): every request goes to scholteestates.com
  *   only; no analytics, advertising, embeds or external fonts. Cookies: only
- *   NEXT_LOCALE after a language switch. No local storage. (The "Powered by
+ *   NEXT_LOCALE after a language switch. No local storage. Maps (MapLibre,
+ *   OpenStreetMap tiles, label fonts) are served from /map on our own domain. (The "Powered by
  *   Netlify" badge was switched off on 26 Nov 2026; re-checked on the live site.)
  * - Transfers: Netlify, Inc., Google LLC and Meta Platforms, Inc. are active
  *   participants in the EU-U.S. Data Privacy Framework (dataprivacyframework.gov).
@@ -225,7 +226,7 @@ const en = {
         h: "Cookies and similar technologies",
         blocks: [
           {
-            p: "We do not use analytics, advertising or social media cookies, and the website loads no content from other companies. Fonts and images are served from our own domain. Only the following cookie is used. It is strictly necessary for a function you request, so no consent banner is needed:",
+            p: "We do not use analytics, advertising or social media cookies, and the website loads no content from other companies. Fonts, images and maps are served from our own domain (map data © OpenStreetMap contributors); no outside map service is contacted. Only the following cookie is used. It is strictly necessary for a function you request, so no consent banner is needed:",
           },
           {
             table: {
@@ -437,7 +438,7 @@ const es = {
         h: "Cookies y tecnologías similares",
         blocks: [
           {
-            p: "No utilizamos cookies de analítica, publicidad ni redes sociales, y el sitio web no carga contenidos de otras empresas. Las fuentes y las imágenes se sirven desde nuestro propio dominio. Solo se utiliza la siguiente cookie. Es estrictamente necesaria para una función que solicitas, por lo que no se requiere un aviso de consentimiento:",
+            p: "No utilizamos cookies de analítica, publicidad ni redes sociales, y el sitio web no carga contenidos de otras empresas. Las fuentes, las imágenes y los mapas se sirven desde nuestro propio dominio (datos del mapa © colaboradores de OpenStreetMap); no se contacta con ningún servicio de mapas externo. Solo se utiliza la siguiente cookie. Es estrictamente necesaria para una función que solicitas, por lo que no se requiere un aviso de consentimiento:",
           },
           {
             table: {

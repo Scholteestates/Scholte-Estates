@@ -1,0 +1,226 @@
+{
+  "id": "rojales",
+  "name": "Rojales",
+  "centre": {
+    "lat": 38.0871747,
+    "lng": -0.7228213,
+    "source": "Nominatim: Rojales, el Baix Segura / La Vega Baja, Alacant / Alicante, Comunitat Valenciana, 03170, España"
+  },
+  "radiusM": 2000,
+  "places": [
+    {
+      "name": "El Paseo",
+      "category": "cafe",
+      "lat": 38.0872129,
+      "lng": -0.7239947,
+      "osm": "node/6345619235",
+      "sourceUrl": "https://gastroranking.es/r/el-paseo-7_67265/",
+      "sourceType": "directory",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Café-bar on Calle Francisco Serrano in the old town, listed under Mediterranean cuisine.",
+        "es": "Cafetería bar en la calle Francisco Serrano, en el casco antiguo; cocina mediterránea según el directorio."
+      }
+    },
+    {
+      "name": "Bar El Sol",
+      "category": "cafe",
+      "lat": 38.086865,
+      "lng": -0.7240057,
+      "osm": "node/2078415914",
+      "sourceUrl": "https://gastroranking.es/r/bar-el-sol-2_272829/",
+      "sourceType": "directory",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Bar on Calle Sol in the old town.",
+        "es": "Bar en la calle Sol, en el casco antiguo."
+      }
+    },
+    {
+      "name": "Meson La Noria Rojales",
+      "category": "restaurant",
+      "lat": 38.0875262,
+      "lng": -0.7224883,
+      "osm": "node/6352304948",
+      "sourceUrl": "https://gastroranking.es/r/meson-la-noria-rojales_87327/",
+      "sourceType": "directory",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Spanish restaurant on Calle Malecón del Soto, next to the waterwheel.",
+        "es": "Restaurante de cocina española en la calle Malecón del Soto, junto a la noria."
+      }
+    },
+    {
+      "name": "La taberna de Lola",
+      "category": "restaurant",
+      "lat": 38.0856042,
+      "lng": -0.7279202,
+      "osm": "node/7619739128",
+      "sourceUrl": "https://gastroranking.es/r/la-taberna-de-lola-4_202750/",
+      "sourceType": "directory",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Grill restaurant (brasería) on Calle Constitución.",
+        "es": "Restaurante brasería en la calle Constitución."
+      }
+    },
+    {
+      "name": "CEIP Poeta Miguel Hernández",
+      "category": "school",
+      "lat": 38.0837813,
+      "lng": -0.7225806,
+      "osm": "way/185255393",
+      "sourceUrl": "https://portal.edu.gva.es/03008009/",
+      "sourceType": "Conselleria school directory",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Public infant and primary school (CEIP) on Calle Atalaya, Rojales.",
+        "es": "Colegio público de Educación Infantil y Primaria (CEIP) en la calle Atalaya, Rojales."
+      }
+    },
+    {
+      "name": "IES La Encantá",
+      "category": "school",
+      "lat": 38.0903653,
+      "lng": -0.7202593,
+      "osm": "way/194937333",
+      "sourceUrl": "https://portal.edu.gva.es/ieslaencanta/",
+      "sourceType": "Conselleria school directory",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Public secondary school (IES): ESO, Bachillerato and vocational training.",
+        "es": "Instituto público (IES): ESO, Bachillerato y Formación Profesional."
+      }
+    },
+    {
+      "name": "Centro de Salud",
+      "category": "health",
+      "lat": 38.0854343,
+      "lng": -0.7289857,
+      "osm": "way/678101630",
+      "sourceUrl": "https://www.rojales.es/en/information/useful-phone-numbers/",
+      "sourceType": "municipal website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Public health centre on Avenida de la Constitución, with an emergency line per the town hall.",
+        "es": "Centro de salud público en la Avenida de la Constitución, con teléfono de urgencias según el ayuntamiento."
+      }
+    },
+    {
+      "name": "Mercadillo de Rojales",
+      "category": "market",
+      "lat": 38.0885126,
+      "lng": -0.7175731,
+      "osm": "node/6443661448",
+      "sourceUrl": "https://mercadillos.org/es/rojales/mercadillo-rojales",
+      "sourceType": "directory",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Weekly Thursday street market on Avenida Justo Quesada by the Segura: fruit, clothing, flowers and food.",
+        "es": "Mercadillo semanal de los jueves en la Avenida Justo Quesada, junto al Segura: fruta, ropa, flores y comida."
+      }
+    },
+    {
+      "name": "La Marquesa Golf",
+      "category": "golf",
+      "lat": 38.0836864,
+      "lng": -0.7087954,
+      "osm": "relation/3319596",
+      "sourceUrl": "https://www.lamarquesagolf.es/",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "18-hole golf course founded in 1989 as Quesada Golf Club; restaurant, pro shop and golf school per its website.",
+        "es": "Campo de golf de 18 hoyos fundado en 1989 como Quesada Golf Club; restaurante, tienda y escuela de golf según su web."
+      }
+    },
+    {
+      "name": "Puente de Carlos III",
+      "category": "culture",
+      "lat": 38.0877229,
+      "lng": -0.7236304,
+      "osm": "way/28156870",
+      "sourceUrl": "https://www.rojales.es/en/patrimonio_cultural/puente-de-carlos-iii/",
+      "sourceType": "municipal website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "18th-century ashlar bridge with three arches over the Segura, linking the two halves of the town.",
+        "es": "Puente de sillería del siglo XVIII con tres arcos sobre el Segura, que une las dos mitades del pueblo."
+      }
+    },
+    {
+      "name": "Cuevas del Rodeo",
+      "category": "culture",
+      "lat": 38.0847085,
+      "lng": -0.7243176,
+      "osm": "node/6462014584",
+      "sourceUrl": "https://www.comunitatvalenciana.com/en/be-inspired/rodeo-caves",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Cave dwellings dug between the 18th and 20th centuries, now craft workshops with a small exhibition.",
+        "es": "Casas cueva excavadas entre los siglos XVIII y XX, hoy talleres artesanos con una pequeña exposición."
+      }
+    },
+    {
+      "name": "Museo Arqueológico y Paleontológico Municipal",
+      "category": "culture",
+      "lat": 38.0885021,
+      "lng": -0.7239813,
+      "osm": "way/703042446",
+      "sourceUrl": "https://www.comunitatvalenciana.com/en/alacant-alicante/rojales/museums/museo-arqueologico-y-paleontologico-municipal",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Municipal museum in the former town hall on Plaza de España; Miocene marine fossils and local archaeology.",
+        "es": "Museo municipal en la antigua casa consistorial, Plaza de España; fósiles marinos del Mioceno y arqueología local."
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Vivaldi",
+      "reason": "website in OSM (bistrovivaldi.es) no longer resolves; no current source"
+    },
+    {
+      "name": "Rojales Steak House / Tango Argentino",
+      "reason": "no current source found under these names"
+    },
+    {
+      "name": "Cafetería Bar Finetta / La Garbera Tapería",
+      "reason": "directory listing without dated recent reviews; not confirmed operating"
+    },
+    {
+      "name": "El Belga",
+      "reason": "most recent directory review June 2024; may be closed"
+    },
+    {
+      "name": "Masymas / Maxi Dia",
+      "reason": "no store-specific current source found"
+    },
+    {
+      "name": "Mercado de Abastos (way/185576113)",
+      "reason": "no current source confirming it operates as a market"
+    },
+    {
+      "name": "Los Aljibes de Gasparito, Azud y Noria",
+      "reason": "verified on rojales.es but left out to keep the list at 12; available if wanted (node/6462080966, node/5769039520)"
+    },
+    {
+      "name": "Farmacia Varela Alonso / Canales García",
+      "reason": "listed on rojales.es (useful phone numbers); left out to keep the list at 12"
+    },
+    {
+      "name": "The Bridge Bar, Restaurante Josemar, El Resspiro",
+      "reason": "recent 2026 directory reviews; left out to keep the list at 12"
+    }
+  ],
+  "research": {
+    "by": "Claude (AI research assistant) for Scholte Estates",
+    "method": "Candidates from OpenStreetMap; each place checked against a current official website or official listing on the date shown. Notes written from those sources only."
+  },
+  "approval": {
+    "approvedBy": null,
+    "approvedAt": null
+  }
+}
