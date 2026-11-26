@@ -17,7 +17,9 @@ Ciudad Quesada serving the Costa Blanca and international buyers.
 
 ## Repository
 
-- Remote: https://github.com/AIVENA-spain/Scholte-Estates.git (public; keep it public)
+- Remote: https://github.com/Scholteestates/Scholte-Estates.git (public; keep it public).
+  Owned by the separate `Scholteestates` GitHub organisation (moved from
+  AIVENA-spain on 2026-11-26)
 - Never commit: credentials, API keys, `.env*` files (except `.env.example`
   with placeholders), customer data, `node_modules`, `.next` or build output.
 - Review `git status` / staged files before every commit; verify the remote
