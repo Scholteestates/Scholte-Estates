@@ -69,8 +69,9 @@ Ciudad Quesada serving the Costa Blanca and international buyers.
     real inventory) once real listings are available. Demo pages stay
     `noindex`, out of any sitemap and without real-estate structured data.
 - No form that pretends to submit. Contact is via WhatsApp, email and phone.
-- The floating WhatsApp button sits at `bottom-20` so it clears the
-  "Powered by Netlify" badge that the free plan shows bottom-right.
+- The floating WhatsApp button sits at `bottom-5` / `md:bottom-6`. The
+  "Powered by Netlify" badge was switched off on 2026-11-26 (paid plan); if it
+  ever returns, raise the button to `bottom-20` again.
 - Area and buying-process text stays general; legal/tax specifics are
   deferred to the buyer's independent lawyer.
 - Do not purchase services or paid upgrades without explicit approval.
@@ -87,8 +88,9 @@ Ciudad Quesada serving the Costa Blanca and international buyers.
   Add the number to the legal notice when the user supplies it.
 - Texts: `src/content/legal.ts` (EN/ES), pages `/[lang]/legal-notice` and
   `/[lang]/privacy`, linked in the footer. The privacy/cookie claims rest on an
-  audit of the live site (only first-party requests; cookie `NEXT_LOCALE`;
-  Netlify badge local storage `nl-hud:public:v1` only on "hide"). **Re-audit
+  audit of the live site (only first-party requests; cookie `NEXT_LOCALE`
+  only; no local storage since the Netlify badge was switched off on
+  2026-11-26). **Re-audit
   and update the policy before adding any form, analytics, embed, map, chat
   widget or new provider.** Transfers: Netlify, Google LLC and Meta are active
   EU-U.S. DPF participants (checked 2026-11-26).
@@ -103,10 +105,12 @@ Ciudad Quesada serving the Costa Blanca and international buyers.
 
 ## Hosting and domain (approved 2026-11-26)
 
-- **Netlify Free**, in a separate Scholte Estates Netlify account, connected
+- **Netlify**, in a separate Scholte Estates Netlify account, connected
   only to this repository (`netlify.toml`). Never use AIVENA's Vercel or any
-  AIVENA hosting. Ask before any paid Netlify upgrade.
-- The free plan runs on a monthly credit allowance (production deploys and
+  AIVENA hosting. Started on Free; on 2026-11-26 the user upgraded to a paid
+  plan themself to switch off the "Powered by Netlify" badge (now off). Ask
+  before any further upgrade or paid add-on.
+- The plan runs on a monthly credit allowance (production deploys and
   traffic use credits): refine on deploy previews (branches / pull requests)
   and merge to `main` only for real releases.
 - **DNS stays at GoDaddy** (nameservers `ns25/ns26.domaincontrol.com`; never
