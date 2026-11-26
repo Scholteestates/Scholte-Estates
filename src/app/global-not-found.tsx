@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Cormorant_Garamond, Manrope } from "next/font/google";
 import { site } from "@/config/site";
 import "./globals.css";
@@ -23,10 +24,10 @@ export default function GlobalNotFound() {
       <body className="flex min-h-dvh flex-col">
         <header className="bg-brand-beige shadow-[0_1px_0_var(--color-ivory-300)]">
           <div className="container-page flex h-20 items-center">
-            <a href="/en" aria-label={`${site.name} — Home`}>
+            <Link href="/en" aria-label={`${site.name} — Home`}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src={site.brand.light.src} alt="" width={site.brand.light.width} height={site.brand.light.height} className="logo-feather h-14 w-auto" />
-            </a>
+            </Link>
           </div>
         </header>
         <main className="container-page flex-1 py-24 text-center md:py-32">
@@ -40,12 +41,12 @@ export default function GlobalNotFound() {
             La página que buscas no existe o se ha movido.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-3">
-            <a href="/en" className="rounded-full bg-forest-800 px-7 py-3 text-sm font-semibold text-ivory-50">
+            <Link href="/en" className="rounded-full bg-forest-800 px-7 py-3 text-sm font-semibold text-ivory-50">
               Back to home
-            </a>
-            <a href="/es" lang="es" className="rounded-full border border-forest-800/30 px-7 py-3 text-sm font-semibold text-forest-900">
+            </Link>
+            <Link href="/es" lang="es" className="rounded-full border border-forest-800/30 px-7 py-3 text-sm font-semibold text-forest-900">
               Volver al inicio
-            </a>
+            </Link>
           </div>
         </main>
       </body>
