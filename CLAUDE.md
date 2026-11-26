@@ -69,6 +69,8 @@ Ciudad Quesada serving the Costa Blanca and international buyers.
     real inventory) once real listings are available. Demo pages stay
     `noindex`, out of any sitemap and without real-estate structured data.
 - No form that pretends to submit. Contact is via WhatsApp, email and phone.
+- The floating WhatsApp button sits at `bottom-20` so it clears the
+  "Powered by Netlify" badge that the free plan shows bottom-right.
 - Area and buying-process text stays general; legal/tax specifics are
   deferred to the buyer's independent lawyer.
 - Do not purchase services or paid upgrades without explicit approval.
