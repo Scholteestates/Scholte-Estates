@@ -4,6 +4,10 @@ const nextConfig: NextConfig = {
   /* config options here */
   cacheComponents: true,
   partialPrefetching: true,
+  experimental: {
+    // A single branded 404 for every unmatched URL (root layout is under [lang]).
+    globalNotFound: true,
+  },
   images: {
     // 90 is used for the logo so its fine lettering stays crisp.
     qualities: [75, 90],
