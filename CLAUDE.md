@@ -191,7 +191,7 @@ and listed in a gap report), supplied vs verified labelling, phases, blockers
 and costs. Nothing is implemented yet. Provider sample feeds (e.g. the RedSP
 trial feed) are for private compatibility tests only: never commit them or
 publish their properties. MLS Costa membership/feed access is unconfirmed
-until the user supplies it. Stay on Netlify Free; no purchases or upgrades.
+until the user supplies it. Stay on the current Netlify plan; no further purchases or upgrades.
 Enquiry retention is done by hand: **`docs/retention-procedure.md`**.
 
 **Private listing previews (Phase 1, 2026-11-26):** provider data, downloaded

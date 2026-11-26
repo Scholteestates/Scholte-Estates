@@ -3,7 +3,7 @@
 Status: **plan only.** Nothing is implemented. It replaces the ten demo homes with
 real inventory while keeping the property-story experience
 (`docs/website-direction.md` §4–5). Scholte Estates stays separate from AIVENA.
-Hosting stays on **Netlify Free** while usage is measured; no purchases or upgrades
+Hosting is Netlify (the user moved to a paid plan on 26 Nov 2026 to switch off the badge); no further purchases or upgrades
 without the user's approval.
 
 ## 1. Principles
