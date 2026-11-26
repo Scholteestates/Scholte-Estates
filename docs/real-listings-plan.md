@@ -32,10 +32,13 @@ without the user's approval.
 ### RedSP (new builds) — public facts checked
 
 - **Pricing** (redsp.info/es/precios, Zone 1 = Castellón, Valencia, Alicante, Murcia,
-  Almería; all + VAT): set-up fee €125 (**waived for MLS Costa members**); €40/month
+  Almería; all + VAT): set-up fee €125; €40/month
   billed monthly, €105 per quarter, or €348 per year (€29/month). Includes 1 back-end
   user, 1 zone feed set, 1 custom export XML feed, 12 languages, updates by WhatsApp.
   Extra custom feed €8/month; extra users from €4–5/month. No minimum term is stated.
+  The page also says "Free Setup fee on MLS Costa". It does **not** confirm that
+  RedSP's own €125 set-up fee is waived for MLS Costa members; treat the €125 as
+  payable until RedSP confirms otherwise in writing.
 - **Feed format** (trial feed, private test, 16 listings): Kyero v3 XML. See §4.
 - **Publication rights:** RedSP sells the feed as data "ready to publish" on an
   agency's website or CRM. Only a privacy and a cookie policy are public, so the
@@ -127,7 +130,7 @@ Area chapters are verified per area or development and reused by every listing t
 | Phase | Work | Depends on |
 |---|---|---|
 | 0 | Subscription/membership decision, terms checked for publication rights, real feed access | User; providers |
-| 1 | Data model, labels (supplied/verified, render, energy), gap report; tested on the trial feed privately | — (can start) |
+| 1 | Data model, labels (supplied/verified, render, energy), gap report; tested on the trial feed privately | **Built 26 Nov 2026** (local preview of RedSP N8791; see CLAUDE.md) |
 | 2 | One complete real listing with a verified area chapter; user review | Phase 0 |
 | 3 | RedSP importer: normalise, validate (energy, licence), classification review, preview deploy | Phases 0–2 |
 | 4 | All listings through the same template; area chapters verified area by area | Phase 3 |
@@ -145,7 +148,7 @@ All phases ship through the tested pull-request workflow.
 4. Your asesor's confirmation that listings may be advertised during registration, and whether the number must appear on listings.
 
 **Costs (none committed)**
-- RedSP Zone 1: €348/year + VAT (annual) or €40/month + VAT; €125 set-up + VAT unless an MLS Costa member.
+- RedSP Zone 1: €348/year + VAT (annual) or €40/month + VAT; €125 set-up + VAT (a waiver for MLS Costa members is not confirmed).
 - MLS Costa paid account: price not published.
 - Netlify: stays Free (300 credits/month). Real galleries (median 23 photos per listing)
   will use more bandwidth; usage is measured after Phase 3 before any recommendation.

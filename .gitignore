@@ -51,3 +51,6 @@ next-env.d.ts
 
 # hosting
 /.netlify
+
+# private listing previews (provider sample feeds, downloaded photos): never commit
+/.private/

@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
+import { PHASE_DEVELOPMENT_SERVER } from "next/constants";
 
-const nextConfig: NextConfig = {
-  /* config options here */
+const nextConfig = (phase: string): NextConfig => ({
+  // Private listing previews (`page.preview.tsx`, `route.preview.ts`) exist only
+  // on the local dev server; production builds never contain them.
+  pageExtensions: phase === PHASE_DEVELOPMENT_SERVER ? ["tsx", "ts", "preview.tsx", "preview.ts"] : ["tsx", "ts"],
   cacheComponents: true,
   partialPrefetching: true,
   experimental: {
@@ -27,6 +30,6 @@ const nextConfig: NextConfig = {
       },
     },
   },
-};
+});
 
 export default nextConfig;

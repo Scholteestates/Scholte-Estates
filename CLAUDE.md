@@ -194,6 +194,17 @@ publish their properties. MLS Costa membership/feed access is unconfirmed
 until the user supplies it. Stay on Netlify Free; no purchases or upgrades.
 Enquiry retention is done by hand: **`docs/retention-procedure.md`**.
 
+**Private listing previews (Phase 1, 2026-11-26):** provider data, downloaded
+photos and our overlays live only in the git-ignored `/.private/listings/`
+(never commit, never move into `public/`). Pipeline:
+`node scripts/listings/preview.mts import|build --dir .private/listings/<set>`
+(writes `stories.json` and an internal `gap-report.md`). Preview routes use the
+`.preview.tsx` / `.preview.ts` extensions, which `next.config.ts` enables only
+on the local dev server, so they never exist in a production build
+(`/[lang]/preview/<slug>`, photos via `/preview-media/…`). Both demo and real
+listings render through `src/components/property/property-story.tsx`; types in
+`src/lib/listings/types.ts`.
+
 ## Later stages (do not implement yet)
 
 Real listings via CRM / property feeds, enquiry handling, database, admin
