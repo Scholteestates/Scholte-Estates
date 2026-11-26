@@ -381,6 +381,8 @@ export const es: Dictionary = {
     explore: "Explorar",
     contact: "Contacto",
     rights: "Todos los derechos reservados.",
+    legal: "Aviso legal",
+    privacy: "Privacidad y cookies",
   },
   notFound: {
     title: "Página no encontrada",

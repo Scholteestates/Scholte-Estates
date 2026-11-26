@@ -379,6 +379,8 @@ export const en = {
     explore: "Explore",
     contact: "Contact",
     rights: "All rights reserved.",
+    legal: "Legal notice",
+    privacy: "Privacy and cookies",
   },
   notFound: {
     title: "Page not found",

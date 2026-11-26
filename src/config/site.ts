@@ -21,6 +21,23 @@ export const site = {
     country: "Spain",
   },
   /**
+   * Operator details confirmed by the user on 26 Nov 2026 for the legal
+   * notice and privacy page. The address is a legal and correspondence
+   * address only (no client reception). No estate-agent registration number
+   * or professional membership has been supplied: do not add or imply one.
+   */
+  legal: {
+    operator: "Christian Scholte",
+    tradingAs: "Scholte Estates",
+    nif: "Y1377545C",
+    address: ["Calle Galicia 114", "Ciudad Quesada", "03170 Rojales (Alicante)", "Spain"],
+    addressEs: ["Calle Galicia 114", "Ciudad Quesada", "03170 Rojales (Alicante)", "España"],
+    privacyEmail: "christian@scholteestates.com",
+    /** Proposed retention for enquiries that do not lead to an assignment. */
+    enquiryRetentionMonths: 24,
+    updated: { en: "26 November 2026", es: "26 de noviembre de 2026" },
+  },
+  /**
    * Approved logos (see docs/brand.md). Originals stay untouched in
    * /public/brand; the site uses the tightly cropped "-web" copies, always on
    * their own matching background colour (brand-forest / brand-beige).
