@@ -48,3 +48,6 @@ next-env.d.ts
 
 # local design review captures
 /review-screenshots/
+
+# hosting
+/.netlify

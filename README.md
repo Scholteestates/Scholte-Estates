@@ -64,7 +64,7 @@ The approved logos are in `public/brand/` and documented in
 [`docs/brand.md`](docs/brand.md) (versions, background colours, sizes and
 where each is used). Render them with the `Logo` component.
 
-### Demo listings (local preview only)
+### Demo listings (public demo, clearly labelled)
 
 Ten fictional properties with AI-generated images are included so the search,
 cards and carousels can be designed and tested. They are clearly labelled as
@@ -102,7 +102,9 @@ Put images in `public/images/` and set `src` for the matching slot in
 - [x] Landing-page flow pass (storyboard in `docs/website-direction.md`): hero
       crossfade, property-story preview, tabbed homes, area explorer with
       schematic map, process timeline, contact finale
-- [ ] Property detail pages as full stories; area profiles; verified nearby places
+- [x] Property detail pages as full stories (all 10 homes, EN/ES): chapters,
+      illustrative setting, facts, gallery viewer
+- [ ] Area profiles; verified nearby places
 - [x] Approved logos in header and footer (`docs/brand.md`)
 - [ ] Business-card colours
 - [ ] Real photography
@@ -112,7 +114,8 @@ Put images in `public/images/` and set `src` for the matching slot in
 - [ ] Enquiry handling, CRM / property feeds, database, admin, AIVENA integration
       (Supabase project `scholte-estates` exists in the Scholte Estates
       organisation; not connected yet)
-- [ ] Hosting and deployment (not started — no DNS changes made)
+- [x] Netlify configuration (`netlify.toml`); hosting on Netlify Free in a
+      separate Scholte Estates account, DNS at GoDaddy (see CLAUDE.md)
 
 ## Missing assets and details
 

@@ -42,7 +42,9 @@ Ciudad Quesada serving the Costa Blanca and international buyers.
   company history, years of experience, languages spoken or legal identifiers.
   **Exception — authorised demo listings (2026-11-25):** the user explicitly
   authorised ten fictional demo properties (supplied in
-  `Scholte_Estates_Demo_Properties.pdf`) for the **local preview only**.
+  `Scholte_Estates_Demo_Properties.pdf`). On 2026-11-26 the user extended this
+  to the **public demo site** on scholteestates.com, provided they stay clearly
+  labelled as fictional and not for sale.
   Rules for them:
   - They live only in `src/data/demo-properties.json` and
     `public/images/demo/` (AI-generated images), loaded via
@@ -62,12 +64,27 @@ Ciudad Quesada serving the Costa Blanca and international buyers.
     for sale.
   - One switch removes all of them: `demoListings.enabled` in
     `src/config/features.ts`. It must be `false` (or the data replaced by
-    real inventory) before any public launch.
+    real inventory) once real listings are available. Demo pages stay
+    `noindex`, out of any sitemap and without real-estate structured data.
 - No form that pretends to submit. Contact is via WhatsApp, email and phone.
 - Area and buying-process text stays general; legal/tax specifics are
   deferred to the buyer's independent lawyer.
-- Do not purchase services, change DNS or deploy publicly without explicit
-  approval.
+- Do not purchase services or paid upgrades without explicit approval.
+
+## Hosting and domain (approved 2026-11-26)
+
+- **Netlify Free**, in a separate Scholte Estates Netlify account, connected
+  only to this repository (`netlify.toml`). Never use AIVENA's Vercel or any
+  AIVENA hosting. Ask before any paid Netlify upgrade.
+- The free plan runs on a monthly credit allowance (production deploys and
+  traffic use credits): refine on deploy previews (branches / pull requests)
+  and merge to `main` only for real releases.
+- **DNS stays at GoDaddy** (nameservers `ns25/ns26.domaincontrol.com`; never
+  move nameservers). Change only the website records (apex `A`, `www`
+  `CNAME`). Keep every email record exactly as is: `MX 1 smtp.google.com`,
+  the SPF `TXT` (`v=spf1 include:dc-bdaca08905._spfm.scholteestates.com ~all`),
+  `_dmarc` and the `google-site-verification` `TXT`. Previous website values
+  before launch: apex `A` 3.33.130.190 and 15.197.148.33; `www` → apex.
 
 ## Website direction and property stories (lasting requirement)
 
@@ -125,13 +142,19 @@ no database/admin work is authorised by it.
 ## Later stages (do not implement yet)
 
 Real listings via CRM / property feeds, enquiry handling, database, admin
-dashboard, AIVENA integration, German.
+dashboard, AIVENA integration, German, verified nearby places and area
+profiles.
 
 ## Confirmed decisions
 
 - Landing page approved (2026-11-25): the second-pass design recorded in
   `docs/website-direction.md` §3 (six sections, fitted sticky property story,
-  motion plan). Next design work: property detail pages as full stories.
+  motion plan).
+- Property detail pages are full stories (2026-11-26): arrival, four room
+  chapters, a separate illustrative setting chapter, facts with the contact
+  action, and an accessible gallery of all six images, for all 10 homes in
+  English and Spanish. Template: `src/app/[lang]/properties/[slug]/page.tsx`;
+  see `docs/website-direction.md` §5.
 
 - Next.js 16 App Router + TypeScript + Tailwind CSS v4, no i18n library.
 - Locale-prefixed routes; same English slugs for both languages.

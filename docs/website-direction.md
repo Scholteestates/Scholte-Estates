@@ -164,9 +164,7 @@ Every real listing should eventually offer the following.
 - **Distances.** Verify the place's relationship to the property before publishing a distance or travel time, and state the travel mode.
 - **Real places.** Use owned or licensed photographs for any identifiable real place.
 - **Generated images.** Label them as illustrative. Never present them as evidence of a real restaurant, school or neighbourhood.
-- **The demo set has one image per property.**
-  - Never combine images of different houses into a "tour" of one home.
-  - A multi-image prototype needs coherent extra views of the same fictional property, clearly presented as a demo.
+- **One home per tour.** Never combine images of different houses into a "tour" of one home. Each demo home has its own five coherent views, clearly presented as a demo.
 
 ### Future content model (record now, implement later)
 
@@ -186,7 +184,7 @@ This is a content requirement. It does **not** authorise a new database or admin
   - Each home has an ordered `story` and an `areaVerification` record listing what must be verified before a real neighbourhood chapter is published.
 - **Extraction.** The 60 images were extracted from *Scholte_Estates_Demo_Properties (2).pdf* using `pdfdetach`/`pdfimages`, rather than the supplied PyMuPDF helper (reviewed; same steps). Each was verified against the embedded SHA-256 manifest, which is kept in the fixture.
 - **Landing page.** Only SE-DEMO-006 *Horizonte Azul* is told on the landing page, in four chapters: kitchen, bedroom, outdoor, and the illustrative setting.
-- **Kept for later listing pages:** the other nine stories, and the bathroom chapter.
+- **Listing pages:** all ten stories, including the bathroom chapter, are told in full on the detail pages (§5).
 - **Illustrative scenes.** The neighbourhood scenes illustrate atmosphere only. They name no real restaurant or school and claim no proximity. They are always labelled "Illustrative scene".
 
 **Development notes moved off the landing page**
@@ -200,6 +198,29 @@ These explanations used to appear on the page and are recorded here instead:
   - **Schools and family needs:** verified school details and admissions information, with no unsupported catchment claims.
   - **Daily life and getting around:** shops, transport and outdoor spaces. Measure routes only once an exact property address exists.
 
+## 5. Property detail pages as stories (26 Nov 2026)
+
+Brief: *Scholte Estates Property Stories Asset Pack* (START_HERE_CLAUDE.md). The pack's 60 images are byte-identical to those already in the project and its story text matches the fixture, so no data migration was needed. The old template showed only `images[0]`; the new template renders every image and chapter.
+
+**Reading sequence** (one template for all ten homes, both languages):
+
+| # | Chapter | Composition | Purpose and next action |
+|---|---|---|---|
+| 1 | Arrival | Cover image (8 cols) beside name, town, one-line title, example price and four key facts; fits under the header at 1366×768 | Orientation; "Begin the tour" link to chapter 2 |
+| 2 | Kitchen and dining | Wide 3:2 image left, text right | Daily living |
+| 3 | Bedroom | Text bottom-left, 4:3 image right | Rest and outlook |
+| 4 | Bathroom | Smaller portrait crop, text right (scale drops on purpose) | Practical detail |
+| 5 | Outdoors | Full-bleed image with an overlapping text card inside the same scene | The release: outdoor life |
+| 6 | The setting | Forest-green band; illustrative scene with a permanent "Illustrative scene" badge, the chapter text, general area copy where the town matches a landing-page area, and our verification standard | Separates home from area; never implies a real venue or proximity |
+| 7 | The facts | Overview, features, full key-details table, demo notice and "Find a similar home" (WhatsApp / email with reference) | The contact action |
+| 8 | Gallery | All six images in a grid; native `<dialog>` viewer with counter, captions, arrows, swipe, Escape; each thumbnail is a plain link without JavaScript | Direct inspection |
+
+**Motion.** Images wipe in with the existing mask reveal; text fades up 0.15–0.25 s later. The sticky chapter index (below the header) follows the scroll position every animation frame, so the active chapter is right when scrolling forward, backward, jumping or resting; it never takes over scrolling. Reduced motion and no-JavaScript show everything at rest.
+
+**Truthfulness.** Demo badge, bilingual demo notice, "Example price", "AI-generated demo image" on every image, "Illustrative scene" on every area image, `noindex` on every demo page. Contact copy asks about similar real homes only.
+
+**Homepage.** The story preview (Horizonte Azul: kitchen, bedroom, outdoors, setting) now leads to the full page with "Follow the full story of this home".
+
 ---
 
 ## Remaining asset needs and follow-up
@@ -210,7 +231,6 @@ These explanations used to appear on the page and are recorded here instead:
   - photos of nearby places
 - **Verified local information:** restaurants, schools, healthcare, beaches and transport, with source links and verification dates.
 - **Logo and business card,** to finalise the colour tokens and header.
-- **Next build stages, after the landing page is approved:**
-  1. property detail pages as full stories
-  2. area profiles
-  3. nearby-place data
+- **Next build stages:**
+  1. area profiles
+  2. nearby-place data (verified)
