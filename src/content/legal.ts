@@ -6,9 +6,8 @@
  * - Operator details: src/config/site.ts → site.legal.
  * - Live-site audit (clean browser): every request goes to scholteestates.com
  *   only; no analytics, advertising, embeds or external fonts. Cookies: only
- *   NEXT_LOCALE after a language switch. Netlify's free-plan badge runs in a
- *   frame served from our own domain and writes local storage only if the
- *   visitor chooses "Hide this badge" (key nl-hud:public:v1, 7 days).
+ *   NEXT_LOCALE after a language switch. No local storage. (The "Powered by
+ *   Netlify" badge was switched off on 26 Nov 2026; re-checked on the live site.)
  * - Transfers: Netlify, Inc., Google LLC and Meta Platforms, Inc. are active
  *   participants in the EU-U.S. Data Privacy Framework (dataprivacyframework.gov).
  * Re-check all of this whenever a service, form or script is added.
@@ -226,24 +225,18 @@ const en = {
         h: "Cookies and similar technologies",
         blocks: [
           {
-            p: "We do not use analytics, advertising or social media cookies, and the website loads no content from other companies. Fonts and images are served from our own domain. Only the following are used, both strictly necessary for a function you request, so no consent banner is needed:",
+            p: "We do not use analytics, advertising or social media cookies, and the website loads no content from other companies. Fonts and images are served from our own domain. Only the following cookie is used. It is strictly necessary for a function you request, so no consent banner is needed:",
           },
           {
             table: {
               head: ["Name", "Type and provider", "Purpose", "Duration"],
               rows: [
                 ["NEXT_LOCALE", "Cookie, Scholte Estates", "Remembers the language you chose. Set only when you switch language.", "1 year"],
-                [
-                  "nl-hud:public:v1",
-                  "Local storage, Netlify (hosting badge)",
-                  "Remembers that you hid the “Powered by Netlify” badge. Set only if you choose to hide it.",
-                  "7 days",
-                ],
               ],
             },
           },
           {
-            p: "You can delete or block these in your browser settings; the website keeps working, but your language choice or hidden badge will not be remembered. The WhatsApp, email and phone links open other services only when you use them.",
+            p: "You can delete or block it in your browser settings; the website keeps working, but your language choice will not be remembered. The WhatsApp, email and phone links open other services only when you use them.",
           },
         ],
       },
@@ -444,24 +437,18 @@ const es = {
         h: "Cookies y tecnologías similares",
         blocks: [
           {
-            p: "No utilizamos cookies de analítica, publicidad ni redes sociales, y el sitio web no carga contenidos de otras empresas. Las fuentes y las imágenes se sirven desde nuestro propio dominio. Solo se utilizan las siguientes, ambas estrictamente necesarias para una función que solicitas, por lo que no se requiere un aviso de consentimiento:",
+            p: "No utilizamos cookies de analítica, publicidad ni redes sociales, y el sitio web no carga contenidos de otras empresas. Las fuentes y las imágenes se sirven desde nuestro propio dominio. Solo se utiliza la siguiente cookie. Es estrictamente necesaria para una función que solicitas, por lo que no se requiere un aviso de consentimiento:",
           },
           {
             table: {
               head: ["Nombre", "Tipo y proveedor", "Finalidad", "Duración"],
               rows: [
                 ["NEXT_LOCALE", "Cookie, Scholte Estates", "Recuerda el idioma que elegiste. Solo se crea al cambiar de idioma.", "1 año"],
-                [
-                  "nl-hud:public:v1",
-                  "Almacenamiento local, Netlify (distintivo de alojamiento)",
-                  "Recuerda que ocultaste el distintivo «Powered by Netlify». Solo se crea si decides ocultarlo.",
-                  "7 días",
-                ],
               ],
             },
           },
           {
-            p: "Puedes eliminarlas o bloquearlas en la configuración de tu navegador; el sitio web seguirá funcionando, pero no se recordará tu idioma ni el distintivo oculto. Los enlaces de WhatsApp, correo y teléfono solo abren otros servicios cuando los utilizas.",
+            p: "Puedes eliminarla o bloquearla en la configuración de tu navegador; el sitio web seguirá funcionando, pero no se recordará tu idioma. Los enlaces de WhatsApp, correo y teléfono solo abren otros servicios cuando los utilizas.",
           },
         ],
       },

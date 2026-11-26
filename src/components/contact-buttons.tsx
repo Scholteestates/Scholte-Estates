@@ -50,7 +50,7 @@ export function WhatsAppFab({ label }: { label: string }) {
       target="_blank"
       rel="noopener noreferrer"
       aria-label={label}
-      className="fixed right-4 bottom-20 z-30 inline-flex size-14 items-center justify-center rounded-full bg-forest-800 text-ivory-50 shadow-lg shadow-forest-950/25 ring-1 ring-gold-400/60 transition-transform hover:scale-105 md:right-6 md:bottom-20"
+      className="fixed right-4 bottom-5 z-30 inline-flex size-14 items-center justify-center rounded-full bg-forest-800 text-ivory-50 shadow-lg shadow-forest-950/25 ring-1 ring-gold-400/60 transition-transform hover:scale-105 md:right-6 md:bottom-6"
     >
       <WhatsAppIcon className="size-7" />
     </a>
