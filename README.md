@@ -114,8 +114,9 @@ Put images in `public/images/` and set `src` for the matching slot in
 - [ ] Enquiry handling, CRM / property feeds, database, admin, AIVENA integration
       (Supabase project `scholte-estates` exists in the Scholte Estates
       organisation; not connected yet)
-- [x] Netlify configuration (`netlify.toml`); hosting on Netlify Free in a
-      separate Scholte Estates account, DNS at GoDaddy (see CLAUDE.md)
+- [x] Live on https://scholteestates.com (26 Nov 2026): Netlify Free in a
+      separate Scholte Estates account, repository in the `Scholteestates`
+      GitHub organisation, DNS at GoDaddy (website records only; see CLAUDE.md)
 
 ## Missing assets and details
 
