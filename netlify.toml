@@ -3,6 +3,9 @@
 [build]
   command = "npm run build"
   publish = ".next"
+  # Skip the build (and its production-deploy credits) when a change only
+  # touches documentation: docs/ and Markdown files. Exit 0 = skip.
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':(exclude)docs/' ':(exclude)*.md'"
 
 [build.environment]
   NODE_VERSION = "22"

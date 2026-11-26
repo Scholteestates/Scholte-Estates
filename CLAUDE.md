@@ -119,6 +119,12 @@ Ciudad Quesada serving the Costa Blanca and international buyers.
   Previous values, to restore if ever needed: `A @` "Parked" (GoDaddy parking,
   3.33.130.190 / 15.197.148.33) and `CNAME www` → `scholteestates.com.`.
   GoDaddy asks for an identity code on every DNS save (the user enters it).
+- **Releases (authorised by the user 2026-11-26):** for changes the user
+  requests, Claude may merge tested pull requests itself (`gh pr merge`, allowed
+  only in this project's `.claude/settings.local.json`) and verify the live
+  deploy. Process: branch → PR → Netlify deploy preview tested → merge → check
+  scholteestates.com. Never push directly to `main`, never use bypass mode,
+  never touch AIVENA permissions or repositories.
 - Netlify team `crisscholte` (Free), project `scholte-estates`; production
   visibility Public, deploy previews Private. `main` deploys to production;
   pull requests get previews.
@@ -175,6 +181,14 @@ no database/admin work is authorised by it.
   integrating, use only this project — never an AIVENA Supabase project or
   organisation — and keep keys in `.env.local` (placeholders only in
   `.env.example`).
+
+## Real listings (planning, 2026-11-26)
+
+Read **`docs/real-listings-plan.md`** before any listings work: RedSP and MLS
+requirements, the one-standard-listing-first rule, supplied vs verified
+labelling, data-model changes, phases, blockers and costs. Nothing is
+implemented yet; providers' data may only be published with written licences.
+Enquiry retention is done by hand: **`docs/retention-procedure.md`**.
 
 ## Later stages (do not implement yet)
 
