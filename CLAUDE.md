@@ -69,6 +69,8 @@ Ciudad Quesada serving the Costa Blanca and international buyers.
     real inventory) once real listings are available. Demo pages stay
     `noindex`, out of any sitemap and without real-estate structured data.
 - No form that pretends to submit. Contact is via WhatsApp, email and phone.
+- The floating WhatsApp button sits at `bottom-20` so it clears the
+  "Powered by Netlify" badge that the free plan shows bottom-right.
 - Area and buying-process text stays general; legal/tax specifics are
   deferred to the buyer's independent lawyer.
 - Do not purchase services or paid upgrades without explicit approval.
@@ -85,8 +87,15 @@ Ciudad Quesada serving the Costa Blanca and international buyers.
   move nameservers). Change only the website records (apex `A`, `www`
   `CNAME`). Keep every email record exactly as is: `MX 1 smtp.google.com`,
   the SPF `TXT` (`v=spf1 include:dc-bdaca08905._spfm.scholteestates.com ~all`),
-  `_dmarc` and the `google-site-verification` `TXT`. Previous website values
-  before launch: apex `A` 3.33.130.190 and 15.197.148.33; `www` → apex.
+  `_dmarc` and the `google-site-verification` `TXT`.
+- **Live records (set 2026-11-26):** apex `A @` → `75.2.60.5` (Netlify load
+  balancer; GoDaddy has no ALIAS) and `CNAME www` → `scholte-estates.netlify.app`.
+  Previous values, to restore if ever needed: `A @` "Parked" (GoDaddy parking,
+  3.33.130.190 / 15.197.148.33) and `CNAME www` → `scholteestates.com.`.
+  GoDaddy asks for an identity code on every DNS save (the user enters it).
+- Netlify team `crisscholte` (Free), project `scholte-estates`; production
+  visibility Public, deploy previews Private. `main` deploys to production;
+  pull requests get previews.
 
 ## Website direction and property stories (lasting requirement)
 
