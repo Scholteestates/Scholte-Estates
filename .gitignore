@@ -51,3 +51,6 @@ next-env.d.ts
 
 # hosting
 /.netlify
+
+# Private provider samples, downloaded photos and listing overlays (never commit)
+/.private/
