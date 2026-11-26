@@ -182,6 +182,14 @@ no database/admin work is authorised by it.
   organisation — and keep keys in `.env.local` (placeholders only in
   `.env.example`).
 
+## Real listings (planning, 2026-11-26)
+
+Read **`docs/real-listings-plan.md`** before any listings work: RedSP and MLS
+requirements, the one-standard-listing-first rule, supplied vs verified
+labelling, data-model changes, phases, blockers and costs. Nothing is
+implemented yet; providers' data may only be published with written licences.
+Enquiry retention is done by hand: **`docs/retention-procedure.md`**.
+
 ## Later stages (do not implement yet)
 
 Real listings via CRM / property feeds, enquiry handling, database, admin
