@@ -185,9 +185,13 @@ no database/admin work is authorised by it.
 ## Real listings (planning, 2026-11-26)
 
 Read **`docs/real-listings-plan.md`** before any listings work: RedSP and MLS
-requirements, the one-standard-listing-first rule, supplied vs verified
-labelling, data-model changes, phases, blockers and costs. Nothing is
-implemented yet; providers' data may only be published with written licences.
+Costa facts, publication-rights check (provider agreement first), the full
+property story as the target for every listing (unsupported chapters omitted
+and listed in a gap report), supplied vs verified labelling, phases, blockers
+and costs. Nothing is implemented yet. Provider sample feeds (e.g. the RedSP
+trial feed) are for private compatibility tests only: never commit them or
+publish their properties. MLS Costa membership/feed access is unconfirmed
+until the user supplies it. Stay on Netlify Free; no purchases or upgrades.
 Enquiry retention is done by hand: **`docs/retention-procedure.md`**.
 
 ## Later stages (do not implement yet)
