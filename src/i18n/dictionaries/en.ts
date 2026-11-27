@@ -452,6 +452,15 @@ export const en = {
     locationLabel: "Based in",
     emailSubject: "Enquiry via scholteestates.com",
   },
+  amandaChat: {
+    open: "Chat with Amanda",
+    ai: "AI assistant",
+    title: "Amanda · Scholte Estates",
+    notice: "Amanda is an AI assistant (an automated system, not a person) provided through AIVENA. Christian takes over for prices, viewings and advice.",
+    privacy: "How your chat is handled",
+    close: "Close the chat",
+    frameTitle: "Chat with Amanda, Scholte Estates' AI assistant",
+  },
   consent: {
     title: "Cookies",
     body: "With your permission we use Google Analytics cookies to see how the website is used, so we can improve it. You can change your choice at any time under \u201cCookie settings\u201d.",

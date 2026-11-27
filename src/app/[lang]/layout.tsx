@@ -8,6 +8,8 @@ import { SiteFooter } from "@/components/site-footer";
 import { WhatsAppFab } from "@/components/contact-buttons";
 import { RevealObserver } from "@/components/reveal-observer";
 import { AnalyticsConsent } from "@/components/consent/analytics-consent";
+import { AmandaChat } from "@/components/amanda-chat";
+import { amandaChat, amandaChatEnabled } from "@/config/features";
 import "../globals.css";
 
 const cormorant = Cormorant_Garamond({
@@ -59,6 +61,16 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
         </main>
         <SiteFooter locale={locale} dict={dict} />
         <WhatsAppFab label={dict.cta.whatsapp} />
+        {amandaChatEnabled() && (
+          <AmandaChat
+            host={amandaChat.host}
+            slug={amandaChat.slug}
+            color={amandaChat.color}
+            lang={locale}
+            labels={dict.amandaChat}
+            privacyHref={`/${locale}/privacy#amanda`}
+          />
+        )}
         <RevealObserver />
         {site.analytics.ga4MeasurementId && (
           <AnalyticsConsent gaId={site.analytics.ga4MeasurementId} labels={dict.consent} policyHref={`/${locale}/privacy`} />
