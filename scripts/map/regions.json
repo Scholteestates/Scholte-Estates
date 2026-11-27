@@ -1,0 +1,108 @@
+{
+  "boxes": [
+    {
+      "name": "costa-blanca-overview",
+      "west": -1.1,
+      "south": 37.75,
+      "east": 0.25,
+      "north": 38.85,
+      "minZoom": 5,
+      "maxZoom": 10
+    },
+    {
+      "name": "vega-baja-coast",
+      "west": -0.96,
+      "south": 37.86,
+      "east": -0.6,
+      "north": 38.2,
+      "minZoom": 11,
+      "maxZoom": 12
+    },
+    {
+      "name": "marina-baixa",
+      "west": -0.26,
+      "south": 38.48,
+      "east": 0,
+      "north": 38.66,
+      "minZoom": 11,
+      "maxZoom": 12
+    }
+  ],
+  "detail": {
+    "maxZoom": 15,
+    "detailRadiusKm": 4,
+    "centres": [
+      {
+        "id": "cala-finestrat",
+        "lat": 38.513,
+        "lng": -0.153
+      },
+      {
+        "id": "altea",
+        "lat": 38.60282,
+        "lng": -0.04721,
+        "radiusKm": 4.9
+      },
+      {
+        "id": "benijofar",
+        "lat": 38.07898,
+        "lng": -0.73842,
+        "radiusKm": 4
+      },
+      {
+        "id": "campoamor",
+        "lat": 37.90053,
+        "lng": -0.75756,
+        "radiusKm": 5.6
+      },
+      {
+        "id": "ciudad-quesada",
+        "lat": 38.06445,
+        "lng": -0.71767,
+        "radiusKm": 5.3
+      },
+      {
+        "id": "finestrat",
+        "lat": 38.56792,
+        "lng": -0.21223,
+        "radiusKm": 6.7
+      },
+      {
+        "id": "guardamar",
+        "lat": 38.09,
+        "lng": -0.65381,
+        "radiusKm": 4.2
+      },
+      {
+        "id": "la-mata",
+        "lat": 38.02655,
+        "lng": -0.65452,
+        "radiusKm": 5
+      },
+      {
+        "id": "los-balcones",
+        "lat": 37.96027,
+        "lng": -0.72755,
+        "radiusKm": 4.9
+      },
+      {
+        "id": "playa-flamenca",
+        "lat": 37.93219,
+        "lng": -0.72825,
+        "radiusKm": 4.9
+      },
+      {
+        "id": "rojales",
+        "lat": 38.08717,
+        "lng": -0.72282,
+        "radiusKm": 4.3
+      },
+      {
+        "id": "san-fulgencio",
+        "lat": 38.115,
+        "lng": -0.718,
+        "radiusKm": 6.6
+      }
+    ]
+  }
+}

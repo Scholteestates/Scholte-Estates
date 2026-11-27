@@ -50,16 +50,30 @@ to the new action date.
 
 ## On the action date (calendar reminder)
 
-1. **Gmail:** search `from:their@address OR to:their@address`, select the threads,
-   delete them, then open **Bin** and **empty it** for those messages. Delete the
-   person from Google Contacts.
-2. **WhatsApp:** open the chat → contact name → **Delete chat**, ticking "also delete
-   media". Then **Settings → Chats → Chat backup → Back up now**, and check that
-   "Last backup" shows today.
-3. **Phone:** delete call-log entries and the contact (synced contacts are removed
-   from iCloud/Google too).
+Delete **only this person's messages and files**, permanently, one item at a time.
+Never empty a whole Bin, "Recently deleted" album or backup to do this: they may hold
+other things you still need.
+
+1. **Gmail**
+   - Search `from:their@address OR to:their@address` and check each thread really
+     belongs to this enquiry (a thread can also contain other people's messages).
+   - Select those threads → **Delete**.
+   - Search `in:trash from:their@address OR in:trash to:their@address`, select only
+     those messages → **Delete forever**.
+   - Delete the person from Google Contacts (Contacts → the person → Delete; then
+     **Trash** → that contact → Delete forever).
+2. **WhatsApp**
+   - Open the chat → contact name → **Delete chat**, ticking "Delete media in this
+     chat" (or "also delete media").
+   - Then **Settings → Chats → Chat backup → Back up now**. This replaces the single
+     backup with one made *after* the deletion; it does not remove anything else.
+     Check that "Last backup" shows today.
+3. **Phone:** delete this person's call-log entries and contact (synced contacts are
+   removed from iCloud/Google too; if the contacts app has a Recently deleted list,
+   remove only that contact from it).
 4. **Saved files:** if they sent documents or photos that were saved to Photos or
-   Drive, delete them and also empty **Recently deleted** (Photos) / **Bin** (Drive).
+   Drive, delete those items, then in **Recently deleted** (Photos) or **Bin** (Drive)
+   select **only those items** → Delete / Delete forever.
 5. **Log:** delete the row. Keep a one-line record without personal data:
    "#‹row›, deleted ‹date›".
 
@@ -74,9 +88,12 @@ above. The calendar reminder is the main trigger; this check is the safety net.
 - **WhatsApp:** turn on automatic chat backup **daily** (Settings → Chats → Chat
   backup), so a new backup always follows a deletion within a day. Turn off **Save to
   Photos** (iPhone) / **Media visibility** (Android).
-- **Other backups:** if you back up the phone to a computer (Finder/iTunes), those
-  backups are snapshots and can still contain deleted chats; delete old computer
-  backups you no longer need.
+- **Other backups:** a phone backup on a computer (Finder/iTunes) or an external
+  drive is a snapshot of the whole phone, so it can still contain deleted chats. Do
+  not delete a whole backup just for one enquiry: first check what else it holds and
+  whether you still need it. Prefer not keeping extra phone backups at all; where an
+  old one must stay, note it in the log as a known copy and remove it once it is no
+  longer needed.
 - **Google Workspace:** check that no Google Vault retention rule keeps mail longer
   than this policy (Admin console → Vault, available on some Workspace editions).
 - Do not use WhatsApp "disappearing messages" for this: the longest setting is 90 days.

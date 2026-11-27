@@ -1,0 +1,130 @@
+{
+  "id": "san-fulgencio",
+  "name": "San Fulgencio",
+  "centre": {
+    "lat": 38.115,
+    "lng": -0.718,
+    "source": "Mean position of the checked village places (rounded)"
+  },
+  "radiusM": 3000,
+  "places": [
+    {
+      "name": "CEIP José María Manresa Navarro",
+      "category": "school",
+      "lat": 38.1168532,
+      "lng": -0.7169713,
+      "osm": "way/562032719",
+      "sourceUrl": "https://portal.edu.gva.es/ceipjosemariamanresanavarro/",
+      "sourceType": "Conselleria school directory",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Public primary school (CEIP) in the village; its website is hosted on the Conselleria d'Educació portal.",
+        "es": "Colegio público de primaria (CEIP) en el pueblo; su web está en el portal de la Conselleria d'Educació."
+      }
+    },
+    {
+      "name": "Sección del IES La Encantá en San Fulgencio",
+      "category": "school",
+      "lat": 38.1141034,
+      "lng": -0.7211869,
+      "osm": "way/1248941270",
+      "sourceUrl": "https://portal.edu.gva.es/iesdesanfulgencio/",
+      "sourceType": "Conselleria school directory",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Public secondary school: a section of IES La Encantá teaching ESO, years 1 to 4.",
+        "es": "Instituto público: sección del IES La Encantá que imparte de 1.º a 4.º de ESO."
+      }
+    },
+    {
+      "name": "Consultorio Médico San Fulgencio",
+      "category": "health",
+      "lat": 38.1146351,
+      "lng": -0.7176041,
+      "osm": "node/6332938771",
+      "sourceUrl": "https://www.sanfulgencio.es/el-ayuntamiento/areas/sanidad-2/centros-medicos/",
+      "sourceType": "municipal website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Public medical consultorio (local surgery) in the village, listed by the town hall.",
+        "es": "Consultorio médico público del pueblo, según el listado del ayuntamiento."
+      }
+    },
+    {
+      "name": "La Marquesa Golf",
+      "category": "golf",
+      "lat": 38.0836864,
+      "lng": -0.7087954,
+      "osm": "relation/3319596",
+      "sourceUrl": "https://www.lamarquesagolf.es/",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "18-hole golf course in Rojales, at the southern edge of the 3 km radius.",
+        "es": "Campo de golf de 18 hoyos en Rojales, en el límite sur del radio de 3 km."
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Café Época",
+      "reason": "OSM only; no current independent source found"
+    },
+    {
+      "name": "Sami's Piscina / Sami's Plaza / Sami's Bar",
+      "reason": "OSM only; no current independent source found"
+    },
+    {
+      "name": "Casa Andreu",
+      "reason": "no source found in San Fulgencio (only a namesake in Orihuela)"
+    },
+    {
+      "name": "Asador de Pollos Chen",
+      "reason": "OSM only; no current independent source found"
+    },
+    {
+      "name": "Farmacia Quiles Martínez",
+      "reason": "no current independent source found"
+    },
+    {
+      "name": "Piscina Municipal / Polideportivo San Fulgencio",
+      "reason": "municipal sports page names no facilities; no current source"
+    },
+    {
+      "name": "El Hondo de Amorós",
+      "reason": "protected wetland in OSM, but no official page describing it was found"
+    },
+    {
+      "name": "Escuela Municipal Infantil La Ranita",
+      "reason": "not verified"
+    },
+    {
+      "name": "Finca La Vuelta",
+      "reason": "own website failed (certificate error); not verified"
+    },
+    {
+      "name": "Supermarket",
+      "reason": "none tagged in OSM within 3 km; none verified"
+    },
+    {
+      "name": "Beach / La Marina urbanisation",
+      "reason": "outside the 3 km radius (La Marina venues checked sit ~3.5-4 km east; coast further)"
+    },
+    {
+      "name": "Bibiana's restaurant",
+      "reason": "No venue website or official source found; only gastroranking."
+    },
+    {
+      "name": "TAPERIA AVENIDA",
+      "reason": "No official source; OSM node is named 'Cafetería Avenida' (name mismatch); reviews mention changed hours."
+    }
+  ],
+  "research": {
+    "by": "Claude (AI research assistant) for Scholte Estates",
+    "method": "Candidates from OpenStreetMap; each place checked against a current official website or official listing on the date shown. Notes written from those sources only."
+  },
+  "approval": {
+    "approvedBy": "Christian Scholte",
+    "approvedAt": "2026-11-27"
+  }
+}

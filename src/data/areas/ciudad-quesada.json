@@ -1,0 +1,154 @@
+{
+  "id": "ciudad-quesada",
+  "name": "Ciudad Quesada",
+  "centre": {
+    "lat": 38.0644491,
+    "lng": -0.717674,
+    "source": "Nominatim: Ciudad Quesada, Urbanización Doña Pepa, Rojales, el Baix Segura / La Vega Baja, Alacant / Alicante, Comunitat Valenciana, 03170, España"
+  },
+  "radiusM": 2000,
+  "places": [
+    {
+      "name": "Patagonia Grill House",
+      "category": "restaurant",
+      "lat": 38.0638613,
+      "lng": -0.7235232,
+      "osm": "node/4887279855",
+      "sourceUrl": "https://patagonia-steakhouse.com/",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-27",
+      "note": {
+        "en": "Argentinian grill house on Avenida de las Naciones, Ciudad Quesada; a second branch is in El Raso.",
+        "es": "Parrilla argentina en la Avenida de las Naciones, Ciudad Quesada; tiene un segundo local en El Raso."
+      }
+    },
+    {
+      "name": "Den norske skolen i Rojales",
+      "category": "school",
+      "lat": 38.0659979,
+      "lng": -0.7263738,
+      "osm": "way/230337376",
+      "sourceUrl": "https://www.dnsr.no/",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Norwegian school on Avenida de Castilla: primary, lower secondary and upper secondary (VG1–VG3).",
+        "es": "Colegio noruego en la Avenida de Castilla: primaria, secundaria y bachillerato noruego (VG1–VG3)."
+      }
+    },
+    {
+      "name": "Consum Rojales Doña Pepa",
+      "category": "shop",
+      "lat": 38.05251,
+      "lng": -0.72301,
+      "osm": "node/1446110798",
+      "sourceUrl": "https://www.consum.es/supermercados/rojales-dona-pepa/",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Consum supermarket on Avenida de Salamanca, Urbanización Doña Pepa.",
+        "es": "Supermercado Consum en la Avenida de Salamanca, Urbanización Doña Pepa."
+      }
+    },
+    {
+      "name": "Aquapark Rojales",
+      "category": "sport",
+      "lat": 38.0718506,
+      "lng": -0.7219672,
+      "osm": "way/171857885",
+      "sourceUrl": "https://www.aquaparkrojales.es",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Water park with slides and children's pools; restaurant and free customer parking per its website.",
+        "es": "Parque acuático con toboganes y piscinas infantiles; restaurante y aparcamiento gratuito según su web."
+      }
+    },
+    {
+      "name": "La Marquesa Golf",
+      "category": "golf",
+      "lat": 38.0836864,
+      "lng": -0.7087954,
+      "osm": "relation/3319596",
+      "sourceUrl": "https://www.lamarquesagolf.es/",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "18-hole golf course founded in 1989 as Quesada Golf Club; restaurant, pro shop and golf school per its website.",
+        "es": "Campo de golf de 18 hoyos fundado en 1989 como Quesada Golf Club; restaurante, tienda y escuela de golf según su web."
+      }
+    },
+    {
+      "name": "Parque El Recorral",
+      "category": "park",
+      "lat": 38.0750216,
+      "lng": -0.6987671,
+      "osm": "way/261213256",
+      "sourceUrl": "https://www.rojales.es/en/turismo_activo/parque-el-recorral/",
+      "sourceType": "municipal website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Former livestock grove now covered in Aleppo pines; used for picnics and the San Isidro pilgrimage (romería).",
+        "es": "Antiguo soto ganadero cubierto de pino carrasco; zona de excursiones y meriendas y sede de la romería de San Isidro."
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Spice Hut",
+      "reason": "only directory listing found has no recent reviews; last independent confirmation 2018"
+    },
+    {
+      "name": "Olive Tree",
+      "reason": "only an aggregator listing without a current date; not confirmed operating"
+    },
+    {
+      "name": "Lidl (Avenida de los Regantes)",
+      "reason": "official store page blocked (403); only a 2017 news item found"
+    },
+    {
+      "name": "Mercadona (C/ Valencia)",
+      "reason": "official store locator not fetchable; no independent current source"
+    },
+    {
+      "name": "Farmacia Quesada Centro / Farmacia Ortopedia El Canal",
+      "reason": "no current source confirming these names; municipal list names a pharmacy on C/ Azul under a different name"
+    },
+    {
+      "name": "Ribera Clinic Ciudad Quesada",
+      "reason": "official site gives Calle Mallorca 25; could not match to an OSM feature"
+    },
+    {
+      "name": "Unnamed clinic node/12715503392",
+      "reason": "no name in OSM; cannot identify"
+    },
+    {
+      "name": "Centro de Salud de Rojales",
+      "reason": "verified, but about 2.5 km from the centre; listed under Rojales instead"
+    },
+    {
+      "name": "The Club, Quesada",
+      "reason": "Only a Facebook page and directories found; no own website or official source."
+    },
+    {
+      "name": "Old Don Carlos",
+      "reason": "No own website; sister venue site (cerveceriadoncarlos.com) mentions it only historically as its first premises, not as currently operating."
+    },
+    {
+      "name": "Quesada Fish & Chips",
+      "reason": "quesadafishandchips.com is an empty placeholder page; no other own or official source found."
+    },
+    {
+      "name": "Rose & Stein",
+      "reason": "No venue website or official source found; only review directories. OSM node last edited 2019."
+    }
+  ],
+  "research": {
+    "by": "Claude (AI research assistant) for Scholte Estates",
+    "method": "Candidates from OpenStreetMap; each place checked against a current official website or official listing on the date shown. Notes written from those sources only."
+  },
+  "approval": {
+    "approvedBy": "Christian Scholte",
+    "approvedAt": "2026-11-27"
+  }
+}

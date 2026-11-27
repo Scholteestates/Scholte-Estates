@@ -1,0 +1,208 @@
+{
+  "id": "altea",
+  "name": "Altea",
+  "centre": {
+    "lat": 38.6028245,
+    "lng": -0.0472059,
+    "source": "Nominatim: Altea, la Marina Baixa, Alacant / Alicante, Comunitat Valenciana, España"
+  },
+  "radiusM": 2000,
+  "places": [
+    {
+      "name": "Oustau de Altea",
+      "category": "restaurant",
+      "lat": 38.599227,
+      "lng": -0.051341,
+      "osm": "node/4860087528",
+      "sourceUrl": "https://oustau.es/",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Restaurant in the old town (Carrer Major) with French-inspired signature cooking and cocktails.",
+        "es": "Restaurante en el casco antiguo (Carrer Major) con cocina de autor de inspiración francesa y cócteles."
+      }
+    },
+    {
+      "name": "Bon Vent",
+      "category": "restaurant",
+      "lat": 38.58833,
+      "lng": -0.057122,
+      "osm": "node/2453894549",
+      "sourceUrl": "https://restaurantbonvent.com",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Restaurant of the Club Náutico de Altea (Avda. del Puerto 50): seasonal Mediterranean food, local seafood, rice dishes.",
+        "es": "Restaurante del Club Náutico de Altea (Avda. del Puerto 50): cocina mediterránea de temporada, pescado local y arroces."
+      }
+    },
+    {
+      "name": "Ca Joan",
+      "category": "restaurant",
+      "lat": 38.615497,
+      "lng": -0.033022,
+      "osm": "way/704036188",
+      "sourceUrl": "https://cajoanaltea.com/",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Grill restaurant about 100 m from the beach: aged beef and dishes cooked over holm-oak wood fire.",
+        "es": "Brasería a unos 100 m de la playa: carne de buey madurada y platos a la brasa de leña de encina."
+      }
+    },
+    {
+      "name": "IES Bellaguarda",
+      "category": "school",
+      "lat": 38.605201,
+      "lng": -0.045608,
+      "osm": "way/655928499",
+      "sourceUrl": "https://portal.edu.gva.es/iesbellaguarda/",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Public secondary school (Generalitat Valenciana): ESO, Bachillerato (incl. Bachibac) and vocational courses.",
+        "es": "Instituto público (Generalitat Valenciana): ESO, Bachillerato (incl. Bachibac) y ciclos de FP."
+      }
+    },
+    {
+      "name": "CEIP Garganes Foyeta",
+      "category": "school",
+      "lat": 38.606593,
+      "lng": -0.046098,
+      "osm": "way/691001093",
+      "sourceUrl": "https://portal.edu.gva.es/03012232/",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Public infant and primary school (CEIP), Generalitat Valenciana; website in Valencian and Spanish.",
+        "es": "Colegio público de infantil y primaria (CEIP) de la Generalitat Valenciana; web en valenciano y castellano."
+      }
+    },
+    {
+      "name": "Mercat Municipal d'Altea",
+      "category": "market",
+      "lat": 38.600523,
+      "lng": -0.048412,
+      "osm": "node/9850482534",
+      "sourceUrl": "https://www.comunitatvalenciana.com/en/alacant-alicante/altea/where-to-go-shopping/mercat-municipal-daltea",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Municipal market on Avda. L'Alt Rei en Jaume I, listed under markets by the regional tourism site.",
+        "es": "Mercado municipal en la Avda. L'Alt Rei en Jaume I, incluido entre los mercados de Turisme Comunitat Valenciana."
+      }
+    },
+    {
+      "name": "C.S. Altea",
+      "category": "health",
+      "lat": 38.604383,
+      "lng": -0.045478,
+      "osm": "way/195694725",
+      "sourceUrl": "https://marinabaixa.san.gva.es/es/c.s.-altea",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Public primary-care health centre (Marina Baixa health department) on C/ Galotxa.",
+        "es": "Centro de salud público de atención primaria (Departamento de Salud Marina Baixa) en C/ Galotxa."
+      }
+    },
+    {
+      "name": "Platja de l'Espigó",
+      "category": "beach",
+      "lat": 38.6012,
+      "lng": -0.044691,
+      "osm": "way/620857164",
+      "sourceUrl": "https://www.comunitatvalenciana.com/en/alacant-alicante/altea/beaches/playa-de-lespigo",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Central pebble beach sheltered by two breakwaters, by the seafront promenade; Blue Flag and accessible bathing.",
+        "es": "Playa céntrica de cantos rodados protegida por dos espigones, junto al paseo; Bandera Azul y baño adaptado."
+      }
+    },
+    {
+      "name": "Platja de la Roda",
+      "category": "beach",
+      "lat": 38.594663,
+      "lng": -0.051565,
+      "osm": "way/22274645",
+      "sourceUrl": "https://www.comunitatvalenciana.com/en/alacant-alicante/altea/beaches/la-roda-beach",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Urban beach of about 1.4 km, pebbles and gravel, below the promenade; Blue Flag per the regional tourism site.",
+        "es": "Playa urbana de unos 1,4 km de cantos y grava junto al paseo; Bandera Azul según Turisme Comunitat Valenciana."
+      }
+    },
+    {
+      "name": "Iglesia Parroquial de Nuestra Señora del Consuelo",
+      "category": "culture",
+      "lat": 38.598936,
+      "lng": -0.051783,
+      "osm": "way/264771945",
+      "sourceUrl": "https://www.comunitatvalenciana.com/en/alacant-alicante/altea/monumentos/iglesia-parroquial-de-nuestra-senora-del-consuelo",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Old-town church on Plaza de la Iglesia, built 1900-1910, with a blue-tiled dome; viewpoint nearby.",
+        "es": "Iglesia del casco antiguo en la Plaza de la Iglesia, construida en 1900-1910, con cúpula de teja azul; mirador cercano."
+      }
+    },
+    {
+      "name": "Desembocadura del Riu de l'Algar",
+      "category": "nature",
+      "lat": 38.614787,
+      "lng": -0.056943,
+      "osm": "way/78814716",
+      "sourceUrl": "https://fundacion-biodiversidad.es/en/proyecto_prtr/project-for-the-ecological-restoration-and-improvement-of-the-lamination-capacity-of-the-mouth-of-the-algar-river-in-the-municipality-of-altea-alicante-predra/",
+      "sourceType": "official body (Fundación Biodiversidad, Spanish Ministry for the Ecological Transition)",
+      "verifiedAt": "2026-11-27",
+      "note": {
+        "en": "Coastal wetland at the mouth of the Algar river, subject of an ecological restoration project led by Altea Town Council.",
+        "es": "Humedal costero en la desembocadura del río Algar, objeto de un proyecto de restauración ecológica del Ayuntamiento de Altea."
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Café Filarmónica",
+      "reason": "no source found"
+    },
+    {
+      "name": "Ópera (café)",
+      "reason": "only a directory with latest review from 2023"
+    },
+    {
+      "name": "Cafe-Bar Katanga",
+      "reason": "OSM menu link returns 404; no other source"
+    },
+    {
+      "name": "La Bombonniere / Chocolates Valor / Por Flavór / Café L'Abret",
+      "reason": "no current source confirming them at the OSM location"
+    },
+    {
+      "name": "Polideportivo Altea Garganes",
+      "reason": "only a 2021 news article found"
+    },
+    {
+      "name": "IES Altaia",
+      "reason": "verified (portal.edu.gva.es, C/ Benidorm 11) but left out to keep the mix; can be added"
+    },
+    {
+      "name": "Farmacia Lerma",
+      "reason": "verified (farmacialerma.com, Costera Pont del Montcau 1) but left out to keep the mix; can be added"
+    },
+    {
+      "name": "QUINOA Altea Beach",
+      "reason": "No venue website or official source found; only review/menu directories (gastroranking, wanderlog, *.menu)."
+    }
+  ],
+  "research": {
+    "by": "Claude (AI research assistant) for Scholte Estates",
+    "method": "Candidates from OpenStreetMap; each place checked against a current official website or official listing on the date shown. Notes written from those sources only."
+  },
+  "approval": {
+    "approvedBy": "Christian Scholte",
+    "approvedAt": "2026-11-27"
+  }
+}

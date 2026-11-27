@@ -1,0 +1,10 @@
+{
+  "source": "https://build.protomaps.com/20261126.pmtiles",
+  "basemapVersion": "4.15.2",
+  "osmReplicationTime": "2026-11-26T04:00:00Z",
+  "attribution": "© OpenStreetMap contributors (ODbL) · Protomaps",
+  "minZoom": 5,
+  "maxZoom": 15,
+  "extractedAt": "2026-11-26T22:49:21.894Z",
+  "tiles": 1467
+}

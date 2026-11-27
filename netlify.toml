@@ -17,3 +17,9 @@
   to = "https://scholteestates.com/:splat"
   status = 301
   force = true
+
+# Self-hosted map tiles and label fonts (public/map): cache for a week.
+[[headers]]
+  for = "/map/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"

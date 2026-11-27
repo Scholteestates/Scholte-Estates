@@ -54,3 +54,6 @@ next-env.d.ts
 
 # Private provider samples, downloaded photos and listing overlays (never commit)
 /.private/
+
+# Generated: MapLibre worker copied from node_modules (scripts/map/copy-worker.mjs)
+/public/map/maplibre-gl-worker.mjs

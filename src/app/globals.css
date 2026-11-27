@@ -269,3 +269,59 @@
   0% { transform: translateY(-100%); }
   100% { transform: translateY(200%); }
 }
+
+/* Area map (src/components/area/area-explorer.tsx) */
+.area-pin {
+  display: inline-flex;
+  width: 1.8rem;
+  height: 1.8rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background: var(--color-forest-800);
+  color: var(--color-gold-300);
+  box-shadow: 0 0 0 2px var(--color-ivory-50), 0 4px 10px rgb(15 33 24 / 0.28);
+  cursor: pointer;
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+.area-pin:hover,
+.area-pin:focus-visible { transform: scale(1.12); }
+.area-pin[data-selected="true"] {
+  background: var(--color-gold-500);
+  color: var(--color-forest-950);
+  transform: scale(1.18);
+  z-index: 2;
+}
+.area-home {
+  z-index: 3;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border-radius: 9999px;
+  background: var(--color-gold-500);
+  color: var(--color-forest-950);
+  padding: 0.35rem 0.75rem 0.35rem 0.5rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  box-shadow: 0 0 0 2px var(--color-ivory-50), 0 6px 14px rgb(15 33 24 / 0.3);
+}
+/* Editorial motion: the place text rises in, line by line, on every change. */
+@keyframes area-rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+@keyframes area-rule { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes area-pulse { 0% { box-shadow: 0 0 0 2px var(--color-ivory-50), 0 0 0 2px rgb(179 148 97 / 0.55); } 100% { box-shadow: 0 0 0 2px var(--color-ivory-50), 0 0 0 16px rgb(179 148 97 / 0); } }
+.area-detail > * { animation: area-rise 0.6s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+.area-detail > :nth-child(2) { animation-delay: 0.06s; }
+.area-detail > :nth-child(3) { animation: area-rule 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) 0.14s both; transform-origin: left; }
+.area-detail > :nth-child(4) { animation-delay: 0.18s; }
+.area-detail > :nth-child(5) { animation-delay: 0.24s; }
+.area-pin[data-selected="true"] { animation: area-pulse 1.6s ease-out 2; }
+.area-tab { position: relative; padding-bottom: 0.25rem; }
+.area-tab::after { content: ""; position: absolute; left: 0; right: 0; bottom: -0.1rem; height: 1px; background: var(--color-gold-500); transform: scaleX(0); transform-origin: left; transition: transform 0.35s cubic-bezier(0.2, 0.7, 0.2, 1); }
+.area-tab[aria-pressed="true"]::after { transform: scaleX(1); }
+.maplibregl-ctrl-attrib { font-size: 10px; }
+@media (prefers-reduced-motion: reduce) {
+  .area-detail > *, .area-pin[data-selected="true"] { animation: none; }
+  .area-tab::after, .area-pin { transition: none; }
+}

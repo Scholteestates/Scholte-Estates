@@ -1,0 +1,158 @@
+{
+  "id": "benijofar",
+  "name": "Benijófar",
+  "centre": {
+    "lat": 38.0789755,
+    "lng": -0.7384165,
+    "source": "Nominatim: Benijófar, el Baix Segura / La Vega Baja, Alacant / Alicante, Comunitat Valenciana, 03178, España"
+  },
+  "radiusM": 2000,
+  "places": [
+    {
+      "name": "Oasis Bar",
+      "category": "cafe",
+      "lat": 38.0811282,
+      "lng": -0.7380095,
+      "osm": "node/6393883629",
+      "sourceUrl": "https://www.oasisbarbenijofar.com/",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-27",
+      "note": {
+        "en": "Bar and café on Plaza de la Constitución in the centre of Benijófar.",
+        "es": "Bar y cafetería en la Plaza de la Constitución, en el centro de Benijófar."
+      }
+    },
+    {
+      "name": "Bambouzza",
+      "category": "restaurant",
+      "lat": 38.0811276,
+      "lng": -0.7359204,
+      "osm": "node/14022103829",
+      "sourceUrl": "https://www.bambouzza.com/en/restaurante.html",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-27",
+      "note": {
+        "en": "Restaurant and tropical lounge on Calle Ramón y Cajal with live music and a rooftop terrace.",
+        "es": "Restaurante y lounge tropical en la calle Ramón y Cajal, con música en directo y terraza en la azotea."
+      }
+    },
+    {
+      "name": "CEIP San Jaime",
+      "category": "school",
+      "lat": 38.0793285,
+      "lng": -0.7355936,
+      "osm": "way/171825911",
+      "sourceUrl": "https://portal.edu.gva.es/03003140/centre/contacte/",
+      "sourceType": "Conselleria school directory",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Public infant and primary school (CEIP) on Calle Francisco Ribera Pérez, Benijófar.",
+        "es": "Colegio público de Educación Infantil y Primaria (CEIP) en la calle Francisco Ribera Pérez, Benijófar."
+      }
+    },
+    {
+      "name": "Consultorio Médico",
+      "category": "health",
+      "lat": 38.0783687,
+      "lng": -0.7368568,
+      "osm": "way/682076923",
+      "sourceUrl": "https://www.benijofar.es/informacion/telefonos-de-interes/",
+      "sourceType": "municipal website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Village medical centre on Calle Juan Ramón Jiménez, beside the town hall.",
+        "es": "Consultorio médico del pueblo en la calle Juan Ramón Jiménez, junto al ayuntamiento."
+      }
+    },
+    {
+      "name": "Farmacia Bueno-Gea",
+      "category": "health",
+      "lat": 38.0802567,
+      "lng": -0.7377764,
+      "osm": "node/6388606291",
+      "sourceUrl": "https://www.benijofar.es/informacion/telefonos-de-interes/",
+      "sourceType": "municipal website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Pharmacy in the village centre, on Calle Federico García Lorca.",
+        "es": "Farmacia en el centro del pueblo, en la calle Federico García Lorca."
+      }
+    },
+    {
+      "name": "Polideportivo Municipal",
+      "category": "sport",
+      "lat": 38.0790191,
+      "lng": -0.7341365,
+      "osm": "relation/14929330",
+      "sourceUrl": "https://www.benijofar.es/informacion/telefonos-de-interes/",
+      "sourceType": "municipal website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Municipal sports centre on Calle Antonio Machado.",
+        "es": "Polideportivo municipal en la calle Antonio Machado."
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Casa Mayte / El Maite",
+      "reason": "directory listing has no recent reviews; not confirmed operating"
+    },
+    {
+      "name": "Origini",
+      "reason": "no current source found"
+    },
+    {
+      "name": "Fratelli",
+      "reason": "directory listing places it in Rojales, not at the OSM position in Benijófar; mismatch"
+    },
+    {
+      "name": "Parque Cañada Marsá",
+      "reason": "municipal page describes it as a planned (proyectado) park; current state unconfirmed"
+    },
+    {
+      "name": "Parque Miguel Hernández",
+      "reason": "no current source found"
+    },
+    {
+      "name": "Consum (way/176150263)",
+      "reason": "probably Consum Rojales El Puente (C.C. El Puente) on consum.es, but the address could not be matched to the OSM point"
+    },
+    {
+      "name": "Mercadona (C/ Valencia)",
+      "reason": "official store locator not fetchable; no independent current source"
+    },
+    {
+      "name": "Farmacia Benijofar (node/2488182509)",
+      "reason": "probably a duplicate of the Bueno-Gea pharmacy; the town hall lists only one pharmacy"
+    },
+    {
+      "name": "Corredor verde del Río Segura",
+      "reason": "no official source describing the path itself"
+    },
+    {
+      "name": "Bar Sonia",
+      "reason": "No venue website or official source found; only gastroranking/directories."
+    },
+    {
+      "name": "El Gusto",
+      "reason": "No venue website or official source found; only directories (gastroranking, wanderlog, qdq)."
+    },
+    {
+      "name": "The Yellow Rose of Texas",
+      "reason": "No venue website or official source found; only gastroranking, wanderlog and a 2011 blog."
+    },
+    {
+      "name": "La Noria Árabe",
+      "reason": "OSM node is 'Molino Hidraúlico Harinero' (a different mill); Overpass search finds no OSM element for the Benijófar noria itself (nearest noria node is Noria de la Bernada, Rojales)."
+    }
+  ],
+  "research": {
+    "by": "Claude (AI research assistant) for Scholte Estates",
+    "method": "Candidates from OpenStreetMap; each place checked against a current official website or official listing on the date shown. Notes written from those sources only."
+  },
+  "approval": {
+    "approvedBy": "Christian Scholte",
+    "approvedAt": "2026-11-27"
+  }
+}

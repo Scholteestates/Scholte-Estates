@@ -1,0 +1,188 @@
+{
+  "id": "guardamar",
+  "name": "Guardamar del Segura",
+  "centre": {
+    "lat": 38.0899985,
+    "lng": -0.65381,
+    "source": "Nominatim: Guardamar del Segura, el Baix Segura / La Vega Baja, Alacant / Alicante, Comunitat Valenciana, 03140, España"
+  },
+  "radiusM": 2000,
+  "places": [
+    {
+      "name": "La Cañada",
+      "category": "restaurant",
+      "lat": 38.0886945,
+      "lng": -0.6523368,
+      "osm": "node/1831422886",
+      "sourceUrl": "https://www.lacañadaguardamar.com/",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Restaurant on Avenida de los Pinos: Mediterranean cooking with tapas, fish and seafood from the bay, and rice dishes.",
+        "es": "Restaurante en la avenida de los Pinos: cocina mediterránea con tapas, pescado y marisco de la bahía y arroces."
+      }
+    },
+    {
+      "name": "La Maka",
+      "category": "restaurant",
+      "lat": 38.0868731,
+      "lng": -0.6517784,
+      "osm": "node/4205639640",
+      "sourceUrl": "https://tabernalamaka.com/",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Mediterranean tavern on Avenida de los Pinos: tapas, rice dishes and market cooking.",
+        "es": "Taberna mediterránea en la avenida de los Pinos: tapas, arroces y cocina de mercado."
+      }
+    },
+    {
+      "name": "CEIP Molivent",
+      "category": "school",
+      "lat": 38.0864123,
+      "lng": -0.6561926,
+      "osm": "way/171813965",
+      "sourceUrl": "https://portal.edu.gva.es/03005941/",
+      "sourceType": "Conselleria school directory",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Public infant and primary school (CEIP): Infantil (ages 3-5) and Primaria (years 1-6).",
+        "es": "Colegio público de infantil y primaria (CEIP): Infantil (3-5 años) y Primaria (1.º a 6.º)."
+      }
+    },
+    {
+      "name": "IES Les Dunes",
+      "category": "school",
+      "lat": 38.0872008,
+      "lng": -0.6563332,
+      "osm": "way/171814074",
+      "sourceUrl": "https://portal.edu.gva.es/ieslesdunes",
+      "sourceType": "Conselleria school directory",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Public secondary school offering ESO, Bachillerato and vocational training (FP).",
+        "es": "Instituto público con ESO, Bachillerato y Formación Profesional (FP)."
+      }
+    },
+    {
+      "name": "C.S. Guardamar del Segura",
+      "category": "health",
+      "lat": 38.0884596,
+      "lng": -0.6556397,
+      "osm": "way/498368500",
+      "sourceUrl": "https://torrevieja.san.gva.es/documents/d/guest/memoria_gestion2025",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Public primary-care health centre of the Torrevieja health department (Guardamar zone).",
+        "es": "Centro de salud público de atención primaria del Departamento de Salud de Torrevieja (zona Guardamar)."
+      }
+    },
+    {
+      "name": "Playa Centre",
+      "category": "beach",
+      "lat": 38.0863705,
+      "lng": -0.646949,
+      "osm": "way/36971174",
+      "sourceUrl": "https://www.comunitatvalenciana.com/es/alacant-alicante/guardamar-del-segura/playas/playa-centre",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "427 m urban beach with Blue Flag, promenade and lifeguards, at the southern edge of the dunes.",
+        "es": "Playa urbana de 427 m con Bandera Azul, paseo y socorristas, en el extremo sur de las dunas."
+      }
+    },
+    {
+      "name": "Parque Reina Sofía",
+      "category": "park",
+      "lat": 38.0884174,
+      "lng": -0.6507532,
+      "osm": "way/36964303",
+      "sourceUrl": "https://guardamarturismo.com/parques-y-zonas-verdes/",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Known as the 'parque de los patos': ponds with ducks and swans, play areas, picnic spots and an open-air auditorium.",
+        "es": "Conocido como 'parque de los patos': estanques con patos y cisnes, zonas infantiles, merenderos y auditorio al aire libre."
+      }
+    },
+    {
+      "name": "Parque Alfonso XIII (La Pinada)",
+      "category": "nature",
+      "lat": 38.1002529,
+      "lng": -0.6486827,
+      "osm": "relation/7133669",
+      "sourceUrl": "https://guardamarturismo.com/parques-y-zonas-verdes/",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "About 800 ha of pinewood planted on the dunes from the late 19th century, with over 8 km of walking and cycling paths.",
+        "es": "Unas 800 ha de pinada plantada sobre las dunas desde finales del siglo XIX, con más de 8 km de sendas a pie y en bici."
+      }
+    },
+    {
+      "name": "Estación de Autobuses",
+      "category": "transport",
+      "lat": 38.0879415,
+      "lng": -0.6560887,
+      "osm": "way/184918562",
+      "sourceUrl": "https://www.guardamardelsegura.es/2024/06/04/horarios-de-autobuses/",
+      "sourceType": "municipal website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Town bus station; a stop on urban bus line 02 per the town hall's timetable page.",
+        "es": "Estación de autobuses; parada de la línea urbana 02 según la página de horarios del ayuntamiento."
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Mercadona",
+      "reason": "only a 2018 news article and a charger directory found; no current store page fetched"
+    },
+    {
+      "name": "Mercadillo de los Miércoles - Era de la Madaleneta",
+      "reason": "confirmed on municipal site, but no OSM element found for the market location"
+    },
+    {
+      "name": "Chema",
+      "reason": "listed website now shows unrelated gambling content; not verified"
+    },
+    {
+      "name": "Cafetería Central",
+      "reason": "OSM only; no current independent source found"
+    },
+    {
+      "name": "La Tahona de Carmen",
+      "reason": "no current independent source found"
+    },
+    {
+      "name": "Cafetería Elígeme",
+      "reason": "directory listing has a garbled address; not used"
+    },
+    {
+      "name": "Pharmacies (Farmàcia Miguel Escanero etc.)",
+      "reason": "not verified against an independent source"
+    },
+    {
+      "name": "Sports facilities (Palau Sant Jaume, Piscina Manel Estiarte, Les Raboses)",
+      "reason": "municipal sports page names no facilities; not verified"
+    },
+    {
+      "name": "Cafetería S'timoni",
+      "reason": "No venue website or official (town hall/tourism) source found; only directories."
+    },
+    {
+      "name": "Movellán",
+      "reason": "No venue website or official source found; only directories (besttime, wanderlog, gastroranking)."
+    }
+  ],
+  "research": {
+    "by": "Claude (AI research assistant) for Scholte Estates",
+    "method": "Candidates from OpenStreetMap; each place checked against a current official website or official listing on the date shown. Notes written from those sources only."
+  },
+  "approval": {
+    "approvedBy": "Christian Scholte",
+    "approvedAt": "2026-11-27"
+  }
+}

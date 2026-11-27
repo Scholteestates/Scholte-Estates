@@ -129,7 +129,7 @@ Ciudad Quesada serving the Costa Blanca and international buyers.
   deploy. Process: branch → PR → Netlify deploy preview tested → merge → check
   scholteestates.com. Never push directly to `main`, never use bypass mode,
   never touch AIVENA permissions or repositories.
-- Netlify team `crisscholte` (Free), project `scholte-estates`; production
+- Netlify team `crisscholte` (paid plan since 2026-11-26), project `scholte-estates`; production
   visibility Public, deploy previews Private. `main` deploys to production;
   pull requests get previews.
 
@@ -195,14 +195,48 @@ and listed in a gap report), supplied vs verified labelling, phases, blockers
 and costs. Nothing is implemented yet. Provider sample feeds (e.g. the RedSP
 trial feed) are for private compatibility tests only: never commit them or
 publish their properties. MLS Costa membership/feed access is unconfirmed
-until the user supplies it. Stay on Netlify Free; no purchases or upgrades.
+until the user supplies it. Stay on the current Netlify plan; no further purchases or upgrades.
 Enquiry retention is done by hand: **`docs/retention-procedure.md`**.
+
+**Private listing previews (Phase 1, 2026-11-26):** provider data, downloaded
+photos and our overlays live only in the git-ignored `/.private/listings/`
+(never commit, never move into `public/`). Pipeline:
+`node scripts/listings/preview.mts import|build --dir .private/listings/<set>`
+(writes `stories.json` and an internal `gap-report.md`). Preview routes use the
+`.preview.tsx` / `.preview.ts` extensions, which `next.config.ts` enables only
+on the local dev server, so they never exist in a production build
+(`/[lang]/preview/<slug>`, photos via `/preview-media/…`). Both demo and real
+listings render through `src/components/property/property-story.tsx`; types in
+`src/lib/listings/types.ts`.
+
+## Area maps and verified places (2026-11-26)
+
+- Every property story can show an area chapter: a square, self-hosted map
+  (`src/components/area/area-explorer.tsx`, MapLibre + Protomaps style) with
+  tappable points; the text beside the map shows the selected place.
+- **No third-party map service.** Tiles (OpenStreetMap data from a Protomaps
+  build) live in `public/map/tiles`, label fonts in `public/map/fonts`, the
+  MapLibre worker is copied to `public/map` before dev/build. Rebuild tiles
+  with `node scripts/map/extract-tiles.mts` (coverage: `scripts/map/regions.json`).
+- Places: `src/data/areas/<id>.json` (one profile per town, reused by every
+  property there). Each place: OSM coordinates, a current source link,
+  verification date, bilingual factual note. Import researched files with
+  `node scripts/map/import-places.mts <dir>` (validates, resets approval when
+  places change).
+- **User approval gate:** an area renders on the public site only when
+  `approval.approvedBy` is set; until then it shows on the local dev server
+  only, with an "awaiting approval" notice.
+- **Approved 2026-11-27** (user: "get it correct and get it live") after a
+  re-check that dropped every place relying only on a reviews directory
+  (83 places in 11 areas remain). New or changed places need approval again.
+- Real listings: exact home pin (user decision 2026-11-26) and straight-line
+  distances, labelled as such. Demo homes: town map only, no home pin, no
+  distances ("About {town}").
 
 ## Later stages (do not implement yet)
 
 Real listings via CRM / property feeds, enquiry handling, database, admin
-dashboard, AIVENA integration, German, verified nearby places and area
-profiles.
+dashboard, AIVENA integration, German.
 
 ## Confirmed decisions
 

@@ -1,0 +1,202 @@
+{
+  "id": "campoamor",
+  "name": "Dehesa de Campoamor",
+  "centre": {
+    "lat": 37.9005304,
+    "lng": -0.7575592,
+    "source": "Nominatim: Dehesa de Campoamor, Orihuela, el Baix Segura / La Vega Baja, Alacant / Alicante, Comunitat Valenciana, 03191, España"
+  },
+  "radiusM": 2600,
+  "places": [
+    {
+      "name": "Fish Bowl",
+      "category": "restaurant",
+      "lat": 37.900064,
+      "lng": -0.750565,
+      "osm": "node/1950355721",
+      "sourceUrl": "https://fishbowl.es",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Restaurant on C/ Calderón de la Barca; menu covers seafood, meat, vegetarian dishes and cocktails.",
+        "es": "Restaurante en C/ Calderón de la Barca; carta con pescado y marisco, carnes, platos vegetarianos y cócteles."
+      }
+    },
+    {
+      "name": "Navia Restaurante (Pizzería NAVIA)",
+      "category": "restaurant",
+      "lat": 37.899002,
+      "lng": -0.752978,
+      "osm": "way/437575690",
+      "sourceUrl": "https://naviarestaurantecampoamor.com",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Restaurant on C/ Gustavo Adolfo Bécquer: Mediterranean cooking, rice dishes, fish, meat and artisan pizzas.",
+        "es": "Restaurante en C/ Gustavo Adolfo Bécquer: cocina mediterránea, arroces, pescados, carnes y pizzas artesanas."
+      }
+    },
+    {
+      "name": "WOW Beach by Las Colinas",
+      "category": "bar",
+      "lat": 37.904016,
+      "lng": -0.745724,
+      "osm": "node/8872616852",
+      "sourceUrl": "https://wowbeach.es/",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Seasonal beach club run by Las Colinas Golf & Country Club: restaurant, lounge bar and infinity pool.",
+        "es": "Beach club de temporada de Las Colinas Golf & Country Club: restaurante, lounge bar y piscina infinita."
+      }
+    },
+    {
+      "name": "Playa de La Glea",
+      "category": "beach",
+      "lat": 37.902546,
+      "lng": -0.744934,
+      "osm": "way/27297131",
+      "sourceUrl": "https://www.comunitatvalenciana.com/en/alacant-alicante/orihuela/beaches/la-glea",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Sandy beach beside the Campoamor marina; Blue Flag, lifeguards and accessible bathing per the regional tourism site.",
+        "es": "Playa de arena junto al puerto de Campoamor; Bandera Azul, socorristas y baño adaptado según Turisme Comunitat Valenciana."
+      }
+    },
+    {
+      "name": "Playa de Barranco Rubio",
+      "category": "beach",
+      "lat": 37.895936,
+      "lng": -0.750659,
+      "osm": "way/109267911",
+      "sourceUrl": "https://www.comunitatvalenciana.com/en/alacant-alicante/orihuela/playas/barranco-rubio",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Fine-sand beach over 600 m long next to the marina; Blue Flag listed by the regional tourism site.",
+        "es": "Playa de arena fina de más de 600 m junto al puerto; con Bandera Azul según Turisme Comunitat Valenciana."
+      }
+    },
+    {
+      "name": "Consum Orihuela Juan Marsé",
+      "category": "shop",
+      "lat": 37.909198,
+      "lng": -0.744634,
+      "osm": "way/401548071",
+      "sourceUrl": "https://www.consum.es/en/directory/listing/orihuela-costa-juan-marse",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Consum supermarket with butcher, fish, bakery and fruit counters, plus parking and home delivery.",
+        "es": "Supermercado Consum con carnicería, pescadería, panadería y frutería, aparcamiento y reparto a domicilio."
+      }
+    },
+    {
+      "name": "Farmacia Campoamor",
+      "category": "health",
+      "lat": 37.910107,
+      "lng": -0.744011,
+      "osm": "node/622949683",
+      "sourceUrl": "https://www.farmaciacampoamor.com/es/",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Pharmacy at Av. de las Adelfas 45; open since 1978 according to its website.",
+        "es": "Farmacia en Av. de las Adelfas 45; abierta desde 1978 según su web."
+      }
+    },
+    {
+      "name": "C.S. Orihuela Costa",
+      "category": "health",
+      "lat": 37.911312,
+      "lng": -0.740943,
+      "osm": "way/350668904",
+      "sourceUrl": "https://torrevieja.san.gva.es/es/c.s.-orihuela-costa",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Public health centre (Torrevieja health department) at C/ Mar 1, Aguamarina; listed as open 24 hours.",
+        "es": "Centro de salud público (Departamento de Salud de Torrevieja) en C/ Mar 1, Aguamarina; figura abierto 24 horas."
+      }
+    },
+    {
+      "name": "Club Náutico Campoamor",
+      "category": "sport",
+      "lat": 37.899615,
+      "lng": -0.74801,
+      "osm": "way/1152608141",
+      "sourceUrl": "https://www.comunitatvalenciana.com/es/alacant-alicante/orihuela/nautica/club-nautico-campoamor",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Yacht club and marina in a small cove, suited to small shallow-draught boats.",
+        "es": "Club náutico y puerto deportivo en una pequeña cala, apto para embarcaciones pequeñas de poco calado."
+      }
+    },
+    {
+      "name": "Las Ramblas Golf",
+      "category": "golf",
+      "lat": 37.91938,
+      "lng": -0.774728,
+      "osm": "way/27249484",
+      "sourceUrl": "https://comunitatvalenciana.com/en/alacant-alicante/orihuela/golf/las-ramblas",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "18-hole golf course designed by Pepe Gancedo, on hilly ground with pine woods.",
+        "es": "Campo de golf de 18 hoyos diseñado por Pepe Gancedo, en terreno ondulado con pinares."
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Casa Alfonso",
+      "reason": "only old guide/blog pages found; no current source"
+    },
+    {
+      "name": "Las Villas",
+      "reason": "no current source with address found"
+    },
+    {
+      "name": "Heladería Navia",
+      "reason": "no source for a separate ice-cream parlour; Navia site describes a restaurant only"
+    },
+    {
+      "name": "Le Cafe de Bruxelles / Playa Roja Campoamor / Coctelería La Pinada",
+      "reason": "no current source found"
+    },
+    {
+      "name": "Sport Center Montepiedra",
+      "reason": "no source found"
+    },
+    {
+      "name": "Parque Teniente José Luis Morejón Verdú",
+      "reason": "park exists per 2016 press, but no current source confirming location in Campoamor"
+    },
+    {
+      "name": "Centro Médico Virgen de la Caridad Campoamor",
+      "reason": "only booking-site listings; public/private status unclear"
+    },
+    {
+      "name": "Consultorio Mil Palmeras (Pilar de la Horadada)",
+      "reason": "only an old guide; superseded by the official C.S. Orihuela Costa entry"
+    },
+    {
+      "name": "Schools",
+      "reason": "no school mapped in OSM within the radius; nearest public schools are elsewhere on Orihuela Costa"
+    },
+    {
+      "name": "Restaurante Montepiedraplaya",
+      "reason": "No own website; Hotel Montepiedra (Dynastic) site lists only in-hotel restaurants at C/ Saavedra Fajardo 1, while the OSM way is a separate building on Av. de las Adelfas. Cannot confirm."
+    }
+  ],
+  "research": {
+    "by": "Claude (AI research assistant) for Scholte Estates",
+    "method": "Candidates from OpenStreetMap; each place checked against a current official website or official listing on the date shown. Notes written from those sources only."
+  },
+  "approval": {
+    "approvedBy": "Christian Scholte",
+    "approvedAt": "2026-11-27"
+  }
+}

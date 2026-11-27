@@ -13,6 +13,10 @@ export type GalleryItem = {
   /** Extra visible note, e.g. "AI-generated demo image". */
   note?: string;
   illustrative?: boolean;
+  /** Short badge on the thumbnail, e.g. "Render" (illustrative items get the illustrative label). */
+  badge?: string;
+  /** Serve the file as is (private previews of provider photos). */
+  unoptimized?: boolean;
 };
 
 type Labels = { open: string; close: string; prev: string; next: string; counter: string; illustrative: string };
@@ -70,12 +74,13 @@ export function StoryGallery({ items, labels }: { items: GalleryItem[]; labels: 
                   src={it.src}
                   alt=""
                   fill
+                  unoptimized={it.unoptimized}
                   sizes="(min-width: 1024px) 380px, 50vw"
                   className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
                 />
-                {it.illustrative && (
+                {(it.illustrative || it.badge) && (
                   <span className="absolute top-2.5 left-2.5 rounded-full bg-forest-900/80 px-2.5 py-1 text-[0.6rem] font-semibold tracking-[0.14em] text-ivory-50 uppercase">
-                    {labels.illustrative}
+                    {it.illustrative ? labels.illustrative : it.badge}
                   </span>
                 )}
               </span>
@@ -128,7 +133,7 @@ export function StoryGallery({ items, labels }: { items: GalleryItem[]; labels: 
                 touchX.current = null;
               }}
             >
-              <Image key={item.src} src={item.src} alt={item.alt} fill sizes="100vw" className="swap-in object-contain" />
+              <Image key={item.src} src={item.src} alt={item.alt} fill unoptimized={item.unoptimized} sizes="100vw" className="swap-in object-contain" />
               <button
                 type="button"
                 onClick={() => go(-1)}

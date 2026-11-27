@@ -1,0 +1,150 @@
+{
+  "id": "playa-flamenca",
+  "name": "Playa Flamenca",
+  "centre": {
+    "lat": 37.9321855,
+    "lng": -0.7282547,
+    "source": "Nominatim: Playa Flamenca I, Urbanización La Zenia II, Orihuela, el Baix Segura / La Vega Baja, Alacant / Alicante, Comunitat Valenciana, 03189, España"
+  },
+  "radiusM": 2000,
+  "places": [
+    {
+      "name": "Cala Estaca",
+      "category": "beach",
+      "lat": 37.9294297,
+      "lng": -0.7208689,
+      "osm": "way/27462915",
+      "sourceUrl": "https://www.comunitatvalenciana.com/es/alacant-alicante/orihuela/strande/cala-estaca",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Fine golden-sand beach beside the seafront promenade, with lifeguards; Blue Flag listed by the regional tourism site.",
+        "es": "Playa de arena fina y dorada junto al paseo marítimo, con socorristas; Bandera Azul según la web de turismo regional."
+      }
+    },
+    {
+      "name": "Cala Mosca",
+      "category": "beach",
+      "lat": 37.932105,
+      "lng": -0.720157,
+      "osm": "way/27462925",
+      "sourceUrl": "https://www.comunitatvalenciana.com/es/alacant-alicante/orihuela/playas/cala-mosca",
+      "sourceType": "official tourism site",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Small sheltered cove between two rocky points, linked to Cala Estaca; lifeguards and accessible facilities.",
+        "es": "Pequeña cala resguardada entre dos puntas rocosas, unida a Cala Estaca; con socorristas y accesos adaptados."
+      }
+    },
+    {
+      "name": "IES Playa Flamenca",
+      "category": "school",
+      "lat": 37.9382255,
+      "lng": -0.7395313,
+      "osm": "way/203678091",
+      "sourceUrl": "https://portal.edu.gva.es/iesplayaflamenca/",
+      "sourceType": "Conselleria school directory",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Public secondary school on C/ Orégano offering ESO, Bachillerato and vocational courses (commerce, dietetics).",
+        "es": "Instituto público en la C/ Orégano con ESO, Bachillerato y ciclos formativos (comercio, dietética)."
+      }
+    },
+    {
+      "name": "CEIP Los Dolses",
+      "category": "school",
+      "lat": 37.9376198,
+      "lng": -0.7398595,
+      "osm": "way/203678092",
+      "sourceUrl": "https://portal.edu.gva.es/03015567/",
+      "sourceType": "official school portal (Conselleria d'Educació, GVA)",
+      "verifiedAt": "2026-11-27",
+      "note": {
+        "en": "Public infant and primary school (CEIP) on Calle Nicolás de Bussi, next to IES Playa Flamenca.",
+        "es": "Colegio público de infantil y primaria (CEIP) en la calle Nicolás de Bussi, junto al IES Playa Flamenca."
+      }
+    },
+    {
+      "name": "Zenia Boulevard",
+      "category": "shop",
+      "lat": 37.9302819,
+      "lng": -0.735986,
+      "osm": "way/1122451568",
+      "sourceUrl": "https://zeniaboulevard.es/en/know",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Shopping centre on Calle Jade, Orihuela Costa, with shops, restaurants and leisure.",
+        "es": "Centro comercial en la calle Jade, Orihuela Costa, con tiendas, restauración y ocio."
+      }
+    },
+    {
+      "name": "Restaurante Punta Prima",
+      "category": "restaurant",
+      "lat": 37.942388,
+      "lng": -0.710223,
+      "osm": "node/2428260639",
+      "sourceUrl": "https://restaurantepuntaprima.com/",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-26",
+      "note": {
+        "en": "Mediterranean restaurant on Avenida del Mar, Punta Prima, at the northern edge of this area.",
+        "es": "Restaurante de cocina mediterránea en la Avenida del Mar de Punta Prima, en el extremo norte de la zona."
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "name": "ScandClinic (Playa Flamenca)",
+      "reason": "its website says the Playa Flamenca operation has moved"
+    },
+    {
+      "name": "Pharmacy 'Playa Flamenca' (C/ Pablo Picasso)",
+      "reason": "only directory found gives a different street (C/ Nicolás de Bussi 11); location could not be matched"
+    },
+    {
+      "name": "Public health centre",
+      "reason": "none within the radius; the Orihuela Costa centre is in Aguamarina"
+    },
+    {
+      "name": "Playa Flamenca Saturday market (C/ Nicolás de Bussi)",
+      "reason": "only a directory source and not mapped in OSM"
+    },
+    {
+      "name": "Starbucks (Zenia Boulevard)",
+      "reason": "only source is a 2018 opening article"
+    },
+    {
+      "name": "Coffee del Mar",
+      "reason": "directory listing gives no current date; not confirmed"
+    },
+    {
+      "name": "Alejandro's",
+      "reason": "website returns 404"
+    },
+    {
+      "name": "The Lobster Restaurant",
+      "reason": "only auto-generated directory pages"
+    },
+    {
+      "name": "Parque Municipal El Recreo",
+      "reason": "no source found for this park"
+    },
+    {
+      "name": "Mercadona / Lidl (Playa Flamenca)",
+      "reason": "store locators not fetchable; no current source"
+    },
+    {
+      "name": "Makai Cafe",
+      "reason": "No venue website or official source found; only directories."
+    }
+  ],
+  "research": {
+    "by": "Claude (AI research assistant) for Scholte Estates",
+    "method": "Candidates from OpenStreetMap; each place checked against a current official website or official listing on the date shown. Notes written from those sources only."
+  },
+  "approval": {
+    "approvedBy": "Christian Scholte",
+    "approvedAt": "2026-11-27"
+  }
+}
