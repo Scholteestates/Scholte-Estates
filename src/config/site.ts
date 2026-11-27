@@ -13,7 +13,7 @@ export const site = {
    * analytics, no cookie banner and no analytics text in the privacy policy.
    * Loaded only after the visitor accepts (components/consent).
    */
-  analytics: { ga4MeasurementId: "" as string },
+  analytics: { ga4MeasurementId: "G-LRDXBV27T4" as string },
   contact: {
     name: "Christian Scholte",
     email: "christian@scholteestates.com",
