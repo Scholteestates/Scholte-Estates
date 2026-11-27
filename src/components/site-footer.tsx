@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CookieSettingsButton } from "@/components/consent/analytics-consent";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/dictionaries/en";
 import { mailto, site, tel } from "@/config/site";
@@ -76,6 +77,14 @@ export function SiteFooter({ locale, dict }: { locale: Locale; dict: Dictionary 
                 {dict.footer.privacy}
               </Link>
             </li>
+            {site.analytics.ga4MeasurementId && (
+              <li>
+                <CookieSettingsButton
+                  label={dict.footer.cookieSettings}
+                  className="underline decoration-ivory-50/25 underline-offset-4 hover:text-ivory-50"
+                />
+              </li>
+            )}
           </ul>
           <LanguageSwitch current={locale} label={dict.nav.language} tone="light" />
         </div>
