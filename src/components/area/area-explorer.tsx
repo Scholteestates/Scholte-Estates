@@ -56,6 +56,11 @@ export type AreaExplorerLabels = {
   prev: string;
   next: string;
   mapCaption: string;
+  viewOurs: string;
+  viewGoogle: string;
+  googleLoad: string;
+  googleNotice: string;
+  googleOpen: string;
   gestures: { windows: string; mac: string; mobile: string };
 };
 
@@ -63,6 +68,10 @@ type Props = {
   places: PlaceView[];
   centre: { lat: number; lng: number };
   home?: { lat: number; lng: number };
+  /** Label on the home pin (defaults to labels.home). */
+  pinLabel?: string;
+  /** Optional Google Maps view of the same spot, loaded only after a click. */
+  google?: { embedUrl: string; openUrl: string };
   lang: "en" | "es";
   labels: AreaExplorerLabels;
   /** Chapter number, label, heading and lead (server-rendered). */
@@ -122,6 +131,8 @@ export function AreaExplorer({
   labels,
   intro,
   footer,
+  pinLabel,
+  google,
 }: Props) {
   const box = useRef<HTMLDivElement>(null);
   const mapRef = useRef<MlMap | null>(null);
@@ -130,6 +141,8 @@ export function AreaExplorer({
     () => {},
   );
   const [ready, setReady] = useState(false);
+  const [view, setView] = useState<"ours" | "google">("ours");
+  const [googleOn, setGoogleOn] = useState(false);
   const [group, setGroup] = useState<PlaceGroup | "all">("all");
   const [selected, setSelected] = useState<string | null>(
     places[0]?.id ?? null,
@@ -280,7 +293,7 @@ export function AreaExplorer({
         if (home) {
           const el = document.createElement("div");
           el.className = "area-home";
-          el.innerHTML = `${svg(ICONS.home, "size-5")}<span>${labels.home}</span>`;
+          el.innerHTML = `${svg(ICONS.home, "size-5")}<span>${pinLabel ?? labels.home}</span>`;
           new maplibregl.Marker({ element: el, anchor: "bottom" })
             .setLngLat([home.lng, home.lat])
             .addTo(map);
@@ -374,6 +387,25 @@ export function AreaExplorer({
       </div>
 
       <div className="lg:col-span-7 lg:col-start-1 lg:row-span-2 lg:row-start-1">
+        {google && (
+          <div
+            role="group"
+            aria-label={labels.mapLabel}
+            className="mb-3 flex gap-5"
+          >
+            {(["ours", "google"] as const).map((v) => (
+              <button
+                key={v}
+                type="button"
+                aria-pressed={view === v}
+                onClick={() => setView(v)}
+                className="area-tab text-[0.68rem] font-semibold tracking-[0.18em] text-muted uppercase transition-colors hover:text-forest-900 aria-pressed:text-forest-900"
+              >
+                {v === "ours" ? labels.viewOurs : labels.viewGoogle}
+              </button>
+            ))}
+          </div>
+        )}
         <div
           data-reveal="mask"
           className="relative aspect-square w-full overflow-hidden bg-ivory-200 lg:max-w-[min(42rem,calc(100svh-11rem))]"
@@ -392,8 +424,47 @@ export function AreaExplorer({
               {labels.loading}
             </p>
           )}
+          {google && view === "google" && (
+            <div className="area-google absolute inset-0 bg-ivory-100">
+              {googleOn ? (
+                <iframe
+                  src={google.embedUrl}
+                  title={labels.viewGoogle}
+                  className="h-full w-full border-0"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  allowFullScreen
+                />
+              ) : (
+                <div className="flex h-full flex-col items-center justify-center gap-5 px-8 text-center">
+                  <p className="max-w-sm text-sm leading-relaxed text-muted">
+                    {labels.googleNotice}
+                  </p>
+                  <button
+                    type="button"
+                    onClick={() => setGoogleOn(true)}
+                    className="rounded-full bg-forest-800 px-6 py-3 text-[0.7rem] font-semibold tracking-[0.18em] text-ivory-50 uppercase transition-colors hover:bg-forest-700"
+                  >
+                    {labels.googleLoad}
+                  </button>
+                </div>
+              )}
+            </div>
+          )}
         </div>
-        <p className="mt-2.5 text-xs text-muted">{labels.mapCaption}</p>
+        <p className="mt-2.5 flex flex-wrap justify-between gap-x-4 gap-y-1 text-xs text-muted">
+          <span>{labels.mapCaption}</span>
+          {google && (
+            <a
+              href={google.openUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline decoration-ivory-300 underline-offset-4 hover:text-forest-900"
+            >
+              {labels.googleOpen} ↗
+            </a>
+          )}
+        </p>
       </div>
 
       <div className="lg:col-span-5 lg:col-start-8 lg:row-start-2">

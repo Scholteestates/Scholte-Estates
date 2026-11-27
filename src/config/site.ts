@@ -35,7 +35,7 @@ export const site = {
     privacyEmail: "christian@scholteestates.com",
     /** Proposed retention for enquiries that do not lead to an assignment. */
     enquiryRetentionMonths: 24,
-    updated: { en: "26 November 2026", es: "26 de noviembre de 2026" },
+    updated: { en: "27 November 2026", es: "27 de noviembre de 2026" },
   },
   /**
    * Approved logos (see docs/brand.md). Originals stay untouched in

@@ -232,6 +232,15 @@ listings render through `src/components/property/property-story.tsx`; types in
 - Real listings: exact home pin (user decision 2026-11-26) and straight-line
   distances, labelled as such. Demo homes: town map only, no home pin, no
   distances ("About {town}").
+- Demo homes also show an "Example location" pin at the town centre (user
+  request 2026-11-27), labelled and explained as not a real address.
+- **Google Maps (2026-11-27):** a "Checked places / Google Maps" switch above
+  the map. The Google embed loads only after the visitor presses "Load Google
+  Maps" (two-click consent, described in the privacy policy); nothing is
+  requested from Google before that. "Open in Google Maps" links out. Real
+  listings point at the home, demo homes at the town.
+- Visitor analytics: not added yet. Needs the user's choice of tool, a
+  consent banner and a policy update first.
 
 ## Later stages (do not implement yet)
 

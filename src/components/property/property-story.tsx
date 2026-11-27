@@ -333,6 +333,8 @@ export function PropertyStory({ v }: { v: StoryView }) {
                 places={v.area.places}
                 centre={v.area.centre}
                 home={v.area.home}
+                pinLabel={v.area.pinLabel}
+                google={v.area.google}
                 lang={v.area.lang}
                 labels={v.area.labels}
                 intro={
