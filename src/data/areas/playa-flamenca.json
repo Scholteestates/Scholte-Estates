@@ -56,9 +56,9 @@
       "lat": 37.9376198,
       "lng": -0.7398595,
       "osm": "way/203678092",
-      "sourceUrl": "https://www.micole.net/alicante/orihuela/colegio-los-dolses",
-      "sourceType": "directory",
-      "verifiedAt": "2026-11-26",
+      "sourceUrl": "https://portal.edu.gva.es/03015567/",
+      "sourceType": "official school portal (Conselleria d'Educació, GVA)",
+      "verifiedAt": "2026-11-27",
       "note": {
         "en": "Public infant and primary school (CEIP) on Calle Nicolás de Bussi, next to IES Playa Flamenca.",
         "es": "Colegio público de infantil y primaria (CEIP) en la calle Nicolás de Bussi, junto al IES Playa Flamenca."
@@ -90,20 +90,6 @@
       "note": {
         "en": "Mediterranean restaurant on Avenida del Mar, Punta Prima, at the northern edge of this area.",
         "es": "Restaurante de cocina mediterránea en la Avenida del Mar de Punta Prima, en el extremo norte de la zona."
-      }
-    },
-    {
-      "name": "Makai Cafe",
-      "category": "cafe",
-      "lat": 37.9254908,
-      "lng": -0.7259017,
-      "osm": "node/6908447285",
-      "sourceUrl": "https://gastroranking.es/r/makai-cafe_187047/",
-      "sourceType": "directory",
-      "verifiedAt": "2026-11-26",
-      "note": {
-        "en": "Café on Calle San Antonio, La Zenia, serving breakfasts and vegetarian dishes, with reviews from 2026 on its directory page.",
-        "es": "Cafetería en la calle San Antonio, La Zenia, con desayunos y platos vegetarianos, con reseñas de 2026 en su ficha."
       }
     }
   ],
@@ -147,6 +133,10 @@
     {
       "name": "Mercadona / Lidl (Playa Flamenca)",
       "reason": "store locators not fetchable; no current source"
+    },
+    {
+      "name": "Makai Cafe",
+      "reason": "No venue website or official source found; only directories."
     }
   ],
   "research": {
@@ -154,7 +144,7 @@
     "method": "Candidates from OpenStreetMap; each place checked against a current official website or official listing on the date shown. Notes written from those sources only."
   },
   "approval": {
-    "approvedBy": null,
-    "approvedAt": null
+    "approvedBy": "Christian Scholte",
+    "approvedAt": "2026-11-27"
   }
 }

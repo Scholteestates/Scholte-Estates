@@ -174,7 +174,7 @@
     "method": "Candidates from OpenStreetMap; each place checked against a current official website or official listing on the date shown. Notes written from those sources only."
   },
   "approval": {
-    "approvedBy": null,
-    "approvedAt": null
+    "approvedBy": "Christian Scholte",
+    "approvedAt": "2026-11-27"
   }
 }

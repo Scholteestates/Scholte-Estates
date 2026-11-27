@@ -37,20 +37,6 @@
       }
     },
     {
-      "name": "Restaurante Montepiedraplaya",
-      "category": "restaurant",
-      "lat": 37.90119,
-      "lng": -0.746997,
-      "osm": "way/401600350",
-      "sourceUrl": "https://gastroranking.es/r/restaurante-montepiedraplaya_62735/",
-      "sourceType": "directory",
-      "verifiedAt": "2026-11-26",
-      "note": {
-        "en": "Mediterranean restaurant on Avenida de las Adelfas, close to La Glea beach.",
-        "es": "Restaurante de cocina mediterránea en la Avenida de las Adelfas, cerca de la playa de La Glea."
-      }
-    },
-    {
       "name": "WOW Beach by Las Colinas",
       "category": "bar",
       "lat": 37.904016,
@@ -199,6 +185,10 @@
     {
       "name": "Schools",
       "reason": "no school mapped in OSM within the radius; nearest public schools are elsewhere on Orihuela Costa"
+    },
+    {
+      "name": "Restaurante Montepiedraplaya",
+      "reason": "No own website; Hotel Montepiedra (Dynastic) site lists only in-hotel restaurants at C/ Saavedra Fajardo 1, while the OSM way is a separate building on Av. de las Adelfas. Cannot confirm."
     }
   ],
   "research": {
@@ -206,7 +196,7 @@
     "method": "Candidates from OpenStreetMap; each place checked against a current official website or official listing on the date shown. Notes written from those sources only."
   },
   "approval": {
-    "approvedBy": null,
-    "approvedAt": null
+    "approvedBy": "Christian Scholte",
+    "approvedAt": "2026-11-27"
   }
 }

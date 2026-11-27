@@ -9,73 +9,31 @@
   "radiusM": 2000,
   "places": [
     {
-      "name": "Oasis Bar & Bistro",
+      "name": "Oasis Bar",
       "category": "cafe",
       "lat": 38.0811282,
       "lng": -0.7380095,
       "osm": "node/6393883629",
-      "sourceUrl": "https://gastroranking.es/r/oasis-bar-bistro-2_8526/",
-      "sourceType": "directory",
-      "verifiedAt": "2026-11-26",
+      "sourceUrl": "https://www.oasisbarbenijofar.com/",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-27",
       "note": {
-        "en": "Bar-bistro on Plaza de la Constitución, the village square.",
-        "es": "Bar bistró en la Plaza de la Constitución, la plaza del pueblo."
+        "en": "Bar and café on Plaza de la Constitución in the centre of Benijófar.",
+        "es": "Bar y cafetería en la Plaza de la Constitución, en el centro de Benijófar."
       }
     },
     {
-      "name": "Bar Sonia",
-      "category": "bar",
-      "lat": 38.0770234,
-      "lng": -0.7380651,
-      "osm": "node/1825490258",
-      "sourceUrl": "https://gastroranking.es/r/bar-sonia_122125/",
-      "sourceType": "directory",
-      "verifiedAt": "2026-11-26",
-      "note": {
-        "en": "Bar on Calle Federico García Lorca, listed under Spanish cuisine (tapas).",
-        "es": "Bar en la calle Federico García Lorca, cocina española (tapas) según el directorio."
-      }
-    },
-    {
-      "name": "El Gusto",
-      "category": "restaurant",
-      "lat": 38.0805123,
-      "lng": -0.7377222,
-      "osm": "node/1825420701",
-      "sourceUrl": "https://gastroranking.es/r/el-gusto_9016/",
-      "sourceType": "directory",
-      "verifiedAt": "2026-11-26",
-      "note": {
-        "en": "Restaurant on Avenida García Rubira, listed under European cuisine.",
-        "es": "Restaurante en la Avenida García Rubira, cocina europea según el directorio."
-      }
-    },
-    {
-      "name": "BAMBOUZZA",
+      "name": "Bambouzza",
       "category": "restaurant",
       "lat": 38.0811276,
       "lng": -0.7359204,
       "osm": "node/14022103829",
-      "sourceUrl": "https://gastroranking.es/r/bambouzza_208627/",
-      "sourceType": "directory",
-      "verifiedAt": "2026-11-26",
+      "sourceUrl": "https://www.bambouzza.com/en/restaurante.html",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-27",
       "note": {
-        "en": "Restaurant and lounge on Calle Ramón y Cajal, with a home and fashion shop per its website.",
-        "es": "Restaurante y lounge en la calle Ramón y Cajal, con tienda de hogar y moda según su web."
-      }
-    },
-    {
-      "name": "The Yellow Rose of Texas",
-      "category": "restaurant",
-      "lat": 38.0818414,
-      "lng": -0.7340913,
-      "osm": "node/2509644959",
-      "sourceUrl": "https://gastroranking.es/r/the-yellow-rose-of-texas_18096/",
-      "sourceType": "directory",
-      "verifiedAt": "2026-11-26",
-      "note": {
-        "en": "Mexican restaurant on Calle Aneto.",
-        "es": "Restaurante mexicano en la calle Aneto."
+        "en": "Restaurant and tropical lounge on Calle Ramón y Cajal with live music and a rooftop terrace.",
+        "es": "Restaurante y lounge tropical en la calle Ramón y Cajal, con música en directo y terraza en la azotea."
       }
     },
     {
@@ -133,20 +91,6 @@
         "en": "Municipal sports centre on Calle Antonio Machado.",
         "es": "Polideportivo municipal en la calle Antonio Machado."
       }
-    },
-    {
-      "name": "La Noria Árabe",
-      "category": "culture",
-      "lat": 38.0829288,
-      "lng": -0.7487234,
-      "osm": "node/6395583846",
-      "sourceUrl": "https://www.benijofar.es/patrimonio_cultural/la-noria-arabe/",
-      "sourceType": "municipal website",
-      "verifiedAt": "2026-11-26",
-      "note": {
-        "en": "Waterwheel from 1659 on the Segura's right bank, 7.7 m across, beside a flour mill and weir; a protected cultural asset.",
-        "es": "Noria de 1659 en la margen derecha del Segura, 7,7 m de diámetro, junto a un molino harinero y un azud; bien cultural protegido."
-      }
     }
   ],
   "rejected": [
@@ -185,6 +129,22 @@
     {
       "name": "Corredor verde del Río Segura",
       "reason": "no official source describing the path itself"
+    },
+    {
+      "name": "Bar Sonia",
+      "reason": "No venue website or official source found; only gastroranking/directories."
+    },
+    {
+      "name": "El Gusto",
+      "reason": "No venue website or official source found; only directories (gastroranking, wanderlog, qdq)."
+    },
+    {
+      "name": "The Yellow Rose of Texas",
+      "reason": "No venue website or official source found; only gastroranking, wanderlog and a 2011 blog."
+    },
+    {
+      "name": "La Noria Árabe",
+      "reason": "OSM node is 'Molino Hidraúlico Harinero' (a different mill); Overpass search finds no OSM element for the Benijófar noria itself (nearest noria node is Noria de la Bernada, Rojales)."
     }
   ],
   "research": {
@@ -192,7 +152,7 @@
     "method": "Candidates from OpenStreetMap; each place checked against a current official website or official listing on the date shown. Notes written from those sources only."
   },
   "approval": {
-    "approvedBy": null,
-    "approvedAt": null
+    "approvedBy": "Christian Scholte",
+    "approvedAt": "2026-11-27"
   }
 }

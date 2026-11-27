@@ -105,20 +105,6 @@
         "en": "Bar-restaurant in Urb. Lago Jardín serving tapas, rice dishes, fish and meat; its site says it has served the area since 1989.",
         "es": "Bar-restaurante en la Urb. Lago Jardín con tapas, arroces, pescado y carne; su web indica que atiende la zona desde 1989."
       }
-    },
-    {
-      "name": "Restaurante Alingui Los Balcones",
-      "category": "restaurant",
-      "lat": 37.9611545,
-      "lng": -0.7236194,
-      "osm": "node/14204274253",
-      "sourceUrl": "https://wanderlog.com/place/details/9601945/restaurante-alingui-los-balcones",
-      "sourceType": "directory",
-      "verifiedAt": "2026-11-26",
-      "note": {
-        "en": "Restaurant on Calle Iradier Bal in the Los Balcones commercial area, with reviews dated 2025 on its directory listing.",
-        "es": "Restaurante en la calle Iradier Bal, en la zona comercial de Los Balcones, con reseñas de 2025 en su ficha de directorio."
-      }
     }
   ],
   "rejected": [
@@ -153,6 +139,10 @@
     {
       "name": "Parque Reina de la Sal",
       "reason": "confirmed on the tourism site but not identifiable in OSM (no named feature), so no reliable coordinate"
+    },
+    {
+      "name": "Restaurante Alingui Los Balcones",
+      "reason": "Possible own site restaurantealingui.com returns 403 (unverifiable); directories disagree on branch (central Torrevieja vs Los Balcones); not on Torrevieja official tourism site."
     }
   ],
   "research": {
@@ -160,7 +150,7 @@
     "method": "Candidates from OpenStreetMap; each place checked against a current official website or official listing on the date shown. Notes written from those sources only."
   },
   "approval": {
-    "approvedBy": null,
-    "approvedAt": null
+    "approvedBy": "Christian Scholte",
+    "approvedAt": "2026-11-27"
   }
 }

@@ -226,6 +226,9 @@ listings render through `src/components/property/property-story.tsx`; types in
 - **User approval gate:** an area renders on the public site only when
   `approval.approvedBy` is set; until then it shows on the local dev server
   only, with an "awaiting approval" notice.
+- **Approved 2026-11-27** (user: "get it correct and get it live") after a
+  re-check that dropped every place relying only on a reviews directory
+  (83 places in 11 areas remain). New or changed places need approval again.
 - Real listings: exact home pin (user decision 2026-11-26) and straight-line
   distances, labelled as such. Demo homes: town map only, no home pin, no
   distances ("About {town}").

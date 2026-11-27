@@ -9,34 +9,6 @@
   "radiusM": 2000,
   "places": [
     {
-      "name": "Cafetería S'timoni",
-      "category": "cafe",
-      "lat": 38.0897508,
-      "lng": -0.654432,
-      "osm": "node/1912622098",
-      "sourceUrl": "https://gastroranking.es/r/cafeteria-stimoni_188320/",
-      "sourceType": "directory",
-      "verifiedAt": "2026-11-26",
-      "note": {
-        "en": "Café on Plaza de la Constitución in the town centre.",
-        "es": "Cafetería en la plaza de la Constitución, en el centro del pueblo."
-      }
-    },
-    {
-      "name": "Movellán",
-      "category": "cafe",
-      "lat": 38.0880449,
-      "lng": -0.6544165,
-      "osm": "node/1833323024",
-      "sourceUrl": "https://gastroranking.es/r/movellan_156863/",
-      "sourceType": "directory",
-      "verifiedAt": "2026-11-26",
-      "note": {
-        "en": "Café in the town centre; its listing mentions coffee, breakfasts, sandwiches and cakes.",
-        "es": "Cafetería en el centro; su ficha menciona café, desayunos, bocadillos y tartas."
-      }
-    },
-    {
       "name": "La Cañada",
       "category": "restaurant",
       "lat": 38.0886945,
@@ -195,6 +167,14 @@
     {
       "name": "Sports facilities (Palau Sant Jaume, Piscina Manel Estiarte, Les Raboses)",
       "reason": "municipal sports page names no facilities; not verified"
+    },
+    {
+      "name": "Cafetería S'timoni",
+      "reason": "No venue website or official (town hall/tourism) source found; only directories."
+    },
+    {
+      "name": "Movellán",
+      "reason": "No venue website or official source found; only directories (besttime, wanderlog, gastroranking)."
     }
   ],
   "research": {
@@ -202,7 +182,7 @@
     "method": "Candidates from OpenStreetMap; each place checked against a current official website or official listing on the date shown. Notes written from those sources only."
   },
   "approval": {
-    "approvedBy": null,
-    "approvedAt": null
+    "approvedBy": "Christian Scholte",
+    "approvedAt": "2026-11-27"
   }
 }

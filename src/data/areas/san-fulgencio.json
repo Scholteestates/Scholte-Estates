@@ -51,34 +51,6 @@
       }
     },
     {
-      "name": "Bibiana's restaurant",
-      "category": "restaurant",
-      "lat": 38.1140622,
-      "lng": -0.7171168,
-      "osm": "node/1798130327",
-      "sourceUrl": "https://gastroranking.es/r/bibianas-restaurant_40909/",
-      "sourceType": "directory",
-      "verifiedAt": "2026-11-26",
-      "note": {
-        "en": "Restaurant on Calle Jorge Juan in the village; its directory listing mentions Spanish cooking and tapas.",
-        "es": "Restaurante en la calle Jorge Juan, en el pueblo; su ficha menciona cocina española y tapas."
-      }
-    },
-    {
-      "name": "TAPERIA AVENIDA",
-      "category": "bar",
-      "lat": 38.1145521,
-      "lng": -0.7162311,
-      "osm": "node/6332964450",
-      "sourceUrl": "https://gastroranking.es/r/taperia-avenida_215467/",
-      "sourceType": "directory",
-      "verifiedAt": "2026-11-26",
-      "note": {
-        "en": "Tapas bar-restaurant on Calle Infanta Cristina; its listing mentions tapas, a menú del día and à la carte dishes.",
-        "es": "Bar-restaurante de tapas en la calle Infanta Cristina; su ficha menciona tapas, menú del día y carta."
-      }
-    },
-    {
       "name": "La Marquesa Golf",
       "category": "golf",
       "lat": 38.0836864,
@@ -137,6 +109,14 @@
     {
       "name": "Beach / La Marina urbanisation",
       "reason": "outside the 3 km radius (La Marina venues checked sit ~3.5-4 km east; coast further)"
+    },
+    {
+      "name": "Bibiana's restaurant",
+      "reason": "No venue website or official source found; only gastroranking."
+    },
+    {
+      "name": "TAPERIA AVENIDA",
+      "reason": "No official source; OSM node is named 'Cafetería Avenida' (name mismatch); reviews mention changed hours."
     }
   ],
   "research": {
@@ -144,7 +124,7 @@
     "method": "Candidates from OpenStreetMap; each place checked against a current official website or official listing on the date shown. Notes written from those sources only."
   },
   "approval": {
-    "approvedBy": null,
-    "approvedAt": null
+    "approvedBy": "Christian Scholte",
+    "approvedAt": "2026-11-27"
   }
 }

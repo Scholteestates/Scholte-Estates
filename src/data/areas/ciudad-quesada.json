@@ -9,73 +9,17 @@
   "radiusM": 2000,
   "places": [
     {
-      "name": "The Club, Quesada",
-      "category": "bar",
-      "lat": 38.0708295,
-      "lng": -0.7154579,
-      "osm": "node/2309686425",
-      "sourceUrl": "https://gastroranking.es/r/the-club-quesada_243095/",
-      "sourceType": "directory",
-      "verifiedAt": "2026-11-26",
-      "note": {
-        "en": "Bar and restaurant on Calle Toledo, Ciudad Quesada.",
-        "es": "Bar restaurante en la calle Toledo, Ciudad Quesada."
-      }
-    },
-    {
-      "name": "Old Don Carlos",
-      "category": "bar",
-      "lat": 38.0632301,
-      "lng": -0.7277157,
-      "osm": "node/2245051776",
-      "sourceUrl": "https://gastroranking.es/r/old-don-carlos_4235/",
-      "sourceType": "directory",
-      "verifiedAt": "2026-11-26",
-      "note": {
-        "en": "Bar-restaurant in Ciudad Quesada, listed under European cuisine.",
-        "es": "Bar restaurante en Ciudad Quesada, cocina europea según el directorio."
-      }
-    },
-    {
-      "name": "Patagonian Steak House",
+      "name": "Patagonia Grill House",
       "category": "restaurant",
       "lat": 38.0638613,
       "lng": -0.7235232,
       "osm": "node/4887279855",
-      "sourceUrl": "https://gastroranking.es/r/patagonian-steak-house-2_4230/",
-      "sourceType": "directory",
-      "verifiedAt": "2026-11-26",
+      "sourceUrl": "https://patagonia-steakhouse.com/",
+      "sourceType": "official website",
+      "verifiedAt": "2026-11-27",
       "note": {
-        "en": "Argentinian steak restaurant on Avenida de las Naciones.",
-        "es": "Restaurante argentino de carnes en la Avenida de las Naciones."
-      }
-    },
-    {
-      "name": "Quesada Fish & Chips",
-      "category": "restaurant",
-      "lat": 38.0649955,
-      "lng": -0.7311946,
-      "osm": "node/6622623085",
-      "sourceUrl": "https://gastroranking.es/r/quesada-fish-chips_4246/",
-      "sourceType": "directory",
-      "verifiedAt": "2026-11-26",
-      "note": {
-        "en": "Fish and chips restaurant on Calle Los Arcos.",
-        "es": "Restaurante de fish and chips en la calle Los Arcos."
-      }
-    },
-    {
-      "name": "Rose & Stein",
-      "category": "restaurant",
-      "lat": 38.0642086,
-      "lng": -0.7267207,
-      "osm": "node/4879731940",
-      "sourceUrl": "https://gastroranking.es/r/rose-stein_117839/",
-      "sourceType": "directory",
-      "verifiedAt": "2026-11-26",
-      "note": {
-        "en": "Restaurant on Calle Azul, listed under European cuisine.",
-        "es": "Restaurante en la calle Azul, cocina europea según el directorio."
+        "en": "Argentinian grill house on Avenida de las Naciones, Ciudad Quesada; a second branch is in El Raso.",
+        "es": "Parrilla argentina en la Avenida de las Naciones, Ciudad Quesada; tiene un segundo local en El Raso."
       }
     },
     {
@@ -181,6 +125,22 @@
     {
       "name": "Centro de Salud de Rojales",
       "reason": "verified, but about 2.5 km from the centre; listed under Rojales instead"
+    },
+    {
+      "name": "The Club, Quesada",
+      "reason": "Only a Facebook page and directories found; no own website or official source."
+    },
+    {
+      "name": "Old Don Carlos",
+      "reason": "No own website; sister venue site (cerveceriadoncarlos.com) mentions it only historically as its first premises, not as currently operating."
+    },
+    {
+      "name": "Quesada Fish & Chips",
+      "reason": "quesadafishandchips.com is an empty placeholder page; no other own or official source found."
+    },
+    {
+      "name": "Rose & Stein",
+      "reason": "No venue website or official source found; only review directories. OSM node last edited 2019."
     }
   ],
   "research": {
@@ -188,7 +148,7 @@
     "method": "Candidates from OpenStreetMap; each place checked against a current official website or official listing on the date shown. Notes written from those sources only."
   },
   "approval": {
-    "approvedBy": null,
-    "approvedAt": null
+    "approvedBy": "Christian Scholte",
+    "approvedAt": "2026-11-27"
   }
 }

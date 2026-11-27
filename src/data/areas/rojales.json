@@ -9,62 +9,6 @@
   "radiusM": 2000,
   "places": [
     {
-      "name": "El Paseo",
-      "category": "cafe",
-      "lat": 38.0872129,
-      "lng": -0.7239947,
-      "osm": "node/6345619235",
-      "sourceUrl": "https://gastroranking.es/r/el-paseo-7_67265/",
-      "sourceType": "directory",
-      "verifiedAt": "2026-11-26",
-      "note": {
-        "en": "Café-bar on Calle Francisco Serrano in the old town, listed under Mediterranean cuisine.",
-        "es": "Cafetería bar en la calle Francisco Serrano, en el casco antiguo; cocina mediterránea según el directorio."
-      }
-    },
-    {
-      "name": "Bar El Sol",
-      "category": "cafe",
-      "lat": 38.086865,
-      "lng": -0.7240057,
-      "osm": "node/2078415914",
-      "sourceUrl": "https://gastroranking.es/r/bar-el-sol-2_272829/",
-      "sourceType": "directory",
-      "verifiedAt": "2026-11-26",
-      "note": {
-        "en": "Bar on Calle Sol in the old town.",
-        "es": "Bar en la calle Sol, en el casco antiguo."
-      }
-    },
-    {
-      "name": "Meson La Noria Rojales",
-      "category": "restaurant",
-      "lat": 38.0875262,
-      "lng": -0.7224883,
-      "osm": "node/6352304948",
-      "sourceUrl": "https://gastroranking.es/r/meson-la-noria-rojales_87327/",
-      "sourceType": "directory",
-      "verifiedAt": "2026-11-26",
-      "note": {
-        "en": "Spanish restaurant on Calle Malecón del Soto, next to the waterwheel.",
-        "es": "Restaurante de cocina española en la calle Malecón del Soto, junto a la noria."
-      }
-    },
-    {
-      "name": "La taberna de Lola",
-      "category": "restaurant",
-      "lat": 38.0856042,
-      "lng": -0.7279202,
-      "osm": "node/7619739128",
-      "sourceUrl": "https://gastroranking.es/r/la-taberna-de-lola-4_202750/",
-      "sourceType": "directory",
-      "verifiedAt": "2026-11-26",
-      "note": {
-        "en": "Grill restaurant (brasería) on Calle Constitución.",
-        "es": "Restaurante brasería en la calle Constitución."
-      }
-    },
-    {
       "name": "CEIP Poeta Miguel Hernández",
       "category": "school",
       "lat": 38.0837813,
@@ -104,20 +48,6 @@
       "note": {
         "en": "Public health centre on Avenida de la Constitución, with an emergency line per the town hall.",
         "es": "Centro de salud público en la Avenida de la Constitución, con teléfono de urgencias según el ayuntamiento."
-      }
-    },
-    {
-      "name": "Mercadillo de Rojales",
-      "category": "market",
-      "lat": 38.0885126,
-      "lng": -0.7175731,
-      "osm": "node/6443661448",
-      "sourceUrl": "https://mercadillos.org/es/rojales/mercadillo-rojales",
-      "sourceType": "directory",
-      "verifiedAt": "2026-11-26",
-      "note": {
-        "en": "Weekly Thursday street market on Avenida Justo Quesada by the Segura: fruit, clothing, flowers and food.",
-        "es": "Mercadillo semanal de los jueves en la Avenida Justo Quesada, junto al Segura: fruta, ropa, flores y comida."
       }
     },
     {
@@ -213,6 +143,26 @@
     {
       "name": "The Bridge Bar, Restaurante Josemar, El Resspiro",
       "reason": "recent 2026 directory reviews; left out to keep the list at 12"
+    },
+    {
+      "name": "El Paseo",
+      "reason": "No venue website or official source found; rojales.es local-commerce hostelería listing is empty. OSM node has no address (2019)."
+    },
+    {
+      "name": "Bar El Sol",
+      "reason": "No venue website or official source found."
+    },
+    {
+      "name": "Meson La Noria Rojales",
+      "reason": "No venue website or official source found; only directories."
+    },
+    {
+      "name": "La taberna de Lola",
+      "reason": "No venue website or official source found; only gastroranking."
+    },
+    {
+      "name": "Mercadillo de Rojales",
+      "reason": "rojales.es has no current page stating day/location; latest council notice (Oct 2023) places the weekly market at the recinto ferial, while the OSM node is 'Mercado Municipal de Rojales' (possibly the indoor plaza de abastos) - location doubtful."
     }
   ],
   "research": {
@@ -220,7 +170,7 @@
     "method": "Candidates from OpenStreetMap; each place checked against a current official website or official listing on the date shown. Notes written from those sources only."
   },
   "approval": {
-    "approvedBy": null,
-    "approvedAt": null
+    "approvedBy": "Christian Scholte",
+    "approvedAt": "2026-11-27"
   }
 }

@@ -9,20 +9,6 @@
   "radiusM": 2000,
   "places": [
     {
-      "name": "QUINOA Altea Beach",
-      "category": "cafe",
-      "lat": 38.602198,
-      "lng": -0.045369,
-      "osm": "node/9307384496",
-      "sourceUrl": "https://gastroranking.es/r/quinoa-altea-beach_186086/",
-      "sourceType": "directory",
-      "verifiedAt": "2026-11-26",
-      "note": {
-        "en": "Café-restaurant on the seafront promenade (Paseo del Mediterráneo) serving breakfast, brunch and coffee.",
-        "es": "Café-restaurante en el paseo marítimo (Paseo del Mediterráneo) con desayunos, brunch y café."
-      }
-    },
-    {
       "name": "Oustau de Altea",
       "category": "restaurant",
       "lat": 38.599227,
@@ -168,12 +154,12 @@
       "lat": 38.614787,
       "lng": -0.056943,
       "osm": "way/78814716",
-      "sourceUrl": "https://www.birdingplaces.eu/birdingplaces/spain/riu-lalgar",
-      "sourceType": "directory",
-      "verifiedAt": "2026-11-26",
+      "sourceUrl": "https://fundacion-biodiversidad.es/en/proyecto_prtr/project-for-the-ecological-restoration-and-improvement-of-the-lamination-capacity-of-the-mouth-of-the-algar-river-in-the-municipality-of-altea-alicante-predra/",
+      "sourceType": "official body (Fundación Biodiversidad, Spanish Ministry for the Ecological Transition)",
+      "verifiedAt": "2026-11-27",
       "note": {
-        "en": "Algar river mouth with reedbeds and a small pool; listed as a year-round birdwatching site.",
-        "es": "Desembocadura del río Algar con carrizales y una pequeña laguna; recogida como lugar de observación de aves todo el año."
+        "en": "Coastal wetland at the mouth of the Algar river, subject of an ecological restoration project led by Altea Town Council.",
+        "es": "Humedal costero en la desembocadura del río Algar, objeto de un proyecto de restauración ecológica del Ayuntamiento de Altea."
       }
     }
   ],
@@ -205,6 +191,10 @@
     {
       "name": "Farmacia Lerma",
       "reason": "verified (farmacialerma.com, Costera Pont del Montcau 1) but left out to keep the mix; can be added"
+    },
+    {
+      "name": "QUINOA Altea Beach",
+      "reason": "No venue website or official source found; only review/menu directories (gastroranking, wanderlog, *.menu)."
     }
   ],
   "research": {
@@ -212,7 +202,7 @@
     "method": "Candidates from OpenStreetMap; each place checked against a current official website or official listing on the date shown. Notes written from those sources only."
   },
   "approval": {
-    "approvedBy": null,
-    "approvedAt": null
+    "approvedBy": "Christian Scholte",
+    "approvedAt": "2026-11-27"
   }
 }
