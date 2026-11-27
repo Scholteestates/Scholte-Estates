@@ -5,6 +5,15 @@
 Website for **Scholte Estates**, an independent real estate agency in
 Ciudad Quesada serving the Costa Blanca and international buyers.
 
+## Project skills (`.claude/skills/`, 2026-11-27)
+
+- **release**: branch → checks → PR → deploy-preview test → merge → live check.
+- **area-places**: research, verify, import and approve places for town maps.
+- **listing-story**: provider feed → reviewed property story (on hold until
+  the user's agent registration and provider terms).
+Follow them for those tasks. When the user corrects something or a step goes
+wrong, add a dated line to that skill's "Lessons log" in the same PR.
+
 ## Separation from AIVENA (strict)
 
 - This project is fully separate from AIVENA.
