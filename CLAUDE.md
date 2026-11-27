@@ -239,8 +239,14 @@ listings render through `src/components/property/property-story.tsx`; types in
   Maps" (two-click consent, described in the privacy policy); nothing is
   requested from Google before that. "Open in Google Maps" links out. Real
   listings point at the home, demo homes at the town.
-- Visitor analytics: not added yet. Needs the user's choice of tool, a
-  consent banner and a policy update first.
+- **Visitor analytics (user chose Google Analytics 4, 2026-11-27):** set the
+  public measurement ID in `site.analytics.ga4MeasurementId`
+  (`src/config/site.ts`). Empty = no banner, no script, no analytics text in
+  the policy. With an ID: bilingual cookie banner (Accept/Reject, equal
+  weight), GA loads only after Accept, "Cookie settings" in the footer reopens
+  it, withdrawing clears the `_ga` cookies. Events: whatsapp_click,
+  email_click, phone_click, google_maps_load. Policy text switches on with the
+  ID (`src/content/legal.ts`, `ga` flag).
 
 ## Later stages (do not implement yet)
 

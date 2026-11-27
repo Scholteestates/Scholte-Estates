@@ -7,6 +7,7 @@ import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { WhatsAppFab } from "@/components/contact-buttons";
 import { RevealObserver } from "@/components/reveal-observer";
+import { AnalyticsConsent } from "@/components/consent/analytics-consent";
 import "../globals.css";
 
 const cormorant = Cormorant_Garamond({
@@ -59,6 +60,9 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
         <SiteFooter locale={locale} dict={dict} />
         <WhatsAppFab label={dict.cta.whatsapp} />
         <RevealObserver />
+        {site.analytics.ga4MeasurementId && (
+          <AnalyticsConsent gaId={site.analytics.ga4MeasurementId} labels={dict.consent} policyHref={`/${locale}/privacy`} />
+        )}
       </body>
     </html>
   );

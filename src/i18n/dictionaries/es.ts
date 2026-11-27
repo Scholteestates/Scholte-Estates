@@ -454,6 +454,13 @@ export const es: Dictionary = {
     locationLabel: "Con sede en",
     emailSubject: "Consulta desde scholteestates.com",
   },
+  consent: {
+    title: "Cookies",
+    body: "Con tu permiso usamos cookies de Google Analytics para ver cómo se usa el sitio web y mejorarlo. Puedes cambiar tu elección en cualquier momento en \u00abConfiguración de cookies\u00bb.",
+    accept: "Aceptar",
+    reject: "Rechazar",
+    policy: "Privacidad y cookies",
+  },
   footer: {
     about:
       "Una inmobiliaria independiente en Ciudad Quesada que ayuda a compradores internacionales a encontrar su hogar en la Costa Blanca.",
@@ -464,6 +471,7 @@ export const es: Dictionary = {
     rights: "Todos los derechos reservados.",
     legal: "Aviso legal",
     privacy: "Privacidad y cookies",
+    cookieSettings: "Configuración de cookies",
   },
   notFound: {
     title: "Página no encontrada",

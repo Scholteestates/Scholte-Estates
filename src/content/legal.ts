@@ -39,6 +39,8 @@ export interface LegalDoc {
 
 const L = site.legal;
 const months = L.enquiryRetentionMonths;
+/** Analytics text appears only once a GA4 measurement ID is configured. */
+const ga = Boolean(site.analytics.ga4MeasurementId);
 
 const en = {
   legal: {
@@ -149,7 +151,7 @@ const en = {
             ],
           },
           {
-            p: "When you visit the website, our hosting provider Netlify automatically processes technical data needed to deliver the pages and keep them secure, such as your IP address, browser type and the pages requested (server logs). We do not use analytics or advertising tools, and we do not create visitor profiles.",
+            p: "When you visit the website, our hosting provider Netlify automatically processes technical data needed to deliver the pages and keep them secure, such as your IP address, browser type and the pages requested (server logs). We do not use advertising tools." + (ga ? " If you accept analytics cookies, Google Analytics also measures how the website is used (see Cookies); we do not use it to identify you." : " We do not use analytics tools, and we do not create visitor profiles."),
           },
         ],
       },
@@ -165,6 +167,7 @@ const en = {
                 ["Providing our services if you instruct us", "Performance of a contract (art. 6.1.b)"],
                 ["Identification and records required by law, for example anti-money-laundering and tax rules", "Legal obligation (art. 6.1.c)"],
                 ["Delivering and protecting the website (server logs)", "Our legitimate interest in a secure, working website (art. 6.1.f)"],
+                ...(ga ? [["Measuring how the website is used (Google Analytics), only if you accept", "Your consent (art. 6.1.a), which you can withdraw at any time under \u201cCookie settings\u201d in the footer"]] : []),
               ],
             },
           },
@@ -193,6 +196,7 @@ const en = {
           {
             ul: [
               "Netlify, Inc. (website hosting): processes server logs on our behalf.",
+              ...(ga ? ["Google Ireland Limited (Google Analytics): if you accept analytics cookies, measures how the website is used, as our processor."] : []),
               "Google (Google Workspace, for our business email): stores the emails you send us, on our behalf.",
               "WhatsApp: if you message us on WhatsApp, the service is provided by WhatsApp Ireland Limited under its own terms and privacy policy, and it is responsible for its own processing.",
             ],
@@ -228,13 +232,19 @@ const en = {
         h: "Cookies and similar technologies",
         blocks: [
           {
-            p: "We do not use analytics, advertising or social media cookies. Fonts, images and our own maps are served from our own domain (map data © OpenStreetMap contributors). The website loads content from another company only when you ask for it: see Google Maps below. Only the following cookie is set by us. It is strictly necessary for a function you request, so no consent banner is needed:",
+            p: (ga ? "We use analytics cookies only if you accept them in the cookie banner, and no advertising or social media cookies." : "We do not use analytics, advertising or social media cookies.") + " Fonts, images and our own maps are served from our own domain (map data © OpenStreetMap contributors). The website loads content from another company only when you ask for it: see Google Maps below. " + (ga ? "We use the following. Strictly necessary items need no consent; analytics cookies are set only after you press \u201cAccept\u201d:" : "Only the following cookie is set by us. It is strictly necessary for a function you request, so no consent banner is needed:"),
           },
           {
             table: {
               head: ["Name", "Type and provider", "Purpose", "Duration"],
               rows: [
                 ["NEXT_LOCALE", "Cookie, Scholte Estates", "Remembers the language you chose. Set only when you switch language.", "1 year"],
+                ...(ga
+                  ? [
+                      ["se-consent", "Local storage, Scholte Estates", "Remembers whether you accepted or rejected analytics cookies.", "Until you change it"],
+                      ["_ga, _ga_*", "Cookies, Google Analytics", "Distinguish visitors and visits to produce usage statistics. Only if you accept.", "2 years"],
+                    ]
+                  : []),
               ],
             },
           },
@@ -364,7 +374,7 @@ const es = {
             ],
           },
           {
-            p: "Al visitar el sitio web, nuestro proveedor de alojamiento, Netlify, trata automáticamente los datos técnicos necesarios para servir las páginas y protegerlas, como tu dirección IP, el tipo de navegador y las páginas solicitadas (registros del servidor). No utilizamos herramientas de analítica ni de publicidad y no elaboramos perfiles de los visitantes.",
+            p: "Al visitar el sitio web, nuestro proveedor de alojamiento, Netlify, trata automáticamente los datos técnicos necesarios para servir las páginas y protegerlas, como tu dirección IP, el tipo de navegador y las páginas solicitadas (registros del servidor). No utilizamos herramientas de publicidad." + (ga ? " Si aceptas las cookies de analítica, Google Analytics mide además cómo se usa el sitio web (consulta Cookies); no lo usamos para identificarte." : " No utilizamos herramientas de analítica y no elaboramos perfiles de los visitantes."),
           },
         ],
       },
@@ -380,6 +390,7 @@ const es = {
                 ["Prestar nuestros servicios si nos los encargas", "Ejecución de un contrato (art. 6.1.b)"],
                 ["Identificación y registros exigidos por ley, por ejemplo por la normativa de prevención del blanqueo de capitales y la fiscal", "Obligación legal (art. 6.1.c)"],
                 ["Servir y proteger el sitio web (registros del servidor)", "Nuestro interés legítimo en un sitio web seguro y operativo (art. 6.1.f)"],
+                ...(ga ? [["Medir cómo se usa el sitio web (Google Analytics), solo si lo aceptas", "Tu consentimiento (art. 6.1.a), que puedes retirar en cualquier momento en \u00abConfiguración de cookies\u00bb, en el pie de página"]] : []),
               ],
             },
           },
@@ -408,6 +419,7 @@ const es = {
           {
             ul: [
               "Netlify, Inc. (alojamiento web): trata los registros del servidor por cuenta nuestra.",
+              ...(ga ? ["Google Ireland Limited (Google Analytics): si aceptas las cookies de analítica, mide cómo se usa el sitio web, como encargado del tratamiento."] : []),
               "Google (Google Workspace, para nuestro correo profesional): almacena los correos que nos envías, por cuenta nuestra.",
               "WhatsApp: si nos escribes por WhatsApp, el servicio lo presta WhatsApp Ireland Limited conforme a sus propias condiciones y política de privacidad, y es responsable de su propio tratamiento.",
             ],
@@ -443,13 +455,19 @@ const es = {
         h: "Cookies y tecnologías similares",
         blocks: [
           {
-            p: "No utilizamos cookies de analítica, publicidad ni redes sociales. Las fuentes, las imágenes y nuestros propios mapas se sirven desde nuestro propio dominio (datos del mapa © colaboradores de OpenStreetMap). El sitio web solo carga contenidos de otra empresa cuando lo pides: consulta Google Maps más abajo. Solo instalamos la siguiente cookie. Es estrictamente necesaria para una función que solicitas, por lo que no se requiere un aviso de consentimiento:",
+            p: (ga ? "Solo utilizamos cookies de analítica si las aceptas en el aviso de cookies, y ninguna de publicidad ni de redes sociales." : "No utilizamos cookies de analítica, publicidad ni redes sociales.") + " Las fuentes, las imágenes y nuestros propios mapas se sirven desde nuestro propio dominio (datos del mapa © colaboradores de OpenStreetMap). El sitio web solo carga contenidos de otra empresa cuando lo pides: consulta Google Maps más abajo. " + (ga ? "Utilizamos lo siguiente. Lo estrictamente necesario no requiere consentimiento; las cookies de analítica solo se instalan después de pulsar \u00abAceptar\u00bb:" : "Solo instalamos la siguiente cookie. Es estrictamente necesaria para una función que solicitas, por lo que no se requiere un aviso de consentimiento:"),
           },
           {
             table: {
               head: ["Nombre", "Tipo y proveedor", "Finalidad", "Duración"],
               rows: [
                 ["NEXT_LOCALE", "Cookie, Scholte Estates", "Recuerda el idioma que elegiste. Solo se crea al cambiar de idioma.", "1 año"],
+                ...(ga
+                  ? [
+                      ["se-consent", "Almacenamiento local, Scholte Estates", "Recuerda si aceptaste o rechazaste las cookies de analítica.", "Hasta que lo cambies"],
+                      ["_ga, _ga_*", "Cookies, Google Analytics", "Distinguen visitantes y visitas para elaborar estadísticas de uso. Solo si aceptas.", "2 años"],
+                    ]
+                  : []),
               ],
             },
           },

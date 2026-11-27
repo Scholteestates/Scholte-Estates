@@ -452,6 +452,13 @@ export const en = {
     locationLabel: "Based in",
     emailSubject: "Enquiry via scholteestates.com",
   },
+  consent: {
+    title: "Cookies",
+    body: "With your permission we use Google Analytics cookies to see how the website is used, so we can improve it. You can change your choice at any time under \u201cCookie settings\u201d.",
+    accept: "Accept",
+    reject: "Reject",
+    policy: "Privacy and cookies",
+  },
   footer: {
     about:
       "An independent real estate agency in Ciudad Quesada, helping international buyers find their home on the Costa Blanca.",
@@ -462,6 +469,7 @@ export const en = {
     rights: "All rights reserved.",
     legal: "Legal notice",
     privacy: "Privacy and cookies",
+    cookieSettings: "Cookie settings",
   },
   notFound: {
     title: "Page not found",

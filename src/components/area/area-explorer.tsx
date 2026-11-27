@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import type { Map as MlMap } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import type { PlaceCategory } from "@/lib/areas/types";
+import { track } from "@/lib/analytics";
 
 /**
  * Interactive area map: a square, self-hosted basemap (OpenStreetMap data via
@@ -442,7 +443,10 @@ export function AreaExplorer({
                   </p>
                   <button
                     type="button"
-                    onClick={() => setGoogleOn(true)}
+                    onClick={() => {
+                      setGoogleOn(true);
+                      track("google_maps_load", { page: window.location.pathname });
+                    }}
                     className="rounded-full bg-forest-800 px-6 py-3 text-[0.7rem] font-semibold tracking-[0.18em] text-ivory-50 uppercase transition-colors hover:bg-forest-700"
                   >
                     {labels.googleLoad}
