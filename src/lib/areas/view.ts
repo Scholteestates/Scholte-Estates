@@ -12,10 +12,25 @@ export type AreaSection = {
   method: string;
   centre: { lat: number; lng: number };
   home?: { lat: number; lng: number };
+  pinLabel?: string;
+  google?: { embedUrl: string; openUrl: string };
   places: PlaceView[];
   lang: "en" | "es";
   labels: AreaExplorerLabels;
 };
+
+/**
+ * Google Maps for the same spot: the embed loads only after the visitor clicks
+ * (see AreaExplorer), the link opens Google Maps in a new tab. Real listings
+ * point at the home; demo homes at the town (no real address exists).
+ */
+function googleView(at: { lat: number; lng: number }, town: string | undefined, locale: "en" | "es") {
+  const q = town ? `${town}, Alicante, España` : `${at.lat},${at.lng}`;
+  return {
+    embedUrl: `https://www.google.com/maps?q=${encodeURIComponent(q)}&z=${town ? 14 : 16}&hl=${locale}&output=embed`,
+    openUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`,
+  };
+}
 
 const fill = (tpl: string, v: Record<string, string>) => tpl.replace(/\{(\w+)\}/g, (_, k) => v[k] ?? "");
 
@@ -30,6 +45,7 @@ export function buildAreaSection(
   dict: Dictionary,
   locale: "en" | "es",
   home?: { lat: number; lng: number },
+  opts: { examplePin?: boolean } = {},
 ): AreaSection {
   const t = dict.properties.areaMap;
   const nf = new Intl.NumberFormat(locale === "es" ? "es-ES" : "en-GB", { maximumFractionDigits: 1 });
@@ -62,7 +78,10 @@ export function buildAreaSection(
     notice: approved ? undefined : t.awaiting,
     method: fill(home ? t.method : t.methodTown, { date }),
     centre: { lat: area.centre.lat, lng: area.centre.lng },
-    home,
+    // Demo homes are fictional: an optional, clearly labelled example pin at the town centre.
+    home: home ?? (opts.examplePin ? { lat: area.centre.lat, lng: area.centre.lng } : undefined),
+    pinLabel: !home && opts.examplePin ? t.exampleLocation : undefined,
+    google: googleView(home ?? area.centre, home ? undefined : area.name, locale),
     places,
     lang: locale,
     labels: {
@@ -76,6 +95,11 @@ export function buildAreaSection(
       prev: t.prev,
       next: t.next,
       mapCaption: t.mapCaption,
+      viewOurs: t.viewOurs,
+      viewGoogle: t.viewGoogle,
+      googleLoad: t.googleLoad,
+      googleNotice: t.googleNotice,
+      googleOpen: t.googleOpen,
       gestures: t.gestures,
     },
   };

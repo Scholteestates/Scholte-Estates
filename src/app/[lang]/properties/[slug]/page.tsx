@@ -161,7 +161,7 @@ export default async function PropertyPage({ params }: PageProps<"/[lang]/proper
           }
         : undefined,
     // Demo homes are fictional: the town's checked places, no home pin, no distances.
-    area: townArea ? buildAreaSection(townArea.area, townArea.approved, dict, locale) : undefined,
+    area: townArea ? buildAreaSection(townArea.area, townArea.approved, dict, locale, undefined, { examplePin: true }) : undefined,
     facts: {
       overview: s.overview,
       description: [{ kind: "p", text: p.description[locale] }],

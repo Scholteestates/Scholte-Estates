@@ -7,7 +7,9 @@
  * - Live-site audit (clean browser): every request goes to scholteestates.com
  *   only; no analytics, advertising, embeds or external fonts. Cookies: only
  *   NEXT_LOCALE after a language switch. No local storage. Maps (MapLibre,
- *   OpenStreetMap tiles, label fonts) are served from /map on our own domain. (The "Powered by
+ *   OpenStreetMap tiles, label fonts) are served from /map on our own domain.
+ *   Google Maps embed (property pages) loads only after the visitor clicks
+ *   "Load Google Maps" (two-click consent); described in the cookie section. (The "Powered by
  *   Netlify" badge was switched off on 26 Nov 2026; re-checked on the live site.)
  * - Transfers: Netlify, Inc., Google LLC and Meta Platforms, Inc. are active
  *   participants in the EU-U.S. Data Privacy Framework (dataprivacyframework.gov).
@@ -226,7 +228,7 @@ const en = {
         h: "Cookies and similar technologies",
         blocks: [
           {
-            p: "We do not use analytics, advertising or social media cookies, and the website loads no content from other companies. Fonts, images and maps are served from our own domain (map data © OpenStreetMap contributors); no outside map service is contacted. Only the following cookie is used. It is strictly necessary for a function you request, so no consent banner is needed:",
+            p: "We do not use analytics, advertising or social media cookies. Fonts, images and our own maps are served from our own domain (map data © OpenStreetMap contributors). The website loads content from another company only when you ask for it: see Google Maps below. Only the following cookie is set by us. It is strictly necessary for a function you request, so no consent banner is needed:",
           },
           {
             table: {
@@ -238,6 +240,9 @@ const en = {
           },
           {
             p: "You can delete or block it in your browser settings; the website keeps working, but your language choice will not be remembered. The WhatsApp, email and phone links open other services only when you use them.",
+          },
+          {
+            p: "Google Maps (optional): on property pages you can switch the map to Google Maps. Nothing is loaded from Google until you press \u201cLoad Google Maps\u201d; by pressing it you agree that the map loads from Google (Google Ireland Ltd / Google LLC). Google then receives your IP address and the page you are on, and may set its own cookies under its privacy policy (policies.google.com/privacy). The \u201cOpen in Google Maps\u201d link takes you to Google\u2019s website. Your choice applies only to that page view; reload the page to remove the Google map.",
           },
         ],
       },
@@ -438,7 +443,7 @@ const es = {
         h: "Cookies y tecnologías similares",
         blocks: [
           {
-            p: "No utilizamos cookies de analítica, publicidad ni redes sociales, y el sitio web no carga contenidos de otras empresas. Las fuentes, las imágenes y los mapas se sirven desde nuestro propio dominio (datos del mapa © colaboradores de OpenStreetMap); no se contacta con ningún servicio de mapas externo. Solo se utiliza la siguiente cookie. Es estrictamente necesaria para una función que solicitas, por lo que no se requiere un aviso de consentimiento:",
+            p: "No utilizamos cookies de analítica, publicidad ni redes sociales. Las fuentes, las imágenes y nuestros propios mapas se sirven desde nuestro propio dominio (datos del mapa © colaboradores de OpenStreetMap). El sitio web solo carga contenidos de otra empresa cuando lo pides: consulta Google Maps más abajo. Solo instalamos la siguiente cookie. Es estrictamente necesaria para una función que solicitas, por lo que no se requiere un aviso de consentimiento:",
           },
           {
             table: {
@@ -450,6 +455,9 @@ const es = {
           },
           {
             p: "Puedes eliminarla o bloquearla en la configuración de tu navegador; el sitio web seguirá funcionando, pero no se recordará tu idioma. Los enlaces de WhatsApp, correo y teléfono solo abren otros servicios cuando los utilizas.",
+          },
+          {
+            p: "Google Maps (opcional): en las fichas de las viviendas puedes cambiar el mapa a Google Maps. No se carga nada de Google hasta que pulsas \u00abCargar Google Maps\u00bb; al pulsarlo aceptas que el mapa se cargue desde Google (Google Ireland Ltd / Google LLC). Google recibe entonces tu dirección IP y la página en la que estás, y puede instalar sus propias cookies según su política de privacidad (policies.google.com/privacy). El enlace \u00abAbrir en Google Maps\u00bb te lleva a la web de Google. Tu elección solo vale para esa visita a la página; recárgala para quitar el mapa de Google.",
           },
         ],
       },
