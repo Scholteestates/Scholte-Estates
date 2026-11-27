@@ -454,6 +454,15 @@ export const es: Dictionary = {
     locationLabel: "Con sede en",
     emailSubject: "Consulta desde scholteestates.com",
   },
+  amandaChat: {
+    open: "Chatea con Amanda",
+    ai: "Asistente de IA",
+    title: "Amanda · Scholte Estates",
+    notice: "Amanda es una asistente de IA (un sistema automatizado, no una persona) ofrecida a través de AIVENA. Christian se encarga de precios, visitas y asesoramiento.",
+    privacy: "Cómo se trata tu chat",
+    close: "Cerrar el chat",
+    frameTitle: "Chat con Amanda, la asistente de IA de Scholte Estates",
+  },
   consent: {
     title: "Cookies",
     body: "Con tu permiso usamos cookies de Google Analytics para ver cómo se usa el sitio web y mejorarlo. Puedes cambiar tu elección en cualquier momento en \u00abConfiguración de cookies\u00bb.",

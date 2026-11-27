@@ -257,6 +257,23 @@ listings render through `src/components/property/property-story.tsx`; types in
   email_click, phone_click, google_maps_load. Policy text switches on with the
   ID (`src/content/legal.ts`, `ga` flag).
 
+## Amanda website chat (AIVENA pilot, 2026-11-27)
+
+- Scholte Estates is onboarded to AIVENA as a normal agency (slug
+  `scholte-estates`, owner christian@scholteestates.com). The website only
+  hosts AIVENA's **standard iframe embed**; conversations, consent, buyer data
+  and hand-overs stay in AIVENA. Missing capability goes to the AIVENA team.
+- Code: `src/components/amanda-chat.tsx` (loads the iframe only on the
+  "Chat with Amanda" click; no AIVENA request before that), switch in
+  `src/config/features.ts` (`amandaChatEnabled()`): ON in Netlify deploy
+  previews (`CONTEXT=deploy-preview`), OFF in production until
+  `amandaChat.production = true` in a release PR timed with AIVENA's release
+  plan (production origin `https://scholteestates.com` allowed by AIVENA).
+- The privacy policy's "Chat with Amanda" section (`#amanda`) and related lines
+  appear only where the chat is on. Sub-processors: link AIVENA's published
+  page, never copy a subset. Coordinate with the "AIVENA Audit NEW" session;
+  plan doc https://claude.ai/artifact/3X9391yJ2A8rkkJk93pnUc
+
 ## Later stages (do not implement yet)
 
 Real listings via CRM / property feeds, enquiry handling, database, admin
